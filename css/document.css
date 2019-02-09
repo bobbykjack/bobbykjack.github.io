@@ -1,0 +1,43 @@
+body {
+    font-family: helvetica;
+    /*margin: 4em 8em;*/
+    margin: 50px;
+    line-height: 1.6;
+}
+
+h1 { font-size: 140%; }
+
+pre {
+    background-color: #f6f8fa; padding: 16px;
+    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+    border-radius: 3px;
+}
+
+/*
+a { color: #999; border-bottom: 1px solid #eee; }
+a:link { font-weight: bold; text-decoration: none; }
+a:hover { border-color: #ddd; }
+a:visited { color: #333; font-weight: normal; }
+*/
+
+a {
+    background-color: #f0f0f0;
+    padding: 2px;
+    border: 1px solid #eaeaea;
+    border-radius: 3px;
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    background-color: #fafafa;
+    border: 1px solid #f0f0f0;
+}
+
+a:hover {
+    background-color: orange;
+}
+
+a:visited:hover {
+    background-color: red;
+}
