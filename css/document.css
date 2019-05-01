@@ -66,3 +66,7 @@ body > img { width: 100vw; position: relative; left: 50%; margin-left: -50vw; ma
 @media (min-width: 800px) and (max-width: 1280px) {
     body { font-size: 2vw; }
 }
+
+p.emoji { font-size: 200%; margin: 0; }
+
+figcaption cite { font-weight: bold; }
