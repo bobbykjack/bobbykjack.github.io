@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bobbyjack.me</title>
+    <description>Articles written by Bobby Jack</description>
+    <link>https://bobbyjack.me/feed.xml</link>
+    <language>en-GB</language>
+    <copyright>Bobby Jack</copyright>
+    <atom:link rel="self" type="application/rss+xml" href="https://bobbyjack.me/feed.xml"/>
+    <item>
+      <link>https://bobbyjack.me/2019/04/11/the-flame-in-the-flood</link>
+      <guid>https://bobbyjack.me/2019/04/11/the-flame-in-the-flood</guid>
+      <title>The Flame in the Flood</title>
+      <description>An absorbing game which represents value for money, marred by bugs and flawed mechanics</description>
+      <pubDate>Thu, 11 Apr 2019 12:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <link>https://bobbyjack.me/2019/04/29/steamworld-dig-2</link>
+      <guid>https://bobbyjack.me/2019/04/29/steamworld-dig-2</guid>
+      <title>SteamWorld Dig 2</title>
+      <description>A joy to play and a perfect introduction to the metroidvania genre</description>
+      <pubDate>Mon, 29 Apr 2019 12:00:00 +0100</pubDate>
+    </item>
+  </channel>
+</rss>
