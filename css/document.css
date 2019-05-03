@@ -17,7 +17,7 @@ pre {
     border-radius: 3px;
 }
 
-a {
+article a {
     background-color: #f0f0f0;
     padding: 2px 4px;
     border: 1px solid #eaeaea;
@@ -26,18 +26,17 @@ a {
     color: inherit;
 }
 
-a:visited {
+article a:visited {
     background-color: #fafafa;
     border: 1px solid #f0f0f0;
 }
 
-a:hover {
+article a:hover {
     background-color: rgb(0, 0, 238);
     color: white;
 }
 
-a:visited:hover {
-    /*background-color: red;*/
+article a:visited:hover {
     background-color: rgb(85, 26, 139);
 }
 
@@ -70,3 +69,5 @@ body > img { width: 100vw; position: relative; left: 50%; margin-left: -50vw; ma
 p.emoji { font-size: 200%; margin: 0; }
 
 figcaption cite { font-weight: bold; }
+
+figcaption em { font-weight: bold; }
