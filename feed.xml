@@ -23,5 +23,13 @@
       <pubDate>Mon, 29 Apr 2019 12:00:00 +0100</pubDate>
       <enclosure url="https://bobbyjack.me/images/games/steamworld-dig-2/surface.jpg" length="229746" type="image/jpeg" />
     </item>
+    <item>
+      <link>https://bobbyjack.me/2019/05/03/dig-dog</link>
+      <guid>https://bobbyjack.me/2019/05/03/dig-dog</guid>
+      <title>Dig Dog</title>
+      <description>Dig Dog is a fast-paced, perfectly-pitched rogue-lite, offering an addictive slice of nostalgia</description>
+      <pubDate>Fri, 03 May 2019 12:00:00 +0100</pubDate>
+      <enclosure url="https://bobbyjack.me/images/games/dig-dog/spikey.jpg" length="76422" type="image/jpeg" />
+    </item>
   </channel>
 </rss>
