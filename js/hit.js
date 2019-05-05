@@ -1,4 +1,4 @@
-postAjax('http://37.139.1.25:82/hit.php', 'url=https://bobbyjack.me');
+postAjax('https://stats.bobbyjack.me/hit.php', 'url=https://bobbyjack.me');
 
 function postAjax(url, data) {
     var params = typeof data == 'string' ? data : Object.keys(data).map(
