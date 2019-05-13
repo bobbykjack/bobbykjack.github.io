@@ -10,6 +10,7 @@ body {
 
 h1 { color: #555; font-size: 140%; margin-top: 2em; margin-bottom: 0.5em; }
 h2 { color: #777; font-size: 120%; margin-top: 2em; margin-bottom: 0.5em; }
+h3 { font-size: 110%; }
 
 pre {
     background-color: #f6f8fa; padding: 16px;
@@ -71,3 +72,16 @@ p.emoji { font-size: 200%; margin: 0; }
 figcaption cite { font-weight: bold; }
 
 figcaption em { font-weight: bold; }
+
+ul { list-style-type: none; }
+
+ul { list-style-type: none; margin-left: 0; padding-left: 0; margin-bottom: 2em; }
+
+.contents h3 { margin-top: 0; }
+
+.contents li { clear: right; margin-bottom: 1em; overflow: auto; }
+
+.contents li a img {
+    margin-left: 1em;
+    float: right;
+}
