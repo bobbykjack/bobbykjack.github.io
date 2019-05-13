@@ -32,5 +32,13 @@
       <pubDate>Fri, 03 May 2019 12:00:00 +0100</pubDate>
       <enclosure url="https://bobbyjack.me/images/games/dig-dog/spikey.jpg" length="76422" type="image/jpeg" />
     </item>
+    <item>
+      <link>https://bobbyjack.me/2019/05/13/golf-story</link>
+      <guid>https://bobbyjack.me/2019/05/13/golf-story</guid>
+      <title>Golf Story</title>
+      <description>A quirky combination of sports game and RPG produces a highly original and entertaining result</description>
+      <pubDate>Mon, 13 May 2019 11:00:00 +0100</pubDate>
+      <enclosure url="https://bobbyjack.me/images/games/golf-story/chip-in-eagle" length="76422" type="image/jpeg" />
+    </item>
   </channel>
 </rss>
