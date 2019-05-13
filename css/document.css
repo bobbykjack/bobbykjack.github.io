@@ -79,7 +79,7 @@ ul { list-style-type: none; margin-left: 0; padding-left: 0; margin-bottom: 2em;
 
 .contents h3 { margin-top: 0; }
 
-.contents li { clear: right; margin-bottom: 1em; overflow: auto; }
+.contents li { clear: right; margin-bottom: 2em; overflow: auto; }
 
 .contents li a img {
     margin-left: 1em;
