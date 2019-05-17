@@ -49,7 +49,10 @@ body { max-width: 1280px; /*font-size: 1.8vw;*/ }
 body { margin-bottom: 500px; overflow: overlay; }
 figure { margin: 0; }
 figure > img { max-width: 100%; margin: auto; }
-figcaption { color: #666; font-style: italic; font-size: 90%; }
+
+figcaption, .caption { color: #666; font-style: italic; font-size: 90%; }
+.caption { margin: 0; }
+
 /*
 body > img { width: 100vw; position: relative; left: 50%; margin-left: -50vw; max-width: 100vw; }
 */

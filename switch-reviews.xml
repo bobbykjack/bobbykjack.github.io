@@ -38,7 +38,7 @@
       <title>Golf Story</title>
       <description>A quirky combination of sports game and RPG produces a highly original and entertaining result</description>
       <pubDate>Mon, 13 May 2019 11:00:00 +0100</pubDate>
-      <enclosure url="https://bobbyjack.me/images/games/golf-story/chip-in-eagle" length="76422" type="image/jpeg" />
+      <enclosure url="https://bobbyjack.me/images/games/golf-story/chip-in-eagle" length="269283" type="image/jpeg" />
     </item>
     <item>
       <link>https://bobbyjack.me/2019/05/14/ding-dong-xl</link>
@@ -46,7 +46,15 @@
       <title>Ding Dong XL</title>
       <description>Ding Dong XL couldn’t be simpler, so it’s hard to love, but easy to enjoy</description>
       <pubDate>Tue, 14 May 2019 11:00:00 +0100</pubDate>
-      <enclosure url="https://bobbyjack.me/images/games/ding-dong-xl/89-points-power-up-obstacles.jpg" length="76422" type="image/jpeg" />
+      <enclosure url="https://bobbyjack.me/images/games/ding-dong-xl/89-points-power-up-obstacles.jpg" length="159410" type="image/jpeg" />
+    </item>
+    <item>
+      <link>https://bobbyjack.me/2019/05/17/the-way-remastered</link>
+      <guid>https://bobbyjack.me/2019/05/17/the-way-remastered</guid>
+      <title>The Way Remastered</title>
+      <description>The Way Remastered has some problems, but it pays homage to a certain style of challenging action platformer very well indeed</description>
+      <pubDate>Fri, 17 May 2019 12:00:00 +0100</pubDate>
+      <enclosure url="https://bobbyjack.me/images/games/the-way-remastered/memory-remains.jpg" length="200490" type="image/jpeg" />
     </item>
   </channel>
 </rss>
