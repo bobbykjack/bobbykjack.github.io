@@ -64,5 +64,13 @@
       <pubDate>Fri, 07 June 2019 12:00:00 +0100</pubDate>
       <enclosure url="https://bobbyjack.me/images/games/gato-roboto/boss.jpg" length="167334" type="image/jpeg" />
     </item>
+    <item>
+      <link>https://bobbyjack.me/2019/06/21/kid-tripp</link>
+      <guid>https://bobbyjack.me/2019/06/21/kid-tripp</guid>
+      <title>Kid Tripp</title>
+      <description>Despite an aversion for auto-runners, I found Kid Tripp enjoyable, if on the short side.</description>
+      <pubDate>Fri, 21 June 2019 10:00:00 +0100</pubDate>
+      <enclosure url="https://bobbyjack.me/images/games/kid-tripp/tiny-platforms.jpg" length="113485" type="image/jpeg" />
+    </item>
   </channel>
 </rss>
