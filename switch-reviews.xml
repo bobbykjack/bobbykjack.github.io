@@ -72,5 +72,13 @@
       <pubDate>Fri, 21 June 2019 10:00:00 +0100</pubDate>
       <enclosure url="https://bobbyjack.me/images/games/kid-tripp/tiny-platforms.jpg" length="113485" type="image/jpeg" />
     </item>
+    <item>
+      <link>https://bobbyjack.me/2019/07/28/celeste</link>
+      <guid>https://bobbyjack.me/2019/07/28/celeste</guid>
+      <title>Celeste</title>
+      <description>Celeste answers the question ‘how can you make a plot really work in a video game?’. It’s a question we should all be asking more often, particularly when this is the answer.</description>
+      <pubDate>Sun, 28 July 2019 10:00:00 +0100</pubDate>
+      <enclosure url="https://bobbyjack.me/images/games/celeste/part-of-me.jpg" length="179361" type="image/jpeg" />
+    </item>
   </channel>
 </rss>
