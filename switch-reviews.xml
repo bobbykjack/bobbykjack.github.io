@@ -80,5 +80,13 @@
       <pubDate>Sun, 28 July 2019 10:00:00 +0100</pubDate>
       <enclosure url="https://bobbyjack.me/images/games/celeste/part-of-me.jpg" length="179361" type="image/jpeg" />
     </item>
+    <item>
+      <link>https://bobbyjack.me/2019/09/01/box-align</link>
+      <guid>https://bobbyjack.me/2019/09/01/box-align</guid>
+      <title>Box Align</title>
+      <description>Box align is a 3d game stuck in a 2d world. Its core mechanic suffers as a result, and it doesn’t have enough redeeming features to make up for it.</description>
+      <pubDate>Sun, 01 September 2019 12:00:00 +0100</pubDate>
+      <enclosure url="https://bobbyjack.me/images/games/box-align/level29.jpg" length="70722" type="image/jpeg" />
+    </item>
   </channel>
 </rss>
