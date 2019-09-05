@@ -88,5 +88,13 @@
       <pubDate>Sun, 01 September 2019 12:00:00 +0100</pubDate>
       <enclosure url="https://bobbyjack.me/images/games/box-align/level29.jpg" length="70722" type="image/jpeg" />
     </item>
+    <item>
+      <link>https://bobbyjack.me/2019/09/05/baba-is-you</link>
+      <guid>https://bobbyjack.me/2019/09/05/baba-is-you</guid>
+      <title>Baba Is You</title>
+      <description>Baba is game. Mechanics are modifiable. Game is fun and challenging.</description>
+      <pubDate>Thu, 05 September 2019 12:00:00 +0100</pubDate>
+      <enclosure url="https://bobbyjack.me/images/games/baba-is-you/level0.jpg" length="68366" type="image/jpeg" />
+    </item>
   </channel>
 </rss>
