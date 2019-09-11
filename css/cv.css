@@ -1,0 +1,14 @@
+body { width: 33em; }
+
+ul { list-style-type: square; }
+th { text-align: left; }
+
+table { border-collapse: collapse; border-color: #000; border: none; }
+td, th { padding: 0.5em; }
+
+ul, p, table { margin-top: 0.5em; margin-bottom: 1em; }
+
+h1 { font-size: 150%; margin-top: 8em; margin-bottom: 2em; }
+h2 { font-size: 130%; margin-top: 4em; margin-bottom: 1em; }
+h3 { font-size: 115%; margin-top: 2em; margin-bottom: 0.5em; font-weight: normal; }
+h4 { font-size: 105%; margin-top: 1em; margin-bottom: 0.25em; }

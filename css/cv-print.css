@@ -1,0 +1,11 @@
+article a { background-color: transparent; border: none; }
+table { page-break-inside: avoid; }
+h1, h2, h3, h4 { break-after: avoid; }
+h1, h2 { page-break-before: always; }
+h1 + h2 { break-before: avoid; }
+
+#details, table { break-before: avoid; }
+
+@page {  margin: 2cm 4cm }
+
+body { margin: 0; width: 33em; }
