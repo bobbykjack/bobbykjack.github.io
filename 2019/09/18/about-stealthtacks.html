@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="/css/document.css" />
+    <link rel="canonical" href="https://bobbyjack.me/2019/09/18/about-stealthtacks" />
+
+    <title>About Stealthtacks</title>
+
+    <meta name="description" content="Stealthtacks is a minimalist Pinboard client. It’s an alternative to using pinboard.in or a browser-extension. You can use the public instance directly or download the code and host it yourself." />
+
+    <style>
+    ul { list-style-type: square; }
+    li { margin-top: 1em; }
+    </style>
+</head>
+<body>
+
+<article>
+
+
+<h1>Stealthtacks</h1>
+
+<h2>About</h2>
+
+<p><a href="/stealthtacks">Stealthtacks</a> is a minimalist Pinboard client. It’s an alternative to using <a href="https://pinboard.in">pinboard.in</a> or a browser-extension. You can use the <a href="https://bobbyjack.me/stealthtacks">public instance directly</a> or <a href="https://github.com/bobbykjack/stealthtacks">download the code</a> and host it yourself.</p>
+
+<h2>Principles</h2>
+
+<p>Stealthtacks arose to combat a straightforward problem: I regularly found myself using pinboard.in to bookmark interesting urls, but the process was laborious. I wanted something that would fetch the URL’s metadata and autofill title and description to save me the work of doing that manually.</p>
+
+<p>I also wanted a largely self-contained application, somewhere to both add new bookmarks, and recall them later. Although I wasn’t aiming to replace pinboard.in, I <em>did</em> want something that would handle 99% of what I did there.</p>
+
+<h2>Local storage</h2>
+
+<p>When you first connect to Pinboard, Stealthtacks will download your bookmarks and store them locally (using localStorage). This caching speeds up future operations and minimises the traffic required to go via the API.</p>
+
+<h2>CORS Anywhere</h2>
+
+<p>To fetch metadata about new URLs, Stealthtacks uses the <a href="https://github.com/Rob--W/cors-anywhere">cors-anywhere</a> service, which acts as a proxy. This enables Stealthtacks itself to be pure JavaScript, runnable without a server.</p>
+
+<h2>Future development</h2>
+
+<p>Stealthtacks is very much ‘alpha’ software at this point. It’s mainly for my personal use and experimentation, but if there is interest from others, I will continue to maintain it and develop it further, as appropriate. Some of the following would probably be included:</p>
+
+<ul>
+    <li>Nicer / proper progress dialog</li>
+    <li>Special consideration for larger numbers of bookmarks</li>
+    <li>Nicer date-handling</li>
+    <li>Open bookmarks in new tab?</li>
+    <li>Add auto-suggest for tags in bookmark form</li>
+    <li>Browse bookmarks by multiple tags</li>
+    <li>Possibly prefill certain data based on domain — e.g. “youtube.com” automatically gains a “video” tag. This would have to be user-configurable.</li>
+</ul>
+
+</article>
+
+<footer style="clear: both;">
+    <a href="/">
+        <img class="logo" src="/images/logo.jpg" />
+    </a>
+</footer>
+
+<script src="/js/hit.js"></script>
+
+</body>
+
+</html>
