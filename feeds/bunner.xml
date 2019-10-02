@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bunner: a game by Bobby Jack</title>
+    <description>An experiment in creating a game, step-by-step</description>
+    <link>https://bobbyjack.me/feeds/bunner.xml</link>
+    <language>en-GB</language>
+    <copyright>Bobby Jack</copyright>
+    <atom:link rel="self" type="application/rss+xml" href="https://bobbyjack.me/feeds/bunner.xml"/>
+    <pubDate>Wed, 02 Oct 2019 12:00:00 +0100</pubDate>
+    <item>
+      <link>https://bobbyjack.me/2019/10/02/bunner/bunner</link>
+      <guid>https://bobbyjack.me/2019/10/02/bunner/bunner</guid>
+      <title>Bunner: version 0.1</title>
+      <description>In this first version, the single level has the most basic win condition: complete one turn</description>
+      <pubDate>Wed, 02 Oct 2019 12:00:00 +0100</pubDate>
+    </item>
+  </channel>
+</rss>
