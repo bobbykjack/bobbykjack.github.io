@@ -3,4 +3,4 @@
 	url = https://github.com/bobbykjack/stealthtacks.git
 [submodule "2019/10/02/bunner"]
 	path = 2019/10/02/bunner
-	url = git@github.com:bobbykjack/bunner.git
+	url = https://github.com/bobbykjack/bunner.git
