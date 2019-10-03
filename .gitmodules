@@ -4,3 +4,6 @@
 [submodule "2019/10/02/bunner"]
 	path = 2019/10/02/bunner
 	url = https://github.com/bobbykjack/bunner.git
+[submodule "2019/10/03/bunner-0.2"]
+	path = 2019/10/03/bunner-0.2
+	url = https://github.com/bobbykjack/bunner.git

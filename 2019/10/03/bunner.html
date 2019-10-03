@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="https://bobbyjack.me/feeds/bunner.xml" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/css/document.css" />
+    <title>Bunner</title>
+    <meta name="description" content="" />
+</head>
+<body>
+
+<article>
+
+<h1>Bunner takes a walk</h1>
+
+<h2>Version 0.2</h2>
+
+<p><a href="/2019/10/03/bunner-0.2/bunner">This version</a> introduces a second
+    tile, containing a flag, representing the win condition. Bunner can now move
+    but this is still largely hard-coded to handle the single movement that can
+    actually be made in the level.</p>
+
+<p>Sprites — for Bunner and the flag — are simply strings of characters which
+    get split up into two-dimensional arrays (by the
+    <code>processDataString</code> function). Each sprite contains different
+    characters which, in turn, represent different colors. So, for example, in
+    the sprite:</p>
+
+<pre><code>xx
+yy</code></pre>
+
+<p><code>x</code> represents one color, y another. For now, Bunner and the flag
+are both 8x8 sprites, each ‘cell’ taking up 4x4 pixels on-screen for a total
+32x32, which is our current tile size. Note that this creates sprites that are
+‘edge-to-edge’ which might well be revisited in future.</p>
+
+<p>The <code>dialog()</code> function, which allows us to inform the user when
+    they've completed the level, is not ideal, and may be replaced when we
+    eventually build a proper ‘full-screen’ experience. Still, I wanted <em>some
+    way</em> of showing the user their final move!</p>
+
+<p>The codebase is now roughly twice the size of the previous version. Next time
+round, I plan to implement movement more meaningfully, and possibly refine the
+sprite mechanism.</p>
+
+</article>
+
+<footer>
+    <a href="/">
+        <img class="logo" src="/images/logo.jpg" />
+    </a>
+</footer>
+
+<script src="/js/hit.js"></script>
+
+</body>
+
+</html>
