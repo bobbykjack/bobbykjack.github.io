@@ -15,5 +15,19 @@
       <description>In this first version, the single level has the most basic win condition: complete one turn</description>
       <pubDate>Wed, 02 Oct 2019 12:00:00 +0100</pubDate>
     </item>
+    <item>
+      <link>https://bobbyjack.me/2019/10/03/bunner-0.2/bunner</link>
+      <guid>https://bobbyjack.me/2019/10/03/bunner-0.2/bunner</guid>
+      <title>Bunner: version 0.2</title>
+      <description>This version introduces a second tile, containing a flag, representing the win condition.</description>
+      <pubDate>Thu, 03 Oct 2019 23:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <link>https://bobbyjack.me/2019/10/04/bunner-0.3/bunner</link>
+      <guid>https://bobbyjack.me/2019/10/04/bunner-0.3/bunner</guid>
+      <title>Bunner: version 0.3</title>
+      <description>Three levels and free movement</description>
+      <pubDate>Thu, 03 Oct 2019 23:00:00 +0100</pubDate>
+    </item>
   </channel>
 </rss>

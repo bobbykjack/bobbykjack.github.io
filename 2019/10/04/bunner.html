@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="https://bobbyjack.me/feeds/bunner.xml" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/css/document.css" />
+    <title>Bunner</title>
+    <meta name="description" content="" />
+</head>
+<body>
+
+<article>
+
+<h1>Bunner breaks free</h1>
+
+<h2>Version 0.3</h2>
+
+<p>This <a href="/2019/10/04/bunner-0.3/bunner">third version</a> doesn’t introduce a <em>lot</em> of change, but it <em>does</em>
+    tie things together a bit by reuniting the previous two levels, and adding a third. We can now play through a whole 3-level game!</p> 
+
+<p>So, level 3 isn’t a whole lot more advanced than level 2, but we at least have free movement, now, and some of the code around levels and win conditions is getting tidied up.</p>
+
+<p>One of the biggest changes has been to switch all input-handling to the <tt>keyup</tt>
+event, rather than a mix that also includes <tt>keypress</tt>. Keyboard-handling has an
+awful lot of complexity in javascript (repeating, bubbling, cancelling, etc.) so I’m just going to sidestep all of that, for now. I’m sure the issue will return in due course!</p>
+
+<p>The new <tt>moveBunner()</tt> function ‘attempts’ to make a move, then reports whether
+or not it was successful. It also uses a very convoluted approach to locating Bunner’s position in the first place — this is a side-effect of the data structure I decided to use to store the object data, and this clunkiness will also be addressed soon.</p>
+
+<p>Next up: maybe a nicer overall play area, properly flexible win conditions, some graphical tweaks; these are all probably next steps.</p>
+
+</article>
+
+<footer>
+    <a href="/">
+        <img class="logo" src="/images/logo.jpg" />
+    </a>
+</footer>
+
+<script src="/js/hit.js"></script>
+
+</body>
+
+</html>
