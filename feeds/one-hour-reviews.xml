@@ -7,7 +7,7 @@
     <language>en-GB</language>
     <copyright>Bobby Jack</copyright>
     <atom:link rel="self" type="application/rss+xml" href="https://bobbyjack.me/feeds/one-hour-reviews.xml"/>
-    <pubDate>Sun, 06 October 2019 12:00:00 +0100</pubDate>
+    <pubDate>Mon, 07 October 2019 12:00:00 +0100</pubDate>
     <item>
       <link>https://bobbyjack.me/2019/10/06/yellow-fins-demo</link>
       <guid>https://bobbyjack.me/2019/10/06/yellow-fins-demo</guid>
@@ -15,6 +15,14 @@
       <description>Yellow Fins looks OK, but it’s just a mobile game with very little appeal, and the demo does it no favours at all.</description>
       <pubDate>Sun, 06 October 2019 12:00:00 +0100</pubDate>
       <enclosure url="https://bobbyjack.me/images/games/yellow-fins/press-b-to-start.jpg" length="164745" type="image/jpeg" />
+    </item>
+    <item>
+      <link>https://bobbyjack.me/2019/10/07/ori-and-the-blind-forest-demo</link>
+      <guid>https://bobbyjack.me/2019/10/07/ori-and-the-blind-forest-demo</guid>
+      <title>Ori and the Blind Forest Demo</title>
+      <description>Gorgeous audio/visuals and a promising adventure, but I end up on the fence</description>
+      <pubDate>Mon, 07 October 2019 12:00:00 +0100</pubDate>
+      <enclosure url="https://bobbyjack.me/images/games/ori/trees.jpg" length="147572" type="image/jpeg" />
     </item>
   </channel>
 </rss>
