@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="https://bobbyjack.me/feeds/bunner.xml" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/css/document.css" />
+    <title>Bunner</title>
+    <meta name="description" content="" />
+</head>
+<body>
+
+<article>
+
+<h1>Bunner cleans up</h1>
+
+<h2><a href="/2019/10/07/bunner-0.4/bunner">Version 0.4</a></h2>
+
+<p>The main aim of
+    <a href="https://github.com/bobbykjack/bunner/commit/76f12940075838f09e402f3bf3719892e582b0c4">this revision</a>
+    was to get a slightly more solid base on which to proceed. The data for levels
+    and sprites is now stored in a json file, <a href="https://github.com/bobbykjack/bunner/blob/v0.4/data.json"><tt>data.json</tt></a>.
+    A level now has this structure:</p>
+
+<pre><code>"height": 1,
+"objects": [{
+    "type": "b",
+    "x": 0,
+    "y": 0
+}],
+"terrain": "g",
+"width": 1,
+"win": {
+    "turn": 1
+}
+</code></pre>
+
+<p><code>height</code> and <code>width</code> define the level’s grid. <code>terrain</code>defines a default type which applies to all tiles, unless overridden. The <code>objects</code> array contains .. objects. They represent all things in-game that we can interact with, other than terrain. Type ‘b’ is for ‘bunner’. <code>win</code> defines our win condition(s); in this case, having taken a turn.</p>
+
+<p>I’ve also tweaked the display this time round: everything fits on one canvas, on a big grid, with the playfield for the current level centered. Gridlines can be toggled be pressing <tt>g</tt> and the space between tiles can be changed with <tt>m</tt>.</p>
+
+</article>
+
+<footer>
+    <a href="/">
+        <img class="logo" src="/images/logo.jpg" />
+    </a>
+</footer>
+
+<script src="/js/hit.js"></script>
+
+</body>
+
+</html>
