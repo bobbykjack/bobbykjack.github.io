@@ -32,5 +32,14 @@
       <pubDate>Mon, 07 October 2019 23:00:00 +0100</pubDate>
       <enclosure url="https://bobbyjack.me/images/games/strikey-sisters/blue-flames.jpg" length="257755" type="image/jpeg" />
     </item>
+    <item>
+      <link>https://bobbyjack.me/2019/10/11/reap</link>
+      <guid>https://bobbyjack.me/2019/10/11/reap</guid>
+      <title>Reap</title>
+      <description>This small game distills the essence of the survival genre with some
+            highly inventive mechanics.</description>
+      <pubDate>Fri, 11 October 2019 20:00:00 +0100</pubDate>
+      <enclosure url="https://bobbyjack.me/images/games/reap/farming.png" length="152755" type="image/jpeg" />
+    </item>
   </channel>
 </rss>
