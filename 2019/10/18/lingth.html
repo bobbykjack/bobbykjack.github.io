@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/css/document.css" />
+    <title>lingth</title>
+    <meta name="description" content="Introducing lingth, a simple line-length checker" />
+</head>
+<body>
+
+<article>
+
+<h1>lingth</h1>
+
+<p>lingth is a “simple line-length checker” — it checks for long lines in a file.
+    This can be useful for enforcing line lengths as part of coding guidelines, but the command has general applications (see <a href="#examples">Examples</a>).</p>
+
+<p>It should be straightforward to add to a git hook and enforce line length throughout a project.</p>
+
+<p>Apart from being very limited, <a href="https://github.com/bobbykjack/lingth/blob/master/lingth">this code</a> is a pretty decent example of a small command-line app, written in php. It does all the flag-parsing, handling of multiple files, redirected input, etc. itself, but it’s still a very small codebase. This makes it good as a template for other work, or as an introduction to the language.</p>
+
+<h2 id="examples">Examples</h2>
+
+<pre>lingth *.php</pre>
+
+    <p>Report any long lines (currently, longer than 80 chars) from all files ending ‘.php’.</p>
+
+<pre>lingth -m22 /usr/share/dict/words</pre>
+
+    <p>Get a list of words longer than 22 characters. (On my own system, there are exactly 22 words longer than 22 characters, all 23 or 24 characters long. “anthropomorphologically” is 23)</p>
+
+<pre>echo foo | lingth -hln -m 2</pre>
+
+    <p>Print ‘foo’, and nothing else, so long as ‘foo’ is longer than 2 characters (which it is!).</p>
+
+<pre>echo '😊' | lingth -n -m0</pre>
+
+    <p>Confirm the length of a single emoji character is just 1 (line length is in the output).</p>
+
+<h2 id="github">GitHub</h2>
+
+<p>The <a href="https://github.com/bobbykjack/lingth">project page is on GitHub</a>; I welcome all bug reports and patches, but I’m not <em>intending</em> on adding any features to this software; it’s intended to stay pretty much the same, for now.</p>
+
+</article>
+
+<footer>
+    <a href="/">
+        <img class="logo" src="/images/logo.jpg" />
+    </a>
+</footer>
+
+<script src="/js/hit.js"></script>
+
+</body>
+
+</html>
