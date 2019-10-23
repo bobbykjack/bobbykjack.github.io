@@ -49,5 +49,13 @@
       <pubDate>Tue, 22 October 2019 09:00:00 +0100</pubDate>
       <enclosure url="https://bobbyjack.me/images/games/lunar-station/tight.png" length="30044" type="image/jpeg" />
     </item>
+    <item>
+      <link>https://bobbyjack.me/2019/10/23/baby-dino-adventures</link>
+      <guid>https://bobbyjack.me/2019/10/23/baby-dino-adventures</guid>
+      <title>Baby Dino Adventures</title>
+      <description>A highly-promising bundle of classic platforming fun</description>
+      <pubDate>Wed, 23 October 2019 10:00:00 +0100</pubDate>
+      <enclosure url="https://bobbyjack.me/images/games/baby-dino-adventures/red-eyed-cat.png" length="69469" type="image/jpeg" />
+    </item>
   </channel>
 </rss>
