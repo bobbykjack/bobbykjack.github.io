@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/css/document.css" />
+    <title>Twitter</title>
+    <meta name="description" content="A welcoming page for visitors from Twitter" />
+</head>
+<body>
+
+<h1>Twitter</h1>
+
+<p>Hi twitter user (maybe, dare I presume, <a href="https://twitter.com/intent/follow?screen_name=bobbyjackdotme">follower</a> …?),</p>
+
+<h2>Stuff about games</h2>
+
+<p>Since I mainly tweet about video games, you’ll probably be most interested in:</p>
+
+<dl>
+    <dt>
+        <a href="/2019/08/01/nintendo-switch-reviews">Nintendo Switch reviews</a>
+    </dt>
+    <dd>11 full-length reviews of the 27 games I’ve purchased for the Nintendo Switch</dd>
+
+    <dt><a href="/2019/10/07/one-hour-reviews">One Hour reviews</a></dt>
+    <dd>6 short reviews of some games, prototypes, and demos I’ve played</ld>
+
+    <dt>
+        <a href="/2019/07/28/all-nintendo-switch-games">
+            My Nintendo Switch leaderboard
+        </a>
+    </dt>
+    <dd>24 games ordered by my own preference, updated when I get round to it</dd>
+</dl>
+
+<h2>That’s it</h2>
+
+<p>Well, now I’m just going to leave this here:</p>
+
+<div id="tweet"></div>
+
+<footer>
+    <a href="/">
+        <img class="logo" src="/images/logo.jpg" />
+    </a>
+</footer>
+
+<script src="/js/hit.js"></script>
+
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  js.onload = go;
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));
+
+function go() {
+    twttr.widgets.createTweet(
+        '4924648679',
+        document.getElementById('tweet')
+    );
+}
+</script>
+
+</body>
+</html>
