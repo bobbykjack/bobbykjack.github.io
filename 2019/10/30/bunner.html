@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="https://bobbyjack.me/feeds/bunner.xml" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@bobbyjackdotme" />
+    <meta name="twitter:title" content="Bunner looks better" />
+    <meta name="twitter:image" content="https://bobbyjack.me/2019/10/30/grass-tile-layers.png" />
+    <link rel="stylesheet" href="/css/document.css" />
+    <title>Bunner looks better</title>
+    <meta name="description" content="The focus in this version is a graphical tweak, namely the grass tile." />
+    <style>
+    figure { margin: auto; }
+    </style>
+</head>
+<body>
+
+<article>
+
+<h1>Bunner looks better</h1>
+
+<h2>Version 0.5</h2>
+
+<p>The focus in this <a href="/2019/10/29/bunner-0.5/bunner">version</a> is a graphical tweak, namely the grass tile. In previous versions, terrain tiles were a single block of colour, so grass was just a featureless green square. I wanted to add add at least <em>some</em> detail, and put in place a handy structure for developing tile graphics in future.</p> 
+
+<p>I’m intending the overall style of the game to be very ‘pixel-ly’, but I wanted to vary that a bit, so the plan for now is to have ‘multi-resolution blocky sprites’. What I mean by that is that sprites will mainly be ‘very’ blocky, but will also contain some less-blocky detail.</p>
+
+<p>With that in mind, my first attempt at meaningful tile graphics uses a ‘layered’ approach:</p>
+
+<figure style="width: 275px;">
+    <img width="275" height="89" src="./grass-tile-layers.png" />
+    <figcaption>Mockup with progressively more detailed layers</figcaption>
+</figure>
+
+<p>In this example, the first layer is a 1x1 green square. This is the ‘base layer’ — it defines the core colour scheme for the rest of the tile, and it’s the one layer that will guarantee to show, regardless of zoom level (more on that later).</p>
+
+<p>This single layer is simply stored in a 1x1 array, with a value indexing into the palette map:</p>
+
+<figure style="width: 622px; text-align: center;">
+    <img width="622" height="359" src="json-base-layer.png" />
+</figure>
+
+<p>The remaining two layers specify greater detail, with each layer rendered on top of those that have gone before it. The middle layer is an 8x8, and it’s a classic shaded edge used to convey a sense of depth. These tiles should look inset, as if they were actually tiles on a real game board (that’s the idea, anyway!).</p>
+
+<p>The final layer is an approximation of blades of grass. It’s still a <em>fairly</em> low-res amount of data — 16x16 — but I’m doing my best here to create an effect that looks vaguely like grass, even from a distance.</p>
+
+<p>Here’s the json data for the first two layers:</p>
+
+<figure style="width: 646px; text-align: center;">
+    <img width="646" height="558" src="json-two-layers.png" />
+</figure>
+
+<p>Note that each layer is a square with a length that’s a power of 2. This is planned intentionally: it makes scaling that much easier. In theory, I can support lengths greater than 16, but that’s my current limit since I’m displaying tiles at
+32x32 by default, and single pixels don’t produce a pixel-ly result!</p>
+
+
+<p>With three layers in place, it’s now an easy task to render this tile at
+various sizes:</p>
+
+<figure style="width: 201px;">
+    <img width="201" height="88" src="./grass-tile-sizes.png" />
+    <figcaption>Tile rendering at three different sizes</figcaption>
+</figure>
+
+<p>In the image above, the middle tile is the actual default size currently, whilst tiles either side demonstrate bigger and smaller sizes — these might be displayed, for example, when zooming in/out. Notice how the smallest view doesn’t show the final layer at all, because its 16x16 size, at half zoom, would result in individual pixels being drawn in a 32x32 square. That’s what I want to avoid — I want a blocky, pixel style.</p>
+
+<p>Putting some tiles together gives us a reasonable effect, for now, as can be seen most clearly in the new level 4 in this version.</p>
+
+<p>In the next step, I’ll look at more variations (so repeated blocks don't look so weird), or other terrains (e.g. earth), or possibly a new object to interact with (one that actually has a purpose!).
+</p>
+
+</article>
+
+<footer>
+    <a href="/">
+        <img class="logo" src="/images/logo.jpg" />
+    </a>
+</footer>
+
+<script src="/js/hit.js"></script>
+
+</body>
+
+</html>
