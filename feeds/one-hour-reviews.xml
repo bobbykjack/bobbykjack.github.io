@@ -57,5 +57,13 @@
       <pubDate>Wed, 23 October 2019 10:00:00 +0100</pubDate>
       <enclosure url="https://bobbyjack.me/images/games/baby-dino-adventures/red-eyed-cat.png" length="69469" type="image/jpeg" />
     </item>
+    <item>
+      <link>https://bobbyjack.me/2019/10/31/gum-girl</link>
+      <guid>https://bobbyjack.me/2019/10/31/gum-girl</guid>
+      <title>Gum Girl</title>
+      <description>Tight arcade action dressed up in a Gameboy costume. Ride the bubble!</description>
+      <pubDate>Thu, 31 October 2019 15:00:00 +0100</pubDate>
+      <enclosure url="https://bobbyjack.me/images/games/gum-girl/spiky.png" length="25940" type="image/jpeg" />
+    </item>
   </channel>
 </rss>
