@@ -65,5 +65,13 @@
       <pubDate>Thu, 31 October 2019 15:00:00 +0100</pubDate>
       <enclosure url="https://bobbyjack.me/images/games/gum-girl/spiky.png" length="25940" type="image/jpeg" />
     </item>
+    <item>
+      <link>https://bobbyjack.me/2019/11/08/card-hog</link>
+      <guid>https://bobbyjack.me/2019/11/08/card-hog</guid>
+      <title>Card Hog</title>
+      <description>Perfect for mobile, but with added depth than that implies, Card Hog plays great and is evolving fast!</description>
+      <pubDate>Fri, 08 November 2019 16:00:00 +0100</pubDate>
+      <enclosure url="https://bobbyjack.me/images/games/card-hog/story-mode-ninja.png" length="82447" type="image/jpeg" />
+    </item>
   </channel>
 </rss>
