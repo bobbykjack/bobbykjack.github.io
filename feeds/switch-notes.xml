@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bobby Jack’s Switch Notes</title>
+    <description>10-point summaries of Switch games I’ve reviewed</description>
+    <link>https://bobbyjack.me/feeds/switch-notes.xml</link>
+    <language>en-GB</language>
+    <copyright>Bobby Jack</copyright>
+    <atom:link rel="self" type="application/rss+xml" href="https://bobbyjack.me/feeds/switch-notes.xml"/>
+    <pubDate>Sat, 16 November 2019 16:00:00 +0100</pubDate>
+    <item>
+      <link>https://bobbyjack.me/2019/11/16/baba-is-you</link>
+      <guid>https://bobbyjack.me/2019/11/16/baba-is-you</guid>
+      <title>Baba Is You</title>
+      <description>In 10 words: puzzle, rules, slowest, difficult, undo, low-res, combine, 200, £11.29, Arvi Teikari</description>
+      <pubDate>Sat, 16 November 2019 16:00:00 +0100</pubDate>
+      <enclosure url="https://bobbyjack.me/images/games/baba-is-you/level0.jpg" length="68366" type="image/jpeg" />
+    </item>
+  </channel>
+</rss>
