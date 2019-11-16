@@ -81,5 +81,13 @@
       <pubDate>Tue, 12 November 2019 18:00:00 +0100</pubDate>
       <enclosure url="https://bobbyjack.me/images/games/mystical-samurai/bat.png" length="93739" type="image/jpeg" />
     </item>
+    <item>
+      <link>https://bobbyjack.me/2019/11/16/garden-story</link>
+      <guid>https://bobbyjack.me/2019/11/16/garden-story</guid>
+      <title>Garden Story</title>
+      <description>For a game that contains so many different elements, this demo teases just enough to have me begging for more</description>
+      <pubDate>Sat, 16 November 2019 16:00:00 +0100</pubDate>
+      <enclosure url="https://bobbyjack.me/images/games/garden-story/wheat-fields.png" length="179027" type="image/jpeg" />
+    </item>
   </channel>
 </rss>
