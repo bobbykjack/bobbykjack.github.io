@@ -17,7 +17,7 @@
     <link rel="alternate" type="application/rss+xml" title="RSS" href="https://bobbyjack.me/feeds/switch-notes.xml" />
     <link rel="stylesheet" href="/css/document.css" />
     <link rel="canonical" href="https://bobbyjack.me/2020/02/18/yokus-island-express" />
-    <style>li { margin-bottom: 1em; }</style>
+    <style>li { margin-bottom: 1em; } #image { cursor: pointer; }</style>
 </head>
 <body>
 
@@ -25,8 +25,8 @@
 
 <h1>Switch Notes: Yoku’s Island Express</h1>
 
-<figure>
-    <img src="/images/games/yokus-island-express/beginning.jpg" />
+<figure title="Click to cycle through screenshots">
+    <img id="image" src="/images/games/yokus-island-express/beginning.jpg" />
 </figure>
 
 <ol>
@@ -60,6 +60,22 @@
 </footer>
 
 <script src="/js/hit.js"></script>
+
+<script>
+var image = document.getElementById("image");
+var i = 0;
+var base = "/images/games/yokus-island-express/";
+
+var images = [ "beginning.jpg", "monkey.jpg", "npcs.jpg", "table.jpg", "tweepers.jpg", "waterfall.jpg" ];
+
+image.addEventListener("click", function() {
+    if (++i > images.length - 1) {
+        i = 0;
+    }
+
+    image.src = base + images[i];
+});
+</script>
 
 </body>
 
