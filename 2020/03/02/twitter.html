@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/css/document.css" />
+    <title>Twitter</title>
+    <meta name="description" content="A welcoming page for visitors from Twitter" />
+    <style>dd { margin-bottom: 1em; }</style>
+</head>
+<body>
+
+<h1>Twitter</h1>
+
+<p>Hi twitter user (maybe, dare I presume, <a href="https://twitter.com/intent/follow?screen_name=bobbyjackdotme">follower</a> …?),</p>
+
+<h2>Stuff about games</h2>
+
+<p>Since I mainly tweet about video games, you’ll probably be most interested in:</p>
+
+<dl>
+    <dt>
+        <a href="/2019/08/01/nintendo-switch-reviews">Nintendo Switch reviews</a>
+    </dt>
+    <dd>13 full-length reviews of the 27 games I’ve purchased for the Nintendo Switch</dd>
+
+    <dt><a href="/2019/10/07/one-hour-reviews">One Hour reviews</a></dt>
+    <dd>10 short reviews of some games, prototypes, and demos I’ve played</ld>
+
+    <dt>
+        <a href="/2020/02/18/switch-notes">Switch notes</a>
+    </dt>
+    <dd>2 games covered in ten points each: when you need to know everything important about a game, as quickly as possible</dd>
+
+    <dt>
+        <a href="/2020/02/21/all-nintendo-switch-games">
+            My Nintendo Switch leaderboard
+        </a>
+    </dt>
+    <dd>31 games ordered by my own preference, updated when I get round to it</dd>
+</dl>
+
+<h2>Switch Player</h2>
+
+<p>I recently started writing for <a href="http://switchplayer.net/">Switch Player</a> — based in the UK, it’s the only
+monthly Nintendo Switch magazine. It’s a highly affordable publication, with plenty of reviews and features, and it goes without
+saying that you should <a href="http://switchplayer.net/shop-2/">buy it</a> or
+<a href="https://www.patreon.com/switchplayer">become a subscriber</a> right now! :)</p>
+
+<h2>That’s it</h2>
+
+<p>Well, now I’m just going to leave this here:</p>
+
+<div id="tweet"></div>
+
+<footer>
+    <a href="/">
+        <img class="logo" src="/images/logo.jpg" />
+    </a>
+</footer>
+
+<script src="/js/hit.js"></script>
+
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  js.onload = go;
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));
+
+function go() {
+    twttr.widgets.createTweet(
+        '4924648679',
+        document.getElementById('tweet')
+    );
+}
+</script>
+
+</body>
+</html>
