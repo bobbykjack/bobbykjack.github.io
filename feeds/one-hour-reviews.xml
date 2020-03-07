@@ -89,5 +89,13 @@
       <pubDate>Sat, 16 November 2019 16:00:00 +0100</pubDate>
       <enclosure url="https://bobbyjack.me/images/games/garden-story/wheat-fields.png" length="179027" type="image/jpeg" />
     </item>
+    <item>
+      <link>https://bobbyjack.me/2020/03/07/lola-the-escape</link>
+      <guid>https://bobbyjack.me/2020/03/07/lola-the-escape</guid>
+      <title>Lola — The Escape</title>
+      <description>A bitesize adventure platformer with lots of character</description>
+      <pubDate>Sat, 07 March 2020 19:10:00 +0100</pubDate>
+      <enclosure url="https://bobbyjack.me/images/games/lola-the-escape/darkness.png" length="325805" type="image/jpeg" />
+    </item>
   </channel>
 </rss>
