@@ -39,7 +39,7 @@
       <description>This small game distills the essence of the survival genre with some
             highly inventive mechanics.</description>
       <pubDate>Fri, 11 October 2019 20:00:00 +0100</pubDate>
-      <enclosure url="https://bobbyjack.me/images/games/reap/farming.png" length="152755" type="image/jpeg" />
+      <enclosure url="https://bobbyjack.me/images/games/reap/farming.png" length="152755" type="image/png" />
     </item>
     <item>
       <link>https://bobbyjack.me/2019/10/22/lunar-station</link>
@@ -47,7 +47,7 @@
       <title>Lunar Station</title>
       <description>An unnerving experience makes this atmospheric ‘short’ fresh &amp; fun</description>
       <pubDate>Tue, 22 October 2019 09:00:00 +0100</pubDate>
-      <enclosure url="https://bobbyjack.me/images/games/lunar-station/tight.png" length="30044" type="image/jpeg" />
+      <enclosure url="https://bobbyjack.me/images/games/lunar-station/tight.png" length="30044" type="image/png" />
     </item>
     <item>
       <link>https://bobbyjack.me/2019/10/23/baby-dino-adventures</link>
@@ -55,7 +55,7 @@
       <title>Baby Dino Adventures</title>
       <description>A highly-promising bundle of classic platforming fun</description>
       <pubDate>Wed, 23 October 2019 10:00:00 +0100</pubDate>
-      <enclosure url="https://bobbyjack.me/images/games/baby-dino-adventures/red-eyed-cat.png" length="69469" type="image/jpeg" />
+      <enclosure url="https://bobbyjack.me/images/games/baby-dino-adventures/red-eyed-cat.png" length="69469" type="image/png" />
     </item>
     <item>
       <link>https://bobbyjack.me/2019/10/31/gum-girl</link>
@@ -63,7 +63,7 @@
       <title>Gum Girl</title>
       <description>Tight arcade action dressed up in a Gameboy costume. Ride the bubble!</description>
       <pubDate>Thu, 31 October 2019 15:00:00 +0100</pubDate>
-      <enclosure url="https://bobbyjack.me/images/games/gum-girl/spiky.png" length="25940" type="image/jpeg" />
+      <enclosure url="https://bobbyjack.me/images/games/gum-girl/spiky.png" length="25940" type="image/png" />
     </item>
     <item>
       <link>https://bobbyjack.me/2019/11/08/card-hog</link>
@@ -71,7 +71,7 @@
       <title>Card Hog</title>
       <description>Perfect for mobile, but with added depth than that implies, Card Hog plays great and is evolving fast!</description>
       <pubDate>Fri, 08 November 2019 16:00:00 +0100</pubDate>
-      <enclosure url="https://bobbyjack.me/images/games/card-hog/story-mode-ninja.png" length="82447" type="image/jpeg" />
+      <enclosure url="https://bobbyjack.me/images/games/card-hog/story-mode-ninja.png" length="82447" type="image/png" />
     </item>
     <item>
       <link>https://bobbyjack.me/2019/11/12/mystical-samurai</link>
@@ -79,7 +79,7 @@
       <title>Mystical Samurai</title>
       <description>This is a real joy, a retro title done so well that it’s slightly cruel it’s not a full game!</description>
       <pubDate>Tue, 12 November 2019 18:00:00 +0100</pubDate>
-      <enclosure url="https://bobbyjack.me/images/games/mystical-samurai/bat.png" length="93739" type="image/jpeg" />
+      <enclosure url="https://bobbyjack.me/images/games/mystical-samurai/bat.png" length="93739" type="image/png" />
     </item>
     <item>
       <link>https://bobbyjack.me/2019/11/16/garden-story</link>
@@ -87,7 +87,7 @@
       <title>Garden Story</title>
       <description>For a game that contains so many different elements, this demo teases just enough to have me begging for more</description>
       <pubDate>Sat, 16 November 2019 16:00:00 +0100</pubDate>
-      <enclosure url="https://bobbyjack.me/images/games/garden-story/wheat-fields.png" length="179027" type="image/jpeg" />
+      <enclosure url="https://bobbyjack.me/images/games/garden-story/wheat-fields.png" length="179027" type="image/png" />
     </item>
     <item>
       <link>https://bobbyjack.me/2020/03/07/lola-the-escape</link>
@@ -95,7 +95,15 @@
       <title>Lola — The Escape</title>
       <description>A bitesize adventure platformer with lots of character</description>
       <pubDate>Sat, 07 March 2020 19:10:00 +0100</pubDate>
-      <enclosure url="https://bobbyjack.me/images/games/lola-the-escape/darkness.png" length="325805" type="image/jpeg" />
+      <enclosure url="https://bobbyjack.me/images/games/lola-the-escape/darkness.png" length="325805" type="image/png" />
+    </item>
+    <item>
+      <link>https://bobbyjack.me/2020/03/20/welcome-to-elk</link>
+      <guid>https://bobbyjack.me/2020/03/20/welcome-to-elk</guid>
+      <title>Welcome to Elk</title>
+      <description>An engaging storyline and memorable characters liven up this short demo</description>
+      <pubDate>Fri, 20 March 2020 21:00:00 +0100</pubDate>
+      <enclosure url="https://bobbyjack.me/images/games/welcome-to-elk/dancing.png" length="1197035" type="image/png" />
     </item>
   </channel>
 </rss>
