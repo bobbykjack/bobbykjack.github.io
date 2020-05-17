@@ -1,6 +1,6 @@
-var ts = window.setTimeout(function() {
+/*var ts = window.setTimeout(function() {
     postAjax('https://stats.bobbyjack.me/hit.php', { url: window.location });
-}, 1000 * 15);
+}, 1000 * 15);*/
 
 function postAjax(url, data) {
     var params = typeof data == 'string' ? data : Object.keys(data).map(
