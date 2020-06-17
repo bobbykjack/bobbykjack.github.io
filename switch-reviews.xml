@@ -128,5 +128,13 @@
       <pubDate>Fri, 05 June 2020 17:00:00 +0100</pubDate>
       <enclosure url="https://bobbyjack.me/images/games/elena-temple/gameboy.jpg" length="245545" type="image/jpeg" />
     </item>
+    <item>
+      <link>https://bobbyjack.me/2020/06/17/pixboy</link>
+      <guid>https://bobbyjack.me/2020/06/17/pixboy</guid>
+      <title>Pixboy</title>
+      <description>A retro platformer with enough modern touches to make it wonderfully playable.</description>
+      <pubDate>Wed, 17 June 2020 13:30:00 +0100</pubDate>
+      <enclosure url="https://bobbyjack.me/images/games/pixboy/desert.jpg" length="319359" type="image/jpeg" />
+    </item>
   </channel>
 </rss>
