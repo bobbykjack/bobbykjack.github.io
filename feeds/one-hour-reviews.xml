@@ -113,5 +113,13 @@
       <pubDate>Mon, 20 April 2020 22:00:00 +0100</pubDate>
       <enclosure url="https://bobbyjack.me/images/games/tiny-fragments/the-beginnings.png" length="127705" type="image/png" />
     </item>
+    <item>
+      <link>https://bobbyjack.me/2020/06/21/patricks-parabox</link>
+      <guid>https://bobbyjack.me/2020/06/21/patricks-parabox</guid>
+      <title>Patrick’s Parabox</title>
+      <description>A genuinely innovative take on the 2d puzzler produces a very solid concept which will live or die on level design.</description>
+      <pubDate>Sun, 21 June 2020 15:15:00 +0100</pubDate>
+      <enclosure url="https://bobbyjack.me/images/games/patricks-parabox/three-way.png" length="127275" type="image/png" />
+    </item>
   </channel>
 </rss>
