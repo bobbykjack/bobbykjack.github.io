@@ -121,5 +121,13 @@
       <pubDate>Sun, 21 June 2020 15:15:00 +0100</pubDate>
       <enclosure url="https://bobbyjack.me/images/games/patricks-parabox/three-way.png" length="127275" type="image/png" />
     </item>
+    <item>
+      <link>https://bobbyjack.me/2020/08/24/coloring-book</link>
+      <guid>https://bobbyjack.me/2020/08/24/coloring-book</guid>
+      <title>Coloring Book</title>
+      <description>A bare-bones coloring book app that’s worth its asking price</description>
+      <pubDate>Mon, 24 August 2020 15:00:00 +0100</pubDate>
+      <enclosure url="https://bobbyjack.me/images/games/coloring-book/parrot.png" length="225553" type="image/png" />
+    </item>
   </channel>
 </rss>
