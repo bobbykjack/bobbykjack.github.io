@@ -127,7 +127,15 @@
       <title>Coloring Book</title>
       <description>A bare-bones coloring book app that’s worth its asking price</description>
       <pubDate>Mon, 24 August 2020 15:00:00 +0100</pubDate>
-      <enclosure url="https://bobbyjack.me/images/games/coloring-book/parrot.png" length="225553" type="image/png" />
+      <enclosure url="https://bobbyjack.me/images/games/coloring-book/parrot.jpg" length="225553" type="image/png" />
+    </item>
+    <item>
+      <link>https://bobbyjack.me/2020/08/25/not-not</link>
+      <guid>https://bobbyjack.me/2020/08/25/not-not</guid>
+      <title>Not Not — A Brain Buster</title>
+      <description>Not Not is a fast-paced, fun, addictive brain teaser with enough content to kill a couple of hours.</description>
+      <pubDate>Mon, 25 August 2020 15:00:00 +0100</pubDate>
+      <enclosure url="https://bobbyjack.me/images/games/not-not/not-nothing.jpg" length="62984" type="image/png" />
     </item>
   </channel>
 </rss>
