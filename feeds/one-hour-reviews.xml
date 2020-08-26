@@ -134,8 +134,16 @@
       <guid>https://bobbyjack.me/2020/08/25/not-not</guid>
       <title>Not Not — A Brain Buster</title>
       <description>Not Not is a fast-paced, fun, addictive brain teaser with enough content to kill a couple of hours.</description>
-      <pubDate>Mon, 25 August 2020 15:00:00 +0100</pubDate>
+      <pubDate>Tue, 25 August 2020 15:00:00 +0100</pubDate>
       <enclosure url="https://bobbyjack.me/images/games/not-not/not-nothing.jpg" length="62984" type="image/png" />
+    </item>
+    <item>
+      <link>https://bobbyjack.me/2020/08/26/robonauts</link>
+      <guid>https://bobbyjack.me/2020/08/26/robonauts</guid>
+      <title>Robonauts</title>
+      <description>Robonauts is a basic, but fun, shooter/platformer. It’s a welcome genre combination, and the interplanetary travel adds a lot of depth.</description>
+      <pubDate>Wed, 26 August 2020 16:45:00 +0100</pubDate>
+      <enclosure url="https://bobbyjack.me/images/games/robonauts/tower-defence.jpg" length="193703" type="image/png" />
     </item>
   </channel>
 </rss>
