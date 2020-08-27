@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://bobbyjack.me/2020/08/27/puzzle-book</loc>
+    <lastmod>2020-08-27</lastmod>
+  </url>
+  <url>
+    <loc>https://bobbyjack.me/2019/10/07/one-hour-reviews</loc>
+    <lastmod>2020-08-27</lastmod>
+  </url>
+  <url>
+    <loc>https://bobbyjack.me/2020/08/26/robonauts</loc>
+    <lastmod>2020-08-26</lastmod>
+  </url>
+  <url>
     <loc>https://bobbyjack.me/2020/08/25/not-not</loc>
     <lastmod>2020-08-25</lastmod>
   </url>
@@ -99,10 +111,6 @@
   <url>
     <loc>https://bobbyjack.me/2019/10/07/ori-and-the-blind-forest-demo</loc>
     <lastmod>2019-10-08</lastmod>
-  </url>
-  <url>
-    <loc>https://bobbyjack.me/2019/10/07/one-hour-reviews</loc>
-    <lastmod>2019-10-11</lastmod>
   </url>
   <url>
     <loc>https://bobbyjack.me/2019/10/07/github</loc>

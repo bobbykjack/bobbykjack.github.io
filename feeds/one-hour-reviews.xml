@@ -145,5 +145,13 @@
       <pubDate>Wed, 26 August 2020 16:45:00 +0100</pubDate>
       <enclosure url="https://bobbyjack.me/images/games/robonauts/tower-defence.jpg" length="193703" type="image/png" />
     </item>
+    <item>
+      <link>https://bobbyjack.me/2020/08/27/puzzle-book</link>
+      <guid>https://bobbyjack.me/2020/08/27/puzzle-book</guid>
+      <title>Puzzle Book</title>
+      <description>Puzzle Book is a decent jigsaw puzzle simulator, although it doesn't have a big list of features — or puzzles, for that matter.</description>
+      <pubDate>Thu, 27 August 2020 17:00:00 +0100</pubDate>
+      <enclosure url="https://bobbyjack.me/images/games/puzzle-book/castle.jpg" length="246154" type="image/png" />
+    </item>
   </channel>
 </rss>
