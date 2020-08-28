@@ -153,5 +153,13 @@
       <pubDate>Thu, 27 August 2020 17:00:00 +0100</pubDate>
       <enclosure url="https://bobbyjack.me/images/games/puzzle-book/castle.jpg" length="246154" type="image/png" />
     </item>
+    <item>
+      <link>https://bobbyjack.me/2020/08/28/mini-trains</link>
+      <guid>https://bobbyjack.me/2020/08/28/mini-trains</guid>
+      <title>Mini Trains</title>
+      <description>Although it’s fairly playable, Mini Trains bolts on too many unnecessary features at the expense of its core gameplay.</description>
+      <pubDate>Fri, 28 August 2020 17:00:00 +0100</pubDate>
+      <enclosure url="https://bobbyjack.me/images/games/mini-trains/overhead.jpg" length="286807" type="image/png" />
+    </item>
   </channel>
 </rss>
