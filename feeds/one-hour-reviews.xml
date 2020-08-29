@@ -161,5 +161,13 @@
       <pubDate>Fri, 28 August 2020 17:00:00 +0100</pubDate>
       <enclosure url="https://bobbyjack.me/images/games/mini-trains/overhead.jpg" length="286807" type="image/png" />
     </item>
+    <item>
+      <link>https://bobbyjack.me/2020/08/29/jumping-joe-and-friends</link>
+      <guid>https://bobbyjack.me/2020/08/29/jumping-joe-and-friends</guid>
+      <title>Jumping Joe &amp; Friends</title>
+      <description>A cheery, mindless game that reduces platforming to its absolute minimum.</description>
+      <pubDate>Sat, 29 August 2020 16:45:00 +0100</pubDate>
+      <enclosure url="https://bobbyjack.me/images/games/jumping-joe-and-friends/crusher.jpg" length="119623" type="image/png" />
+    </item>
   </channel>
 </rss>
