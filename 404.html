@@ -16,8 +16,6 @@
 <article>
     <h1>Page not found</h1>
 
-    <script>document.writeln(window.location);</script>
-
     <!--
     <p><a href="mailto:bobbyjack@gmail.com?subject=Broken+link">email</a></p>
 
@@ -38,13 +36,40 @@
 var request = new XMLHttpRequest();
 
 request.addEventListener("load", function() {
+    var article = document.querySelector("article");
     var doc = this.responseXML;
     var urls = doc.querySelectorAll("urlset > url > loc");
-    //console.log(urls);
+    var curr = window.location + "";
+    var text;
+    var locs = [];
 
     for (var i = 0; i < urls.length; i++) {
-        console.log(urls[i].textContent);
+        //console.log();
+        text = urls[i].textContent;
+        locs[i] = { loc: text, dist: getEditDistance(text, curr) };
     }
+
+    locs.sort(function(a, b) {
+        return a.dist - b.dist;
+    });
+
+    var ul = document.createElement("ul");
+
+    for (var i = 0; i < 5; i++) {
+        var li = document.createElement("li");
+        ul.appendChild(li);
+        a = document.createElement("a");
+        a.setAttribute("href", locs[i].loc);
+        a.appendChild(document.createTextNode(locs[i].loc));
+        li.appendChild(a);
+    }
+
+    var h2 = document.createElement("h2");
+    h2.appendChild(document.createTextNode("Possible alternatives"));
+    article.appendChild(h2);
+    article.appendChild(ul);
+
+    //console.log(locs);
 });
 
 request.open("GET", "/sitemap.xml");
@@ -52,6 +77,8 @@ request.send();
 
 
 // Compute the edit distance between the two given strings
+// From https://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Levenshtein_distance#JavaScript
+// See https://gist.github.com/andrei-m/982927 for proper attribution
 function getEditDistance(a, b) {
   if (a.length === 0) return b.length; 
   if (b.length === 0) return a.length;
