@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="/css/styles.css?latest" />
+
+    <title>404</title>
+    <meta name="description" content="Page not found" />
+    <meta name="author" content="Bobby Jack" />
+</head>
+<body>
+
+<article>
+    <h1>Page not found</h1>
+
+    <script>document.writeln(window.location);</script>
+
+    <!--
+    <p><a href="mailto:bobbyjack@gmail.com?subject=Broken+link">email</a></p>
+
+    <script>document.writeln("referrer: " + document.referrer);</script>
+    -->
+</article>
+
+<footer>
+    <a href="/">
+        <img class="logo" src="/images/logo.jpg" alt="Bobby Jack" />
+    </a>
+</footer>
+
+<script src="/js/stats.js"></script>
+<script src="/js/404.js"></script>
+
+<script>
+var request = new XMLHttpRequest();
+
+request.addEventListener("load", function() {
+    var doc = this.responseXML;
+    var urls = doc.querySelectorAll("urlset > url > loc");
+    //console.log(urls);
+
+    for (var i = 0; i < urls.length; i++) {
+        console.log(urls[i].textContent);
+    }
+});
+
+request.open("GET", "/sitemap.xml");
+request.send();
+
+
+// Compute the edit distance between the two given strings
+function getEditDistance(a, b) {
+  if (a.length === 0) return b.length; 
+  if (b.length === 0) return a.length;
+
+  var matrix = [];
+
+  // increment along the first column of each row
+  var i;
+  for (i = 0; i <= b.length; i++) {
+    matrix[i] = [i];
+  }
+
+  // increment each column in the first row
+  var j;
+  for (j = 0; j <= a.length; j++) {
+    matrix[0][j] = j;
+  }
+
+  // Fill in the rest of the matrix
+  for (i = 1; i <= b.length; i++) {
+    for (j = 1; j <= a.length; j++) {
+      if (b.charAt(i-1) == a.charAt(j-1)) {
+        matrix[i][j] = matrix[i-1][j-1];
+      } else {
+        matrix[i][j] = Math.min(matrix[i-1][j-1] + 1, // substitution
+                                Math.min(matrix[i][j-1] + 1, // insertion
+                                         matrix[i-1][j] + 1)); // deletion
+      }
+    }
+  }
+
+  return matrix[b.length][a.length];
+};
+</script>
+
+</body>
+
+</html>
