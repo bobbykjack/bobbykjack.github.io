@@ -1,0 +1,245 @@
+body {
+  font-family: georgia;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: helvetica;
+}
+
+h1 {
+  color: #555;
+  font-size: 140%;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  color: #777;
+  font-size: 120%;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+h3 {
+  font-size: 110%;
+}
+
+pre {
+  background-color: #f6f8fa;
+  padding: 16px;
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
+  border-radius: 3px;
+}
+
+mark {
+  background-color: inherit;
+  font-weight: bold;
+}
+
+/* maybe different levels of this based on different browser widths */
+body {
+  max-width: 1280px;
+  /*font-size: 1.8vw;*/
+}
+
+body {
+  margin-bottom: 100px;
+  overflow: overlay;
+}
+
+figure {
+  margin: 0;
+}
+
+figure > img {
+  max-width: 100%;
+  margin: auto;
+}
+
+figcaption, .caption {
+  color: #666;
+  font-style: italic;
+  font-size: 90%;
+}
+
+.caption {
+  margin: 0;
+}
+
+.logo {
+  float: right;
+  width: 56px;
+  height: 20px;
+}
+
+@media (min-width: 1280px) {
+  body {
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 800px) {
+  body {
+    font-size: 1em;
+  }
+}
+@media (min-width: 800px) and (max-width: 1280px) {
+  body {
+    font-size: 2vw;
+  }
+}
+p.emoji {
+  font-size: 200%;
+  margin: 0;
+}
+
+figcaption cite {
+  font-weight: bold;
+}
+
+figcaption em {
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  margin-bottom: 2em;
+}
+
+/*.contents li { margin-bottom: 2em; }*/
+.contents li {
+  margin-bottom: 2em;
+}
+.contents li a {
+  text-decoration: none;
+  padding: 1em;
+  margin-left: -1em;
+  margin-right: -1em;
+  display: grid;
+  grid-template-columns: auto 320px;
+  grid-template-rows: auto 1fr;
+}
+.contents li a img {
+  grid-column-start: 2;
+  grid-row-start: 1;
+  grid-row-end: span 2;
+}
+.contents li a h3, .contents li a p {
+  grid-column-start: 1;
+  margin: 0;
+}
+.contents li a h3 {
+  text-decoration: underline;
+  grid-row-start: 1;
+}
+.contents li a p {
+  color: black;
+  grid-row-start: 2;
+}
+.contents li a:hover {
+  background-color: #eee;
+}
+
+/* MOBILE */
+@media screen and (max-width: 420px) and (min-width: 100px) {
+  .contents li a {
+    display: block;
+  }
+}
+.home .intro {
+  margin-bottom: 100px;
+  margin-top: 0;
+}
+
+.thought {
+  font-style: italic;
+}
+
+body {
+  max-width: none;
+  margin-top: 0;
+}
+
+figure.f1 {
+  overflow: hidden;
+}
+
+figure.f1 img {
+  width: 100%;
+}
+
+.home header, article, footer {
+  max-width: 44em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home header {
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+.home header div img {
+  vertical-align: bottom;
+}
+
+@media screen and (max-width: 420px) and (min-width: 100px) {
+  figure.f1 {
+    max-height: 500px;
+  }
+
+  .home header, article, footer {
+    max-width: 360px;
+  }
+
+  .home header div img {
+    max-width: 340px;
+  }
+
+  body {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .home header {
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+
+  .home .intro {
+    margin-bottom: 40px;
+  }
+
+  .home .contents li a img {
+    margin-left: 0;
+    float: none;
+  }
+
+  ul.contents li a img {
+    float: none;
+    margin: 0;
+    width: 100%;
+    display: block;
+  }
+}
+@media screen and (max-height: 960px) and (min-height: 41px) {
+  figure.f1 {
+    max-height: 500px;
+  }
+}
+@media screen and (max-height: 1200px) and (min-height: 961px) {
+  figure.f1 {
+    max-height: 800px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
