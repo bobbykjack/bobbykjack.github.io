@@ -62,6 +62,7 @@ function diagnose_problem() {
         if (ref.hostname == curr.hostname) {
             text = "It looks like you came here from a link on this site. I’m "
                 + "terribly sorry about this; if you’d be so kind as to ";
+
             p.appendChild(document.createTextNode(text));
 
             body = "Hi Bobby!\n\nI spotted a broken link on your site at the "
