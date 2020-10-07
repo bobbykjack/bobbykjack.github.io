@@ -124,6 +124,7 @@ ul {
   margin-left: -1em;
   margin-right: -1em;
   display: grid;
+  column-gap: 20px;
   grid-template-columns: auto 320px;
   grid-template-rows: auto 1fr;
 }
@@ -241,5 +242,3 @@ figure.f1 img {
     max-height: 800px;
   }
 }
-
-/*# sourceMappingURL=styles.css.map */
