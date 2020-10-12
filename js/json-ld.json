@@ -7,4 +7,13 @@
     "@context": "http://schema.org",
     "@type": "WebPage",
     "name": "How to succeed with a static site"
+},"/2020/08/30/pocket-mini-golf":{
+    "@context": "http://schema.org",
+    "@type": "Review",
+    "itemReviewed": {
+        "@type": "VideoGame",
+        "name": "Pocket Mini Golf",
+        "gamePlatform": "Nintendo Switch",
+        "reviewBody": "A reasonable game of mini golf somewhat spoiled by unorthodox progression."
+    }
 }}
