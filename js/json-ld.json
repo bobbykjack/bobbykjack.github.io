@@ -19,5 +19,28 @@
     "author": {
         "@type": "Person",
         "name": "Bobby Jack"
+    },
+    "dateCreated": "2020-10-05",
+    "datePublished": "2020-10-05",
+    "keywords": "golf"
+},"/2020/06/17/pixboy":{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "name": "Review: Pixboy",
+    "description": "A retro platformer with enough modern touches to make it wonderfully playable",
+    "mainEntity": {
+    "@type": "Review",
+        "itemReviewed": {
+            "@type": "VideoGame",
+            "name": "Pixboy",
+            "gamePlatform": "Nintendo Switch",
+            "reviewBody": "A retro platformer with enough modern touches to make it wonderfully playable"
+        },
+        "author": {
+            "@type": "Person",
+            "name": "Bobby Jack"
+        },
+        "dateCreated": "2020-06-17",
+        "datePublished": "2020-06-17"
     }
 }}
