@@ -1,0 +1,10 @@
+{"/":{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "name": "bobbyjack.me",
+    "description": "The site of Bobby Jack"
+},"/2020/10/05/static-site":{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "name": "How to succeed with a static site"
+}}
