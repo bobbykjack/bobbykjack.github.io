@@ -14,3 +14,5 @@ h1 + h2 { break-before: avoid; }
 body { margin: 0; width: 33em; }
 
 #contents { display: none; }
+
+a { text-decoration: none; color: inherit; }
