@@ -6,7 +6,14 @@ var request = new XMLHttpRequest(),
 if (canon) {
     path = new URL(canon.getAttribute("href")).pathname;
     request.addEventListener("load", process_json_ld);
-    request.open("GET", "/js/json-ld.json");
+
+    if (path.substr(-1) == "/") {
+        path += "/index.html";
+    } else if (path.substr(-5) != ".html") {
+        path += ".html";
+    }
+
+    request.open("GET", "/json-ld" + path + ".json");
     request.send();
 }
 
@@ -15,10 +22,7 @@ if (canon) {
  */
 function process_json_ld() {
     var data = JSON.parse(this.responseText);
-
-    if (data.hasOwnProperty(path)) {
-        inject_json_ld(data[path]);
-    }
+    inject_json_ld(data);
 }
 
 /**
