@@ -104,21 +104,27 @@ figcaption em {
 }
 
 ul {
-  list-style-type: none;
-}
-
-ul {
-  list-style-type: none;
+  /*list-style-type: none;*/
   margin-left: 0;
   padding-left: 0;
   margin-bottom: 2em;
 }
 
 /*.contents li { margin-bottom: 2em; }*/
-.contents li {
+main.contents article {
   margin-bottom: 2em;
 }
-.contents li a {
+main.contents article a {
+  display: grid;
+  column-gap: 20px;
+  grid-template-columns: auto 320px;
+  grid-template-rows: auto 1fr;
+}
+
+ul.contents li {
+  margin-bottom: 2em;
+}
+ul.contents li a {
   text-decoration: none;
   padding: 1em;
   margin-left: -1em;
@@ -128,24 +134,25 @@ ul {
   grid-template-columns: auto 320px;
   grid-template-rows: auto 1fr;
 }
-.contents li a img {
+ul.contents li a img {
   grid-column-start: 2;
   grid-row-start: 1;
   grid-row-end: span 2;
+  align-self: center;
 }
-.contents li a h3, .contents li a p {
+ul.contents li a h3, ul.contents li a p {
   grid-column-start: 1;
   margin: 0;
 }
-.contents li a h3 {
+ul.contents li a h3 {
   text-decoration: underline;
   grid-row-start: 1;
 }
-.contents li a p {
+ul.contents li a p {
   color: black;
   grid-row-start: 2;
 }
-.contents li a:hover {
+ul.contents li a:hover {
   background-color: #eee;
 }
 
@@ -155,6 +162,42 @@ ul {
     display: block;
   }
 }
+/* HOME PAGE */
+section#reviews > a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  padding: 1em;
+  margin-left: -1em;
+  margin-right: -1em;
+  margin-bottom: 2em;
+}
+section#reviews > a:hover {
+  background-color: #eee;
+}
+section#reviews h3 {
+  border-bottom: 1px solid;
+  color: #555;
+  margin-bottom: 0.25em;
+  margin-top: 0;
+}
+section#reviews p {
+  margin-top: 0.25em;
+}
+section#reviews article img {
+  grid-column-start: 2;
+  grid-row-start: 1;
+  grid-row-end: span 2;
+}
+section#reviews article {
+  max-width: none;
+  margin: 0;
+  display: grid;
+  column-gap: 20px;
+  grid-template-columns: auto 320px;
+  grid-template-rows: auto 1fr;
+}
+
 .home .intro {
   margin-bottom: 100px;
   margin-top: 0;
@@ -177,7 +220,7 @@ figure.f1 img {
   width: 100%;
 }
 
-.home header, article, footer {
+.home header, article, footer, main {
   max-width: 44em;
   margin-left: auto;
   margin-right: auto;
@@ -192,6 +235,9 @@ figure.f1 img {
   vertical-align: bottom;
 }
 
+/**
+ * mobile?
+ */
 @media screen and (max-width: 420px) and (min-width: 100px) {
   figure.f1 {
     max-height: 500px;
