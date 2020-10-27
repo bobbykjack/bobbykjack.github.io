@@ -156,6 +156,28 @@ ul.contents li a:hover {
   background-color: #eee;
 }
 
+form#settings input, form#settings button {
+  font-size: inherit;
+  padding: 0.25em 0.5em;
+}
+form#settings div {
+  margin: 0.5em 0;
+}
+form#settings button {
+  margin-top: 1em;
+}
+form#settings > fieldset {
+  border-width: 2px;
+  border-color: #eee;
+}
+form#settings legend {
+  padding: 0 0.5em;
+}
+
+a[target=_blank], a[target=external] {
+  text-decoration-style: double;
+}
+
 /* MOBILE */
 @media screen and (max-width: 420px) and (min-width: 100px) {
   .contents li a {
