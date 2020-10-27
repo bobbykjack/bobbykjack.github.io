@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://bobbyjack.me/2020/10/27/ministry-of-broadcast</loc>
+    <lastmod>2020-10-27</lastmod>
+  </url>
+  <url>
+    <loc>https://bobbyjack.me/2020/10/15/spiritfarer</loc>
+    <lastmod>2020-10-15</lastmod>
+  </url>
+  <url>
     <loc>https://bobbyjack.me/2020/08/30/pocket-mini-golf</loc>
     <lastmod>2020-08-30</lastmod>
   </url>
@@ -205,11 +213,19 @@
     <lastmod>2019-05-03</lastmod>
   </url>
   <url>
+    <loc>https://bobbyjack.me/2019/04/30/nintendo</loc>
+    <lastmod>2020-10-24</lastmod>
+  </url>
+  <url>
     <loc>https://bobbyjack.me/2019/04/29/steamworld-dig-2</loc>
     <lastmod>2019-05-01</lastmod>
   </url>
   <url>
     <loc>https://bobbyjack.me/2019/04/11/the-flame-in-the-flood</loc>
     <lastmod>2019-05-01</lastmod>
+  </url>
+  <url>
+    <loc>https://bobbyjack.me/</loc>
+    <lastmod>2020-10-27</lastmod>
   </url>
 </urlset>

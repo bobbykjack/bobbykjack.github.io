@@ -1,0 +1,19 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Review",
+    "url": "https://bobbyjack.me/2020/10/27/ministry-of-broadcast",
+    "datePublished": "2020-10-27",
+    "dateCreated": "2020-10-27",
+    "dateModified": "2020-10-27",
+    "name": "A review of Ministry of Broadcast on bobbyjack.me",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "itemReviewed": {
+        "@type": "VideoGame",
+        "name": "A review of Ministry of Broadcast on bobbyjack.me",
+        "gamePlatform": "Nintendo Switch",
+        "reviewBody": "Big Brother meets \u2026 Big Brother. In this pixellated tale of dystopian reality game show, you\u2019re tasked with completing a series of platforming puzzles \u2014 by fair means or foul."
+    }
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Bobby Jack" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Settings on bobbyjack.me</title>
+    <meta name="description" content="" />
+    <link rel="canonical" href="https://bobbyjack.me/2020/10/27/settings" />
+    <style>
+    .jsshow, .csshide { display: none; }
+    </style>
+</head>
+<body>
+
+<main>
+
+<h1>Settings</h1>
+
+<noscript>
+    <p>These settings only make sense with JavaScript enabled.</p>
+
+    <p class="csshide">It seems as if you also have css disabled. That means you will see a form below this message, but it will not work.</p>
+</noscript>
+
+<div class="jsshow">
+    <form id="settings" method="get" action="/no-javascript">
+        <fieldset>
+            <legend>Link behaviour</legend>
+
+            <div>
+                <label>
+                    <input id="open_links_same" type="radio" name="links" value="" checked="checked" />
+                    Open all links in the original tab
+                </label>
+            </div>
+
+            <div>
+                <label>
+                    <input id="open_links_new" type="radio" name="links" value="external" />
+                    Open external links in the same new tab
+                </label>
+            </div>
+
+            <div>
+                <label>
+                    <input id="open_links_new" type="radio" name="links" value="_blank" />
+                    Open each external link in a separate new tab
+                </label>
+            </div>
+        </fieldset>
+
+        <button type="submit">Save</button>
+    </form>
+
+    <p>These settings will be saved to
+        <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage">
+            your browser's localStorage</a>.</p>
+</div>
+
+</main>
+
+<footer>
+    <a href="/">
+        <img class="logo" src="/images/logo.jpg" />
+    </a>
+</footer>
+
+<script>
+//<![CDATA[
+document.querySelectorAll(".jsshow").forEach(function(node) {
+    node.classList.remove("jsshow");
+});
+//]]>
+</script>
+
+<script src="/js/stats.js"></script>
+<script src="/js/settings.js"></script>
+<script src="/js/settings-form.js"></script>
+
+</body>
+</html>
