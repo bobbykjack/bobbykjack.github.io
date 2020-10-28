@@ -1,0 +1,13 @@
+{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "url": "https://bobbyjack.me/2019/09/12/bobby",
+    "datePublished": "2019-09-12",
+    "dateCreated": "2019-09-12",
+    "dateModified": "2020-10-24",
+    "name": "Bobby Jack",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    }
+}

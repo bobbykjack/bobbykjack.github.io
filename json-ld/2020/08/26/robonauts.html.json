@@ -1,0 +1,15 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Review",
+    "url": "https://bobbyjack.me/2020/08/26/robonauts",
+    "datePublished": "2020-08-26",
+    "dateCreated": "2020-08-26",
+    "dateModified": "2020-10-13",
+    "name": "One Hour Review: Robonauts",
+    "itemReviewed": {
+        "@type": "VideoGame",
+        "name": "One Hour Review: Robonauts",
+        "gamePlatform": "Nintendo Switch",
+        "reviewBody": "Robonauts is a basic, but fun, shooter/platformer. It\u2019s a welcome genre combination, and the interplanetary travel adds a lot of depth."
+    }
+}

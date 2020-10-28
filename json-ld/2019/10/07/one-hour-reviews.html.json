@@ -1,0 +1,13 @@
+{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "url": "https://bobbyjack.me/2019/10/07/one-hour-reviews",
+    "datePublished": "2019-10-07",
+    "dateCreated": "2019-10-07",
+    "dateModified": "2020-10-24",
+    "name": "One Hour reviews \u2014 bobbyjack.me",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    }
+}

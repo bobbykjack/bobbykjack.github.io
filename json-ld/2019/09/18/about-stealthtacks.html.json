@@ -1,0 +1,13 @@
+{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "url": "https://bobbyjack.me/2019/09/18/about-stealthtacks",
+    "datePublished": "2019-09-18",
+    "dateCreated": "2019-09-18",
+    "dateModified": "2020-05-18",
+    "name": "About Stealthtacks",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    }
+}

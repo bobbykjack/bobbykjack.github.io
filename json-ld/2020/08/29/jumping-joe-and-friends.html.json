@@ -1,0 +1,15 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Review",
+    "url": "https://bobbyjack.me/2020/08/29/jumping-joe-and-friends",
+    "datePublished": "2020-08-29",
+    "dateCreated": "2020-08-29",
+    "dateModified": "2020-10-13",
+    "name": "One Hour Review: Jumping Joe & Friends",
+    "itemReviewed": {
+        "@type": "VideoGame",
+        "name": "One Hour Review: Jumping Joe & Friends",
+        "gamePlatform": "Nintendo Switch",
+        "reviewBody": "A cheery, mindless game that reduces platforming to its absolute minimum."
+    }
+}

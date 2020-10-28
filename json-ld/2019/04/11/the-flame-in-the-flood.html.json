@@ -1,0 +1,13 @@
+{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "url": "https://bobbyjack.me/2019/04/11/the-flame-in-the-flood",
+    "datePublished": "2019-04-11",
+    "dateCreated": "2019-04-11",
+    "dateModified": "2020-10-24",
+    "name": "Review: The Flame in the Flood",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    }
+}

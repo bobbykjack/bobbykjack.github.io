@@ -1,0 +1,19 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Review",
+    "url": "https://bobbyjack.me/2019/06/07/gato-roboto",
+    "datePublished": "2019-06-07",
+    "dateCreated": "2019-06-07",
+    "dateModified": "2020-10-14",
+    "name": "Review: Gato Roboto",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "itemReviewed": {
+        "@type": "VideoGame",
+        "name": "Gato Roboto",
+        "gamePlatform": "Nintendo Switch",
+        "reviewBody": "Gato Roboto is adorable, and ideally suited to nostalgic handheld play, but \u2014 cute graphics aside \u2014 fails to be really memorable"
+    }
+}

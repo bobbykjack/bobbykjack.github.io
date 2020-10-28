@@ -1,0 +1,10 @@
+{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "dateModified": "2020-09-29",
+    "name": "Unsigned IndieDev",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "dateModified": "2020-09-29",
+    "name": "Five Minute Argument",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "dateModified": "2019-10-10",
+    "name": "Games in development",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "datePublished": "2019-10-30",
+    "dateCreated": "2019-10-30",
+    "dateModified": "2020-05-18",
+    "name": "Bunner looks better",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    }
+}

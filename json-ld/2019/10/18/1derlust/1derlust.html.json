@@ -1,0 +1,12 @@
+{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "datePublished": "2019-10-18",
+    "dateCreated": "2019-10-18",
+    "dateModified": "2020-05-18",
+    "name": "1derlust: a 1 bit, 1d, 1 button javascript game",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    }
+}

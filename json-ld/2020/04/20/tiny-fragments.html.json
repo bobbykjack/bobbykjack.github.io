@@ -1,0 +1,19 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Review",
+    "url": "https://bobbyjack.me/2020/04/20/tiny-fragments",
+    "datePublished": "2020-04-20",
+    "dateCreated": "2020-04-20",
+    "dateModified": "2020-10-14",
+    "name": "One Hour Review: Tiny Fragments",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "itemReviewed": {
+        "@type": "VideoGame",
+        "name": "One Hour Review: Tiny Fragments",
+        "gamePlatform": "Nintendo Switch",
+        "reviewBody": "A simple-concept puzzler with plenty of possibilities"
+    }
+}

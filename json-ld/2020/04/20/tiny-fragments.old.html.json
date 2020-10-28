@@ -1,0 +1,13 @@
+{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "url": "https://bobbyjack.me/2020/03/07/lola-the-escape",
+    "datePublished": "2020-04-20",
+    "dateCreated": "2020-04-20",
+    "dateModified": "2020-05-18",
+    "name": "One Hour Review: Lola - The Escape Demo",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    }
+}

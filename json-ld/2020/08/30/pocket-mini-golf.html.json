@@ -1,0 +1,15 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Review",
+    "url": "https://bobbyjack.me/2020/08/30/pocket-mini-golf",
+    "datePublished": "2020-08-30",
+    "dateCreated": "2020-08-30",
+    "dateModified": "2020-10-12",
+    "name": "One Hour Review: Pocket Mini Golf",
+    "itemReviewed": {
+        "@type": "VideoGame",
+        "name": "One Hour Review: Pocket Mini Golf",
+        "gamePlatform": "Nintendo Switch",
+        "reviewBody": "A reasonable game of mini golf somewhat spoiled by unorthodox progression."
+    }
+}

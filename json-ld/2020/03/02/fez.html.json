@@ -1,0 +1,19 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Review",
+    "url": "https://bobbyjack.me/2020/03/02/fez",
+    "datePublished": "2020-03-02",
+    "dateCreated": "2020-03-02",
+    "dateModified": "2020-10-26",
+    "name": "Review: Fez",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "itemReviewed": {
+        "@type": "VideoGame",
+        "name": "Fez",
+        "gamePlatform": "Nintendo Switch",
+        "reviewBody": "Fez is the kind of game with enough background to fill a review before gameplay has even been touched on."
+    }
+}

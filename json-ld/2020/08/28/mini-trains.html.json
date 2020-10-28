@@ -1,0 +1,15 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Review",
+    "url": "https://bobbyjack.me/2020/08/28/mini-trains",
+    "datePublished": "2020-08-28",
+    "dateCreated": "2020-08-28",
+    "dateModified": "2020-10-13",
+    "name": "One Hour Review: Mini Trains",
+    "itemReviewed": {
+        "@type": "VideoGame",
+        "name": "One Hour Review: Mini Trains",
+        "gamePlatform": "Nintendo Switch",
+        "reviewBody": "Although it\u2019s fairly playable, Mini Trains bolts on too many unnecessary features at the expense of its core gameplay."
+    }
+}

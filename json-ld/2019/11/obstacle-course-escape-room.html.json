@@ -1,0 +1,10 @@
+{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "dateModified": "2020-09-29",
+    "name": "Obstacle Course Escape Room: A Super Mario Maker 2 Level",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    }
+}

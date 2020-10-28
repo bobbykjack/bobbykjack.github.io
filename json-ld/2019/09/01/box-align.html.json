@@ -1,0 +1,13 @@
+{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "url": "https://bobbyjack.me/2019/09/01/box-align",
+    "datePublished": "2019-09-01",
+    "dateCreated": "2019-09-01",
+    "dateModified": "2020-10-14",
+    "name": "Review: Box Align",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "url": "https://bobbyjack.me/2020/07/elliot-quest",
+    "dateModified": "2020-08-26",
+    "name": "Review: Elliot Quest",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    }
+}

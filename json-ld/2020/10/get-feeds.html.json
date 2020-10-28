@@ -1,0 +1,11 @@
+{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "url": "https://bobbyjack.me/2020/10/get-feeds",
+    "dateModified": "2020-10-25",
+    "name": "feed javascript test",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    }
+}

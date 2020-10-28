@@ -1,0 +1,15 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Review",
+    "url": "https://bobbyjack.me/2020/06/21/patricks-parabox",
+    "datePublished": "2020-06-21",
+    "dateCreated": "2020-06-21",
+    "dateModified": "2020-08-26",
+    "name": "One Hour Review: Patrick\u2019s Parabox",
+    "itemReviewed": {
+        "@type": "VideoGame",
+        "name": "One Hour Review: Patrick\u2019s Parabox",
+        "gamePlatform": "Nintendo Switch",
+        "reviewBody": "A genuinely innovative take on the 2d puzzler produces a very solid concept which will live or die on level design."
+    }
+}

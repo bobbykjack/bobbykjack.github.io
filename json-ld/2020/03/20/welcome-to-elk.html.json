@@ -1,0 +1,19 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Review",
+    "url": "https://bobbyjack.me/2020/03/20/welcome-to-elk",
+    "datePublished": "2020-03-20",
+    "dateCreated": "2020-03-20",
+    "dateModified": "2020-10-14",
+    "name": "One Hour Review: Welcome to Elk Demo",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "itemReviewed": {
+        "@type": "VideoGame",
+        "name": "One Hour Review: Welcome to Elk Demo",
+        "gamePlatform": "Nintendo Switch",
+        "reviewBody": "An engaging storyline and memorable characters liven up this short demo"
+    }
+}

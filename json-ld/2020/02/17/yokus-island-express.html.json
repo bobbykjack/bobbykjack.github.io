@@ -1,0 +1,19 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Review",
+    "url": "https://bobbyjack.me/2020/02/17/yokus-island-express",
+    "datePublished": "2020-02-17",
+    "dateCreated": "2020-02-17",
+    "dateModified": "2020-10-14",
+    "name": "Review: Yoku\u2019s Island Express",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "itemReviewed": {
+        "@type": "VideoGame",
+        "name": "Yoku\u2019s Island Express",
+        "gamePlatform": "Nintendo Switch",
+        "reviewBody": "Yoku\u2019s Island Express is a bewitching combination of arcade pinball mechanics and enchanting metroidvania. But is it more than the sum of its parts, or does the gimmick result in a game which falls short of the two genres\u2019 potential?"
+    }
+}

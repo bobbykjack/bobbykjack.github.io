@@ -1,0 +1,15 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Review",
+    "url": "https://bobbyjack.me/2020/08/24/coloring-book",
+    "datePublished": "2020-08-24",
+    "dateCreated": "2020-08-24",
+    "dateModified": "2020-10-13",
+    "name": "One Hour Review: Coloring Book",
+    "itemReviewed": {
+        "@type": "VideoGame",
+        "name": "One Hour Review: Coloring Book",
+        "gamePlatform": "Nintendo Switch",
+        "reviewBody": "A bare-bones coloring book app that\u2019s worth its asking price"
+    }
+}

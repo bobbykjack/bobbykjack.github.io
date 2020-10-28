@@ -1,0 +1,13 @@
+{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "url": "https://bobbyjack.me/2019/04/29/steamworld-dig-2",
+    "datePublished": "2019-04-29",
+    "dateCreated": "2019-04-29",
+    "dateModified": "2020-10-24",
+    "name": "Steamworld Dig 2",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    }
+}

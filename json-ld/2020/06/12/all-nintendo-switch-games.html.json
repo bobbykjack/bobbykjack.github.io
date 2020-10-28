@@ -1,0 +1,13 @@
+{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "url": "https://bobbyjack.me/2020/06/12/all-nintendo-switch-games",
+    "datePublished": "2020-06-12",
+    "dateCreated": "2020-06-12",
+    "dateModified": "2020-09-28",
+    "name": "All Nintendo Switch games",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    }
+}

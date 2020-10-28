@@ -1,0 +1,13 @@
+{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "url": "https://bobbyjack.me/2019/08/01/nintendo-switch-reviews",
+    "datePublished": "2019-08-01",
+    "dateCreated": "2019-08-01",
+    "dateModified": "2020-10-27",
+    "name": "Nintendo Switch reviews \u2014 bobbyjack.me",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    }
+}

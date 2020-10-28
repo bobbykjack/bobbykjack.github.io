@@ -1,0 +1,19 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Review",
+    "url": "https://bobbyjack.me/2019/07/28/celeste",
+    "datePublished": "2019-07-28",
+    "dateCreated": "2019-07-28",
+    "dateModified": "2020-10-26",
+    "name": "Review: Celeste",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "itemReviewed": {
+        "@type": "VideoGame",
+        "name": "Celeste",
+        "gamePlatform": "Nintendo Switch",
+        "reviewBody": "Celeste answers the question \u2018how can you make a plot really work in a video game?\u2019. It\u2019s a question we should all be asking more often, particularly when this is the answer."
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "url": "https://bobbyjack.me/2019/05/03/dig-dog",
+    "datePublished": "2019-05-03",
+    "dateCreated": "2019-05-03",
+    "dateModified": "2020-10-24",
+    "name": "Review: Dig Dog",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    }
+}

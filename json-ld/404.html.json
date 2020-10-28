@@ -1,0 +1,10 @@
+{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "dateModified": "2020-10-06",
+    "name": "bobbyjack.me: page not found",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    }
+}

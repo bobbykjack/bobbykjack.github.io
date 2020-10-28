@@ -1,0 +1,17 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Review",
+    "url": "",
+    "dateModified": "2020-10-13",
+    "name": "Bobby Jack\u2019s Review of Spiritfarer",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "itemReviewed": {
+        "@type": "VideoGame",
+        "name": "Bobby Jack\u2019s Review of Spiritfarer",
+        "gamePlatform": "Nintendo Switch",
+        "reviewBody": ""
+    }
+}

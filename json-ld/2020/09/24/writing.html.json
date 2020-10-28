@@ -1,0 +1,13 @@
+{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "url": "https://bobbyjack.me/2020/09/24/writing",
+    "datePublished": "2020-09-24",
+    "dateCreated": "2020-09-24",
+    "dateModified": "2020-10-26",
+    "name": "Writing by Bobby Jack",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    }
+}

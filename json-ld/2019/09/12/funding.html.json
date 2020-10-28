@@ -1,0 +1,13 @@
+{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "url": "https://bobbyjack.me/2019/09/12/funding",
+    "datePublished": "2019-09-12",
+    "dateCreated": "2019-09-12",
+    "dateModified": "2020-10-24",
+    "name": "bobbyjack.me",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    }
+}

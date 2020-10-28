@@ -1,0 +1,19 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Review",
+    "url": "https://bobbyjack.me/2020/06/05/elena-temple",
+    "datePublished": "2020-06-05",
+    "dateCreated": "2020-06-05",
+    "dateModified": "2020-10-13",
+    "name": "Review: The Adventures of Elena Temple",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "itemReviewed": {
+        "@type": "VideoGame",
+        "name": "The Adventures of Elena Temple",
+        "gamePlatform": "Nintendo Switch",
+        "reviewBody": "A game steeped in nostalgia that will delight old-timers but frustrate modern gamers"
+    }
+}
