@@ -104,10 +104,16 @@ figcaption em {
 }
 
 ul {
-  /*list-style-type: none;*/
   margin-left: 0;
   padding-left: 0;
   margin-bottom: 2em;
+}
+
+article td, article th {
+  padding: 4px 8px;
+}
+article td:nth-child(2) {
+  text-align: right;
 }
 
 /*.contents li { margin-bottom: 2em; }*/
