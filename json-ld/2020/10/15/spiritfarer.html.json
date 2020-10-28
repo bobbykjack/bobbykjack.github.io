@@ -5,14 +5,14 @@
     "datePublished": "2020-10-15",
     "dateCreated": "2020-10-15",
     "dateModified": "2020-10-15",
-    "name": "Bobby Jack\u2019s Review of Spiritfarer",
+    "name": "A review of Spiritfarer on [bobbyjack.me]",
     "author": {
         "@type": "Person",
         "name": "Bobby Jack"
     },
     "itemReviewed": {
         "@type": "VideoGame",
-        "name": "Bobby Jack\u2019s Review of Spiritfarer",
+        "name": "A review of Spiritfarer on [bobbyjack.me]",
         "gamePlatform": "Nintendo Switch",
         "reviewBody": "Spiritfarer is a captivating game with exploration, crafting, and platforming elements, woven around the moving stories of its characters."
     }
