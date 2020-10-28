@@ -103,7 +103,7 @@ function sortDateVal(a, b) {
     var dateA = Date.parse(a.value),
         dateB = Date.parse(b.value);
 
-    return sortNumber(dateA, dateB);
+    return sortNumber(dateB, dateA);
 }
 
 /**

@@ -1,10 +1,14 @@
-var default_stats_old = '{ "hits": {}, "pages": {} }',
-    default_stats = '{}',
+var default_stats = '{ "version": 1.0, "data": {} }',
     stats = JSON.parse(localStorage.getItem("stats") || default_stats),
     node = document.querySelector("#clear-storage"),
     canon = document.querySelector("link[rel=canonical]"),
     path,
     title;
+
+// add a version field, upgrade old format to this one
+if (!stats.hasOwnProperty("version")) {
+    stats = { "version": 1.0, "data": stats };
+}
 
 if (node) {
     node.addEventListener('click', function(event) {
@@ -26,18 +30,18 @@ if (canon) {
     path = window.location.pathname;
 }
 
-if (stats[path]) {
-    stats[path]["hits"]++;
+if (stats.data[path]) {
+    stats.data[path]["hits"]++;
 } else {
     title = document.querySelector("title").textContent;
 
-    stats[path] = {
+    stats.data[path] = {
         "hits": 1,
         "title": title
     };
 }
 
-stats[path]["last"] = Date.now();
+stats.data[path]["last"] = Date.now();
 
 localStorage.setItem("stats", JSON.stringify(stats));
 
@@ -60,8 +64,8 @@ function populateStatsTable(stats) {
         value,
         a;
 
-    for (key in stats) {
-        tuples.push([key, stats[key]["hits"]]);
+    for (key in stats.data) {
+        tuples.push([key, stats.data[key]["hits"]]);
     }
 
     tuples.sort(function(a, b) { return a - b; });
@@ -106,7 +110,7 @@ function populateStatsTable(stats) {
 
         td = document.createElement("td");
         tr.appendChild(td);
-        td.appendChild(document.createTextNode(stats[key].title));
+        td.appendChild(document.createTextNode(stats.data[key].title));
 
         td = document.createElement("td");
         tr.appendChild(td);
@@ -115,8 +119,9 @@ function populateStatsTable(stats) {
         td = document.createElement("td");
         tr.appendChild(td);
 
-        var lastAccess = new Date(stats[key].last);
-        lastAccess = lastAccess.toLocaleDateString() + ' ' + lastAccess.toLocaleTimeString();
+        var lastAccess = new Date(stats.data[key].last);
+
+        lastAccess = date_format(lastAccess);
         td.appendChild(document.createTextNode(lastAccess));
     }
 }
