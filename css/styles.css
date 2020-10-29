@@ -112,7 +112,9 @@ ul {
 article td, article th {
   padding: 4px 8px;
 }
-article td:nth-child(2) {
+
+#stats-table td:nth-child(3),
+#switch-purchases td:nth-child(2) {
   text-align: right;
 }
 
