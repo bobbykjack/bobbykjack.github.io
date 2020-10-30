@@ -4,6 +4,11 @@
     "url": "https://bobbyjack.me/2019/10/31/gum-girl",
     "datePublished": "2019-10-31",
     "dateCreated": "2019-10-31",
-    "dateModified": "2019-10-31",
-    "name": "One Hour Review: Gum Girl"
+    "dateModified": "2020-10-29",
+    "name": "One Hour Review: Gum Girl",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "abstract": "Gum Girl is a very solid platformer with a fun and powerful central mechanic"
 }

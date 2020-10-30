@@ -4,6 +4,11 @@
     "url": "https://bobbyjack.me/2019/10/11/reap",
     "datePublished": "2019-10-11",
     "dateCreated": "2019-10-11",
-    "dateModified": "2019-10-11",
-    "name": "One Hour Review: Reap"
+    "dateModified": "2020-10-29",
+    "name": "One Hour Review: Reap",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "abstract": "This small game distills the essence of the survival genre with some highly inventive mechanics."
 }

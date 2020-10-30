@@ -4,8 +4,12 @@
     "url": "https://bobbyjack.me/2020/08/27/puzzle-book",
     "datePublished": "2020-08-27",
     "dateCreated": "2020-08-27",
-    "dateModified": "2020-10-13",
+    "dateModified": "2020-10-29",
     "name": "One Hour Review: Puzzle Book",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
     "itemReviewed": {
         "@type": "VideoGame",
         "name": "One Hour Review: Puzzle Book",

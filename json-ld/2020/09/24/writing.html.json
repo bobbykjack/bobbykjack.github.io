@@ -4,10 +4,11 @@
     "url": "https://bobbyjack.me/2020/09/24/writing",
     "datePublished": "2020-09-24",
     "dateCreated": "2020-09-24",
-    "dateModified": "2020-10-26",
+    "dateModified": "2020-10-30",
     "name": "Writing by Bobby Jack",
     "author": {
         "@type": "Person",
         "name": "Bobby Jack"
-    }
+    },
+    "abstract": "This is a collection of links to various writing I have produced"
 }

@@ -9,5 +9,6 @@
     "author": {
         "@type": "Person",
         "name": "Bobby Jack"
-    }
+    },
+    "abstract": "Introducing lingth, a simple line-length checker"
 }

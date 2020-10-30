@@ -9,5 +9,6 @@
     "author": {
         "@type": "Person",
         "name": "Bobby Jack"
-    }
+    },
+    "abstract": "Stealthtacks is a minimalist Pinboard client. It\u2019s an alternative to using pinboard.in or a browser-extension. You can use the public instance directly or download the code and host it yourself."
 }

@@ -9,5 +9,6 @@
     "author": {
         "@type": "Person",
         "name": "Bobby Jack"
-    }
+    },
+    "abstract": "A welcoming page for visitors from Twitter"
 }

@@ -4,8 +4,12 @@
     "url": "https://bobbyjack.me/2020/08/30/pocket-mini-golf",
     "datePublished": "2020-08-30",
     "dateCreated": "2020-08-30",
-    "dateModified": "2020-10-12",
+    "dateModified": "2020-10-29",
     "name": "One Hour Review: Pocket Mini Golf",
+    "author": {
+        "@type": "Person",
+        "name": "Joe Bloggs"
+    },
     "itemReviewed": {
         "@type": "VideoGame",
         "name": "One Hour Review: Pocket Mini Golf",
