@@ -1,3 +1,10 @@
+
+//------------------------------------------------------------------------------
+// sort-table.js
+//------------------------------------------------------------------------------
+
+(function() {
+
 /**
  * The following supports the sorting of the table by each column, by clicking
  * on the corresponding header.
@@ -9,13 +16,28 @@ if (table) {
         index;
 
     for (index = 0; index < headers.length; index++) {
-        headers[index].innerHTML = "<a href=''>" + headers[index].innerText + "</a>";
+        headers[index].innerHTML =
+            "<a href=''>" + headers[index].innerText + "</a>";
     }
 
     table.addEventListener("click", function(ev) {
+        var index,
+            url = new URL(window.location);
+
         if (ev.target.parentNode.parentNode.parentNode.tagName == 'THEAD') {
-            sortRows(table, siblingIndex(ev.target.parentNode));
+            index = siblingIndex(ev.target.parentNode);
+            sortRows(table, index);
+            url.searchParams.set("sort", index);
+            history.replaceState(null, "", url);
             ev.preventDefault();
+        }
+    });
+
+    window.addEventListener("load", function(ev) {
+        var sort;
+
+        if (sort = url.searchParams.get("sort")) {
+            sortRows(table, parseInt(sort));
         }
     });
 }
@@ -123,4 +145,6 @@ function sortTextVal(a, b) {
 
     return 0;
 }
+
+})();
 
