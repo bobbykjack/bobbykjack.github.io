@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
+  overflow-y: scroll;
 }
 
 h1, h2, h3 {
@@ -34,6 +35,16 @@ pre {
   border-radius: 3px;
 }
 
+/**
+ * TODO: This was used in early articles but should probably be phased out. See:
+ *
+ * /2019/04/11/the-flame-in-the-flood
+ * /2019/04/29/steamworld-dig-2
+ * /2019/05/03/dig-dog
+ * /2019/05/17/the-way-remastered
+ * /2019/05/14/ding-dong-xl
+ * /2019/06/21/kid-tripp
+ */
 mark {
   background-color: inherit;
   font-weight: bold;
@@ -47,7 +58,7 @@ body {
 
 body {
   margin-bottom: 100px;
-  overflow: overlay;
+  /*overflow: overlay;*/
 }
 
 figure {
@@ -192,40 +203,45 @@ a[target=_blank], a[target=external] {
     display: block;
   }
 }
+body, a p {
+  color: #000;
+}
+
 /* HOME PAGE */
-section#reviews > a {
+section#reviews > article > a {
   text-decoration: none;
-  color: inherit;
-  display: block;
   padding: 1em;
   margin-left: -1em;
   margin-right: -1em;
   margin-bottom: 2em;
+  display: grid;
+  column-gap: 20px;
+  grid-template-columns: auto 320px;
+  grid-template-rows: auto 1fr;
+  /*align-items: center;*/
 }
-section#reviews > a:hover {
+section#reviews > article > a:hover {
   background-color: #eee;
 }
 section#reviews h3 {
-  border-bottom: 1px solid;
-  color: #555;
+  text-decoration: underline;
   margin-bottom: 0.25em;
   margin-top: 0;
 }
 section#reviews p {
   margin-top: 0.25em;
+  margin-bottom: 0;
+  grid-column-start: 1;
 }
-section#reviews article img {
+section#reviews > article img {
   grid-column-start: 2;
   grid-row-start: 1;
   grid-row-end: span 2;
+  align-self: center;
 }
-section#reviews article {
+section#reviews > article {
   max-width: none;
   margin: 0;
-  display: grid;
-  column-gap: 20px;
-  grid-template-columns: auto 320px;
-  grid-template-rows: auto 1fr;
 }
 
 .home .intro {
