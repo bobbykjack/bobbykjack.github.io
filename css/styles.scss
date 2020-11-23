@@ -157,6 +157,18 @@ body, a p { color: #000; }
 
 /* HOME PAGE */
 
+.home {
+    h1 { visibility: hidden; margin: 0; width: 0; height: 0; }
+
+    header {
+        display: flex; justify-content: flex-end;
+
+        img { margin-right: -20px }
+    }
+
+    .intro img { margin-right: 20px; float: left; }
+}
+
 section#reviews {
     > article > a {
         text-decoration: none;

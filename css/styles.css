@@ -208,6 +208,24 @@ body, a p {
 }
 
 /* HOME PAGE */
+.home h1 {
+  visibility: hidden;
+  margin: 0;
+  width: 0;
+  height: 0;
+}
+.home header {
+  display: flex;
+  justify-content: flex-end;
+}
+.home header img {
+  margin-right: -20px;
+}
+.home .intro img {
+  margin-right: 20px;
+  float: left;
+}
+
 section#reviews > article > a {
   text-decoration: none;
   padding: 1em;
@@ -231,7 +249,6 @@ section#reviews h3 {
 section#reviews p {
   margin-top: 0.25em;
   margin-bottom: 0;
-  grid-column-start: 1;
 }
 section#reviews > article img {
   grid-column-start: 2;
