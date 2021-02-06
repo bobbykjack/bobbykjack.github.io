@@ -19,7 +19,7 @@ h1 {
 
 h2 {
   color: #777;
-  font-size: 120%;
+  font-size: 140%;
   margin-top: 2em;
   margin-bottom: 0.5em;
 }
@@ -62,7 +62,7 @@ body {
 }
 
 figure {
-  margin: 0;
+  margin: 3em 0 4em;
 }
 
 figure > img {
