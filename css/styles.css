@@ -133,6 +133,7 @@ article td, article th {
 main.contents article {
   margin-bottom: 2em;
 }
+
 main.contents article a {
   display: grid;
   column-gap: 20px;
@@ -143,6 +144,7 @@ main.contents article a {
 ul.contents li {
   margin-bottom: 2em;
 }
+
 ul.contents li a {
   text-decoration: none;
   padding: 1em;
@@ -153,12 +155,14 @@ ul.contents li a {
   grid-template-columns: auto 320px;
   grid-template-rows: auto 1fr;
 }
+
 ul.contents li a img {
   grid-column-start: 2;
   grid-row-start: 1;
   grid-row-end: span 2;
   align-self: center;
 }
+
 ul.contents li a h3, ul.contents li a p {
   grid-column-start: 1;
   margin: 0;
@@ -197,12 +201,6 @@ a[target=_blank], a[target=external] {
   text-decoration-style: double;
 }
 
-/* MOBILE */
-@media screen and (max-width: 420px) and (min-width: 100px) {
-  .contents li a {
-    display: block;
-  }
-}
 body, a p {
   color: #000;
 }
@@ -214,13 +212,16 @@ body, a p {
   width: 0;
   height: 0;
 }
+
 .home header {
   display: flex;
   justify-content: flex-end;
 }
+
 .home header img {
   margin-right: -20px;
 }
+
 .home .intro img {
   margin-right: 20px;
   float: left;
@@ -298,6 +299,15 @@ figure.f1 img {
   vertical-align: bottom;
 }
 
+/* MOBILE */
+/*@media screen and (max-width: 420px) and (min-width: 100px) {
+  .contents li a {
+    display: block;
+  }
+
+}*/
+
+
 /**
  * mobile?
  */
@@ -306,18 +316,14 @@ figure.f1 img {
     max-height: 500px;
   }
 
-  .home header, article, footer {
-    max-width: 360px;
-  }
-
-  .home header div img {
-    max-width: 340px;
-  }
-
   body {
     width: auto;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .home header, article, footer {
+    max-width: 360px;
   }
 
   .home header {
@@ -325,10 +331,27 @@ figure.f1 img {
     margin-bottom: 40px;
   }
 
+  main {
+    width: 360px;
+  }
+
+  .home header img {
+    width: 300px;
+    height: 100px;
+    margin-right: -10px;
+  }
+
   .home .intro {
     margin-bottom: 40px;
   }
 
+  section#reviews > article > a {
+    display: block;
+    width: 320px;
+    margin-bottom: 1em;
+  }
+
+  /*
   .home .contents li a img {
     margin-left: 0;
     float: none;
@@ -340,12 +363,15 @@ figure.f1 img {
     width: 100%;
     display: block;
   }
+  */
 }
+
 @media screen and (max-height: 960px) and (min-height: 41px) {
   figure.f1 {
     max-height: 500px;
   }
 }
+
 @media screen and (max-height: 1200px) and (min-height: 961px) {
   figure.f1 {
     max-height: 800px;
