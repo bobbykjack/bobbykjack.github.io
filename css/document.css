@@ -85,12 +85,18 @@ ul { list-style-type: none; margin-left: 0; padding-left: 0; margin-bottom: 2em;
 
 .contents h3 { margin-top: 0; }
 
-.contents li { clear: right; margin-bottom: 2em; overflow: auto; }
+.contents li { /*clear: right;*/ margin-bottom: 2em; /*overflow: auto;*/ }
 
-.contents li a img {
+/*.contents li a img {
     margin-left: 1em;
     float: right;
-}
+}*/
+
+/*
+.contents li a { outline: 1px solid black; position: relative; display: block; minimum-height: ;}
+
+.contents li a img { position: absolute; top: 0; right: 0; }
+*/
 
 .home .intro { margin-bottom: 100px; margin-top: 0; }
 

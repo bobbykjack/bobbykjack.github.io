@@ -152,5 +152,15 @@
       <pubDate>Tue, 27 October 2020 16:30:00 +0100</pubDate>
       <enclosure url="https://bobbyjack.me/images/games/ministry-of-broadcast/hush-bobby.jpg" length="188557" type="image/jpeg" />
     </item>
+    <item>
+      <link>https://bobbyjack.me/2021/02/06/xeodrifter</link>
+      <guid>https://bobbyjack.me/2021/02/06/xeodrifter</guid>
+      <title>Xeodrifter</title>
+      <description>This metroidvania is minimal in every way, but manages to
+            deliver a great gameplay experience by focussing on the
+            essentials.</description>
+      <pubDate>Sat, 06 February 2021 15:45:00 +0100</pubDate>
+      <enclosure url="https://bobbyjack.me/images/games/xeodrifter/layers.jpg" length="211099" type="image/jpeg" />
+    </item>
   </channel>
 </rss>
