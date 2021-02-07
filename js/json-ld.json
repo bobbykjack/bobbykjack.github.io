@@ -11,19 +11,6 @@
     "name": "bobbyjack.me: Bobby Jack\u2019s game reviews and other writing",
     "url": "https://bobbyjack.me/"
 },
-"/": {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "author": {
-        "@type": "Person",
-        "name": "Bobby Jack"
-    },
-    "dateCreated": "2020-12-13",
-    "dateModified": "2020-12-13",
-    "datePublished": "2020-12-13",
-    "name": "Bobby Jack | Links",
-    "url": "https://bobbyjack.me/"
-},
 "/2020/06/12/all-nintendo-switch-games": {
     "@context": "http://schema.org",
     "@type": "WebPage",
@@ -236,17 +223,6 @@
     "name": "bobbyjack.me: stats",
     "url": "https://bobbyjack.me/2020/09/28/stats"
 },
-"/2020/10/get-feeds": {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "author": {
-        "@type": "Person",
-        "name": "Bobby Jack"
-    },
-    "dateModified": "2020-10-25",
-    "name": "feed javascript test",
-    "url": "https://bobbyjack.me/2020/10/get-feeds"
-},
 "/2020/10/15/spiritfarer": {
     "@context": "http://schema.org",
     "@type": "Review",
@@ -265,25 +241,6 @@
     },
     "name": "A review of Spiritfarer on [bobbyjack.me]",
     "url": "https://bobbyjack.me/2020/10/15/spiritfarer"
-},
-"/2020/10/30/serious-scramblers": {
-    "@context": "http://schema.org",
-    "@type": "Review",
-    "author": {
-        "@type": "Person",
-        "name": "Bobby Jack"
-    },
-    "dateCreated": "2020-10-30",
-    "dateModified": "2020-11-09",
-    "datePublished": "2020-10-30",
-    "itemReviewed": {
-        "@type": "VideoGame",
-        "name": "A review of Serious Scramblers on bobbyjack.me",
-        "gamePlatform": "Nintendo Switch",
-        "reviewBody": ""
-    },
-    "name": "A review of Serious Scramblers on bobbyjack.me",
-    "url": "https://bobbyjack.me/2020/10/30/serious-scramblers"
 },
 "/2020/10/27/ministry-of-broadcast": {
     "@context": "http://schema.org",
