@@ -105,17 +105,6 @@
     "name": "Review: Gato Roboto",
     "url": "https://bobbyjack.me/2019/06/07/gato-roboto"
 },
-"/2019/06/20/all-nintendo-switch-games": {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "abstract": "This is a list of all Nintendo Switch games that I\u2019ve played, in approximate order of preference.",
-    "creativeWorkStatus": "Obsolete",
-    "dateCreated": "2019-06-20",
-    "dateModified": "2020-11-02",
-    "datePublished": "2019-06-20",
-    "name": "All Nintendo Switch games",
-    "url": "https://bobbyjack.me/2019/06/20/all-nintendo-switch-games"
-},
 "/2019/06/21/kid-tripp": {
     "@context": "http://schema.org",
     "@type": "Review",
@@ -130,17 +119,6 @@
     },
     "name": "Review: Kid Tripp",
     "url": "https://bobbyjack.me/2019/06/21/kid-tripp"
-},
-"/2019/07/28/all-nintendo-switch-games": {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "abstract": "This is a list of all Nintendo Switch games that I\u2019ve played, in approximate order of preference.",
-    "creativeWorkStatus": "Obsolete",
-    "dateCreated": "2019-07-28",
-    "dateModified": "2020-09-29",
-    "datePublished": "2019-07-28",
-    "name": "All Nintendo Switch games",
-    "url": "https://bobbyjack.me/2019/07/28/all-nintendo-switch-games"
 },
 "/2019/07/28/celeste": {
     "@context": "http://schema.org",
@@ -336,20 +314,6 @@
     "name": "About 1derlust",
     "url": "https://bobbyjack.me/2019/10/18/about-1derlust"
 },
-"/2019/10/18/all-game-purchases": {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "abstract": "This is a list of all Nintendo Switch games that I\u2019ve paid actual, cold, hard money for.",
-    "author": {
-        "@type": "Person",
-        "name": "Bobby Jack"
-    },
-    "dateCreated": "2019-10-18",
-    "dateModified": "2020-10-30",
-    "datePublished": "2019-10-18",
-    "name": "Bobby Jack\u2019s Nintendo Switch Purchases",
-    "url": "https://bobbyjack.me/2019/10/18/all-game-purchases"
-},
 "/2019/10/18/lingth": {
     "@context": "http://schema.org",
     "@type": "WebPage",
@@ -527,21 +491,6 @@
     "datePublished": "2020-02-18",
     "name": "Switch Notes: Yoku\u2019s Island Express",
     "url": "https://bobbyjack.me/2020/02/18/yokus-island-express"
-},
-"/2020/02/21/all-nintendo-switch-games": {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "abstract": "This is a list of all Nintendo Switch games that I\u2019ve played, in approximate order of preference.",
-    "author": {
-        "@type": "Person",
-        "name": "Bobby Jack"
-    },
-    "creativeWorkStatus": "Obsolete",
-    "dateCreated": "2020-02-21",
-    "dateModified": "2020-03-18",
-    "datePublished": "2020-02-21",
-    "name": "All Nintendo Switch games",
-    "url": "https://bobbyjack.me/2020/02/21/all-nintendo-switch-games"
 },
 "/2020/02/25/cv": {
     "@context": "http://schema.org",
