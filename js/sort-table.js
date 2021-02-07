@@ -34,7 +34,8 @@ if (table) {
     });
 
     window.addEventListener("load", function(ev) {
-        var sort;
+        var sort,
+            url = new URL(window.location);
 
         if (sort = url.searchParams.get("sort")) {
             sortRows(table, parseInt(sort));
