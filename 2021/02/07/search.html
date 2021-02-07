@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Bobby Jack" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Search bobbyjack.me</title>
+    <meta name="description" content="A JavaScript-based search for bobbyjack.me" />
+    <link rel="canonical" href="https://bobbyjack.me/search" />
+    <style>
+    .jsshow, .csshide { display: none !important; }
+
+    form#search { display: flex; margin-bottom: 1em; }
+
+    form#search input, form#search button {
+        font-size: inherit; padding: 0.25em 0.5em;
+    }
+
+    form#search input {
+        display: block;
+        width: 100%;
+    }
+
+    form#search button {
+        sdisplay: none;
+        margin-left: 1em;
+    }
+
+    footer { margin-top: 1em; }
+    footer a { display: block; text-align: right; }
+    footer img { float: none; }
+
+    #results p { margin: 0; }
+    #results article { margin-bottom: 1em; }
+    #results small { display: block; }
+
+    mark { background-color: yellow; font-weight: normal; color: inherit; }
+    </style>
+</head>
+<body>
+
+<main>
+
+<h1>Search</h1>
+
+<noscript>
+    <p>Sorry, you need JavaScript.</p>
+    <p class="csshide">Additionally, it looks like you don't have css enabled, so ...</p>
+</noscript>
+
+<form class="jsshow" id="search" method="get" action="/no-javascript">
+    <input name="q" autocomplete="off" type="text" autofocus="1" placeholder="Type to start searching..." />
+    <button type="submit">Search</button>
+</form>
+
+</main>
+
+<footer>
+    <a href="/">
+        <img class="logo" src="/images/logo.jpg" />
+    </a>
+</footer>
+
+<script>
+//<![CDATA[
+document.querySelectorAll(".jsshow").forEach(function(node) {
+    node.classList.remove("jsshow");
+});
+//]]>
+</script>
+
+<script src="/js/stats.js"></script>
+<script src="/js/search.js"></script>
+
+</body>
+</html>
