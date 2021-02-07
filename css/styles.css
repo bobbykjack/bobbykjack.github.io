@@ -61,6 +61,10 @@ body {
   /*overflow: overlay;*/
 }
 
+figure {
+  margin: 0;
+}
+
 article figure {
   margin: 3em 0 4em;
 }
