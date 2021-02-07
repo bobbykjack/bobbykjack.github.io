@@ -21,16 +21,6 @@ if (search_button) {
 
     request.open("GET", "/js/json-ld.json");
     request.send();
-
-// Load search-specific excluded files data
-    var request2 = new XMLHttpRequest();
-
-    request2.addEventListener("load", function() {
-        excludes = JSON.parse(this.responseText);
-    });
-
-    request2.open("GET", "/js/search-excludes.json");
-    request2.send();
 }
 
 /**
