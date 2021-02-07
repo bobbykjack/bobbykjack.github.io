@@ -2,11 +2,11 @@
     "@context": "http://schema.org",
     "@type": "WebPage",
     "url": "https://bobbyjack.me/",
-    "dateModified": "2020-10-28",
-    "name": "bobbyjack.me",
+    "dateModified": "2021-02-06",
+    "name": "bobbyjack.me: Bobby Jack\u2019s game reviews and other writing",
     "author": {
         "@type": "Person",
         "name": "Bobby Jack"
     },
-    "abstract": "The site of Bobby Jack"
+    "abstract": "Nintendo Switch game reviews and other writing from the keyboard of Bobby Jack"
 }

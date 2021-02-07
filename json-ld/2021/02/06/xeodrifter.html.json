@@ -1,0 +1,19 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Review",
+    "url": "https://bobbyjack.me/2021/02/06/xeodrifter",
+    "datePublished": "2021-02-06",
+    "dateCreated": "2021-02-06",
+    "dateModified": "2021-02-07",
+    "name": "A review of Xeodrifter by Bobby Jack",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "itemReviewed": {
+        "@type": "VideoGame",
+        "name": "A review of Xeodrifter by Bobby Jack",
+        "gamePlatform": "Nintendo Switch",
+        "reviewBody": "This Metroidvania is minimal in every way, but manages to deliver a great gameplay experience by focussing on the essentials."
+    }
+}
