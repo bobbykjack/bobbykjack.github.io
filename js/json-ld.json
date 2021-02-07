@@ -934,20 +934,6 @@
     "name": "Settings on bobbyjack.me",
     "url": "https://bobbyjack.me/2020/10/27/settings"
 },
-"/search": {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "abstract": "A JavaScript-based search for bobbyjack.me",
-    "author": {
-        "@type": "Person",
-        "name": "Bobby Jack"
-    },
-    "dateCreated": "2020-10-30",
-    "dateModified": "2020-11-01",
-    "datePublished": "2020-10-30",
-    "name": "Search bobbyjack.me",
-    "url": "https://bobbyjack.me/search"
-},
 "/2020/10/30/serious-scramblers": {
     "@context": "http://schema.org",
     "@type": "Review",
@@ -1009,6 +995,20 @@
     },
     "name": "A review of Xeodrifter by Bobby Jack",
     "url": "https://bobbyjack.me/2021/02/06/xeodrifter"
+},
+"/search": {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "abstract": "A JavaScript-based search for bobbyjack.me",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "dateCreated": "2021-02-07",
+    "dateModified": "2020-11-01",
+    "datePublished": "2021-02-07",
+    "name": "Search bobbyjack.me",
+    "url": "https://bobbyjack.me/search"
 },
 "/2019/10/11/boxboy-boxgirl-demo": {
     "@context": "http://schema.org",
