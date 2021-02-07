@@ -1,457 +1,331 @@
 {
-"/2019/04/11/the-flame-in-the-flood": {
+"/": {
     "@context": "http://schema.org",
     "@type": "WebPage",
+    "abstract": "Nintendo Switch game reviews and other writing from the keyboard of Bobby Jack",
     "author": {
         "@type": "Person",
         "name": "Bobby Jack"
     },
-    "dateCreated": "2019-04-11",
-    "dateModified": "2020-10-24",
-    "datePublished": "2019-04-11",
-    "name": "Review: The Flame in the Flood",
-    "url": "https://bobbyjack.me/2019/04/11/the-flame-in-the-flood"
-},
-"/2019/04/29/steamworld-dig-2": {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "author": {
-        "@type": "Person",
-        "name": "Bobby Jack"
-    },
-    "dateCreated": "2019-04-29",
-    "dateModified": "2020-10-24",
-    "datePublished": "2019-04-29",
-    "name": "Steamworld Dig 2",
-    "url": "https://bobbyjack.me/2019/04/29/steamworld-dig-2"
-},
-"/2019/04/30/nintendo": {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "author": {
-        "@type": "Person",
-        "name": "Bobby Jack"
-    },
-    "dateCreated": "2019-04-30",
-    "dateModified": "2020-10-24",
-    "datePublished": "2019-04-30",
-    "name": "Nintendo",
-    "url": "https://bobbyjack.me/2019/04/30/nintendo"
-},
-"/2019/05/03/dig-dog": {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "abstract": "Dig Dog is a fast-paced, perfectly-pitched rogue-lite, offering an addictive slice of nostalgia",
-    "author": {
-        "@type": "Person",
-        "name": "Bobby Jack"
-    },
-    "dateCreated": "2019-05-03",
-    "dateModified": "2020-10-24",
-    "datePublished": "2019-05-03",
-    "name": "Review: Dig Dog",
-    "url": "https://bobbyjack.me/2019/05/03/dig-dog"
-},
-"/2019/05/13/golf-story": {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "abstract": "A quirky combination of sports game and RPG produces a highly original and entertaining result",
-    "dateCreated": "2019-05-13",
-    "dateModified": "2020-08-31",
-    "datePublished": "2019-05-13",
-    "name": "Review: Golf Story",
-    "url": "https://bobbyjack.me/2019/05/13/golf-story"
-},
-"/2019/05/14/ding-dong-xl": {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "abstract": "Ding Dong XL couldn\u2019t be simpler, so it\u2019s hard to love, but easy to enjoy",
-    "dateCreated": "2019-05-14",
-    "dateModified": "2020-10-14",
-    "datePublished": "2019-05-14",
-    "name": "Review: Ding Dong XL",
-    "url": "https://bobbyjack.me/2019/05/14/ding-dong-xl"
-},
-"/2019/05/17/the-way-remastered": {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "abstract": "The Way Remastered has some problems, but it pays homage to a certain style of challenging action platformer very well indeed",
-    "author": {
-        "@type": "Person",
-        "name": "Bobby Jack"
-    },
-    "dateCreated": "2019-05-17",
-    "dateModified": "2020-10-14",
-    "datePublished": "2019-05-17",
-    "name": "Review: The Way Remastered",
-    "url": "https://bobbyjack.me/2019/05/17/the-way-remastered"
-},
-"/2019/06/07/gato-roboto": {
-    "@context": "http://schema.org",
-    "@type": "Review",
-    "author": {
-        "@type": "Person",
-        "name": "Bobby Jack"
-    },
-    "dateCreated": "2019-06-07",
-    "dateModified": "2020-10-14",
-    "datePublished": "2019-06-07",
-    "itemReviewed": {
-        "@type": "VideoGame",
-        "name": "Gato Roboto",
-        "gamePlatform": "Nintendo Switch",
-        "reviewBody": "Gato Roboto is adorable, and ideally suited to nostalgic handheld play, but \u2014 cute graphics aside \u2014 fails to be really memorable"
-    },
-    "name": "Review: Gato Roboto",
-    "url": "https://bobbyjack.me/2019/06/07/gato-roboto"
-},
-"/2019/06/21/kid-tripp": {
-    "@context": "http://schema.org",
-    "@type": "Review",
-    "dateCreated": "2019-06-21",
-    "dateModified": "2020-10-14",
-    "datePublished": "2019-06-21",
-    "itemReviewed": {
-        "@type": "VideoGame",
-        "name": "Kid Tripp",
-        "gamePlatform": "Nintendo Switch",
-        "reviewBody": "Despite an aversion for auto-runners, I found Kid Tripp enjoyable, if on the short side."
-    },
-    "name": "Review: Kid Tripp",
-    "url": "https://bobbyjack.me/2019/06/21/kid-tripp"
-},
-"/2019/07/28/celeste": {
-    "@context": "http://schema.org",
-    "@type": "Review",
-    "author": {
-        "@type": "Person",
-        "name": "Bobby Jack"
-    },
-    "dateCreated": "2019-07-28",
-    "dateModified": "2020-10-28",
-    "datePublished": "2019-07-28",
-    "itemReviewed": {
-        "@type": "VideoGame",
-        "name": "Celeste",
-        "gamePlatform": "Nintendo Switch",
-        "reviewBody": "Celeste answers the question \u2018how can you make a plot really work in a video game?\u2019. It\u2019s a question we should all be asking more often, particularly when this is the answer."
-    },
-    "name": "Review: Celeste",
-    "url": "https://bobbyjack.me/2019/07/28/celeste"
-},
-"/2019/08/01/nintendo-switch-reviews": {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "author": {
-        "@type": "Person",
-        "name": "Bobby Jack"
-    },
-    "dateCreated": "2019-08-01",
     "dateModified": "2021-02-06",
-    "datePublished": "2019-08-01",
-    "name": "Nintendo Switch reviews \u2014 bobbyjack.me",
-    "url": "https://bobbyjack.me/2019/08/01/nintendo-switch-reviews"
+    "name": "bobbyjack.me: Bobby Jack\u2019s game reviews and other writing",
+    "url": "https://bobbyjack.me/"
 },
-"/2019/08/09/in-development": {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "abstract": "A semi-regular series looking at video games in early development",
-    "dateCreated": "2019-08-09",
-    "dateModified": "2020-10-14",
-    "datePublished": "2019-08-09",
-    "name": "Games in development",
-    "url": "https://bobbyjack.me/2019/08/09/in-development"
-},
-"/2019/09/01/box-align": {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "abstract": "Box align is a 3d game stuck in a 2d world. Its core mechanic suffers as a result, and it doesn\u2019t have enough redeeming features to make up for it.",
-    "author": {
-        "@type": "Person",
-        "name": "Bobby Jack"
-    },
-    "dateCreated": "2019-09-01",
-    "dateModified": "2020-10-14",
-    "datePublished": "2019-09-01",
-    "name": "Review: Box Align",
-    "url": "https://bobbyjack.me/2019/09/01/box-align"
-},
-"/2019/09/05/baba-is-you": {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "abstract": "Baba is game. Mechanics are modifiable. Game is fun and challenging.",
-    "dateCreated": "2019-09-05",
-    "dateModified": "2020-01-17",
-    "datePublished": "2019-09-05",
-    "name": "Review: Baba Is You",
-    "url": "https://bobbyjack.me/2019/09/05/baba-is-you"
-},
-"/2019/09/12/bobby": {
+"/": {
     "@context": "http://schema.org",
     "@type": "WebPage",
     "author": {
         "@type": "Person",
         "name": "Bobby Jack"
     },
-    "dateCreated": "2019-09-12",
+    "dateCreated": "2020-12-13",
     "dateModified": "2020-12-13",
-    "datePublished": "2019-09-12",
-    "name": "Bobby Jack",
-    "url": "https://bobbyjack.me/2019/09/12/bobby"
+    "datePublished": "2020-12-13",
+    "name": "Bobby Jack | Links",
+    "url": "https://bobbyjack.me/"
 },
-"/2019/09/12/funding": {
+"/2020/06/12/all-nintendo-switch-games": {
     "@context": "http://schema.org",
     "@type": "WebPage",
+    "abstract": "This is a list of all Nintendo Switch games that I\u2019ve played, in approximate order of preference.",
     "author": {
         "@type": "Person",
         "name": "Bobby Jack"
     },
-    "dateCreated": "2019-09-12",
+    "dateCreated": "2020-06-12",
     "dateModified": "2020-10-28",
-    "datePublished": "2019-09-12",
-    "name": "bobbyjack.me",
-    "url": "https://bobbyjack.me/2019/09/12/funding"
+    "datePublished": "2020-06-12",
+    "name": "All Nintendo Switch games",
+    "url": "https://bobbyjack.me/2020/06/12/all-nintendo-switch-games"
 },
-"/2019/09/18/about-stealthtacks": {
+"/2020/06/21/patricks-parabox": {
     "@context": "http://schema.org",
-    "@type": "WebPage",
-    "abstract": "Stealthtacks is a minimalist Pinboard client. It\u2019s an alternative to using pinboard.in or a browser-extension. You can use the public instance directly or download the code and host it yourself.",
+    "@type": "Review",
+    "dateCreated": "2020-06-21",
+    "dateModified": "2020-08-26",
+    "datePublished": "2020-06-21",
+    "itemReviewed": {
+        "@type": "VideoGame",
+        "name": "One Hour Review: Patrick\u2019s Parabox",
+        "gamePlatform": "Nintendo Switch",
+        "reviewBody": "A genuinely innovative take on the 2d puzzler produces a very solid concept which will live or die on level design."
+    },
+    "name": "One Hour Review: Patrick\u2019s Parabox",
+    "url": "https://bobbyjack.me/2020/06/21/patricks-parabox"
+},
+"/2020/06/17/pixboy": {
+    "@context": "http://schema.org",
+    "@type": "Review",
     "author": {
         "@type": "Person",
         "name": "Bobby Jack"
     },
-    "dateCreated": "2019-09-18",
-    "dateModified": "2020-05-18",
-    "datePublished": "2019-09-18",
-    "name": "About Stealthtacks",
-    "url": "https://bobbyjack.me/2019/09/18/about-stealthtacks"
+    "dateCreated": "2020-06-17",
+    "dateModified": "2020-10-13",
+    "datePublished": "2020-06-17",
+    "itemReviewed": {
+        "@type": "VideoGame",
+        "name": "Pixboy",
+        "gamePlatform": "Nintendo Switch",
+        "reviewBody": "A retro platformer with enough modern touches to make it wonderfully playable"
+    },
+    "name": "Review: Pixboy",
+    "url": "https://bobbyjack.me/2020/06/17/pixboy"
 },
-"/2019/10/06/yellow-fins-demo": {
+"/2020/06/05/elena-temple": {
+    "@context": "http://schema.org",
+    "@type": "Review",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "dateCreated": "2020-06-05",
+    "dateModified": "2020-10-13",
+    "datePublished": "2020-06-05",
+    "itemReviewed": {
+        "@type": "VideoGame",
+        "name": "The Adventures of Elena Temple",
+        "gamePlatform": "Nintendo Switch",
+        "reviewBody": "A game steeped in nostalgia that will delight old-timers but frustrate modern gamers"
+    },
+    "name": "Review: The Adventures of Elena Temple",
+    "url": "https://bobbyjack.me/2020/06/05/elena-temple"
+},
+"/2020/08/25/not-not": {
+    "@context": "http://schema.org",
+    "@type": "Review",
+    "dateCreated": "2020-08-25",
+    "dateModified": "2020-10-13",
+    "datePublished": "2020-08-25",
+    "itemReviewed": {
+        "@type": "VideoGame",
+        "name": "One Hour Review: Not Not",
+        "gamePlatform": "Nintendo Switch",
+        "reviewBody": "Not Not is a fast-paced, fun, addictive brain teaser with enough content to kill a couple of hours."
+    },
+    "name": "One Hour Review: Not Not",
+    "url": "https://bobbyjack.me/2020/08/25/not-not"
+},
+"/2020/08/24/coloring-book": {
+    "@context": "http://schema.org",
+    "@type": "Review",
+    "dateCreated": "2020-08-24",
+    "dateModified": "2020-10-13",
+    "datePublished": "2020-08-24",
+    "itemReviewed": {
+        "@type": "VideoGame",
+        "name": "One Hour Review: Coloring Book",
+        "gamePlatform": "Nintendo Switch",
+        "reviewBody": "A bare-bones coloring book app that\u2019s worth its asking price"
+    },
+    "name": "One Hour Review: Coloring Book",
+    "url": "https://bobbyjack.me/2020/08/24/coloring-book"
+},
+"/2020/08/30/pocket-mini-golf": {
+    "@context": "http://schema.org",
+    "@type": "Review",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "dateCreated": "2020-08-30",
+    "dateModified": "2021-02-06",
+    "datePublished": "2020-08-30",
+    "itemReviewed": {
+        "@type": "VideoGame",
+        "name": "One Hour Review: Pocket Mini Golf",
+        "gamePlatform": "Nintendo Switch",
+        "reviewBody": "A reasonable game of mini golf somewhat spoiled by unorthodox progression."
+    },
+    "name": "One Hour Review: Pocket Mini Golf",
+    "url": "https://bobbyjack.me/2020/08/30/pocket-mini-golf"
+},
+"/2020/08/26/robonauts": {
+    "@context": "http://schema.org",
+    "@type": "Review",
+    "dateCreated": "2020-08-26",
+    "dateModified": "2020-10-13",
+    "datePublished": "2020-08-26",
+    "itemReviewed": {
+        "@type": "VideoGame",
+        "name": "One Hour Review: Robonauts",
+        "gamePlatform": "Nintendo Switch",
+        "reviewBody": "Robonauts is a basic, but fun, shooter/platformer. It\u2019s a welcome genre combination, and the interplanetary travel adds a lot of depth."
+    },
+    "name": "One Hour Review: Robonauts",
+    "url": "https://bobbyjack.me/2020/08/26/robonauts"
+},
+"/2020/08/28/mini-trains": {
+    "@context": "http://schema.org",
+    "@type": "Review",
+    "dateCreated": "2020-08-28",
+    "dateModified": "2020-10-13",
+    "datePublished": "2020-08-28",
+    "itemReviewed": {
+        "@type": "VideoGame",
+        "name": "One Hour Review: Mini Trains",
+        "gamePlatform": "Nintendo Switch",
+        "reviewBody": "Although it\u2019s fairly playable, Mini Trains bolts on too many unnecessary features at the expense of its core gameplay."
+    },
+    "name": "One Hour Review: Mini Trains",
+    "url": "https://bobbyjack.me/2020/08/28/mini-trains"
+},
+"/2020/08/29/jumping-joe-and-friends": {
+    "@context": "http://schema.org",
+    "@type": "Review",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "dateCreated": "2020-08-29",
+    "dateModified": "2020-10-29",
+    "datePublished": "2020-08-29",
+    "itemReviewed": {
+        "@type": "VideoGame",
+        "name": "One Hour Review: Jumping Joe & Friends",
+        "gamePlatform": "Nintendo Switch",
+        "reviewBody": "A cheery, mindless game that reduces platforming to its absolute minimum."
+    },
+    "name": "One Hour Review: Jumping Joe & Friends",
+    "url": "https://bobbyjack.me/2020/08/29/jumping-joe-and-friends"
+},
+"/2020/08/27/puzzle-book": {
+    "@context": "http://schema.org",
+    "@type": "Review",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "dateCreated": "2020-08-27",
+    "dateModified": "2020-10-29",
+    "datePublished": "2020-08-27",
+    "itemReviewed": {
+        "@type": "VideoGame",
+        "name": "One Hour Review: Puzzle Book",
+        "gamePlatform": "Nintendo Switch",
+        "reviewBody": "Puzzle Book is a decent jigsaw puzzle simulator, although it doesn't have a big list of features \u2014 or puzzles."
+    },
+    "name": "One Hour Review: Puzzle Book",
+    "url": "https://bobbyjack.me/2020/08/27/puzzle-book"
+},
+"/2020/09/24/writing": {
     "@context": "http://schema.org",
     "@type": "WebPage",
-    "abstract": "Yellow Fins looks OK, but it\u2019s just a mobile game with very little appeal, and the demo does it no favours at all.",
-    "dateCreated": "2019-10-06",
-    "dateModified": "2019-10-07",
-    "datePublished": "2019-10-06",
-    "name": "Review: Yellow Fins Demo",
-    "url": "https://bobbyjack.me/2019/10/06/yellow-fins-demo"
+    "abstract": "This is a collection of links to various writing I have produced",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "dateCreated": "2020-09-24",
+    "dateModified": "2020-11-30",
+    "datePublished": "2020-09-24",
+    "name": "Writing by Bobby Jack",
+    "url": "https://bobbyjack.me/2020/09/24/writing"
 },
-"/2019/10/07/github": {
+"/2020/09/28/stats": {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "abstract": "The site of Bobby Jack",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "dateCreated": "2020-09-28",
+    "dateModified": "2020-11-07",
+    "datePublished": "2020-09-28",
+    "name": "bobbyjack.me: stats",
+    "url": "https://bobbyjack.me/2020/09/28/stats"
+},
+"/2020/10/get-feeds": {
     "@context": "http://schema.org",
     "@type": "WebPage",
     "author": {
         "@type": "Person",
         "name": "Bobby Jack"
     },
-    "dateCreated": "2019-10-07",
-    "dateModified": "2020-12-03",
-    "datePublished": "2019-10-07",
-    "name": "Welcome, visitor from GitHub",
-    "url": "https://bobbyjack.me/2019/10/07/github"
+    "dateModified": "2020-10-25",
+    "name": "feed javascript test",
+    "url": "https://bobbyjack.me/2020/10/get-feeds"
 },
-"/2019/10/07/one-hour-reviews": {
+"/2020/10/15/spiritfarer": {
     "@context": "http://schema.org",
-    "@type": "WebPage",
+    "@type": "Review",
     "author": {
         "@type": "Person",
         "name": "Bobby Jack"
     },
-    "dateCreated": "2019-10-07",
+    "dateCreated": "2020-10-15",
     "dateModified": "2020-10-28",
-    "datePublished": "2019-10-07",
-    "name": "One Hour reviews \u2014 bobbyjack.me",
-    "url": "https://bobbyjack.me/2019/10/07/one-hour-reviews"
+    "datePublished": "2020-10-15",
+    "itemReviewed": {
+        "@type": "VideoGame",
+        "name": "A review of Spiritfarer on [bobbyjack.me]",
+        "gamePlatform": "Nintendo Switch",
+        "reviewBody": "Spiritfarer is a captivating game with exploration, crafting, and platforming elements, woven around the moving stories of its characters."
+    },
+    "name": "A review of Spiritfarer on [bobbyjack.me]",
+    "url": "https://bobbyjack.me/2020/10/15/spiritfarer"
 },
-"/2019/10/07/ori-and-the-blind-forest-demo": {
+"/2020/10/30/serious-scramblers": {
     "@context": "http://schema.org",
-    "@type": "WebPage",
-    "abstract": "Gorgeous audio/visuals and a promising adventure, but I end up on the fence",
+    "@type": "Review",
     "author": {
         "@type": "Person",
         "name": "Bobby Jack"
     },
-    "dateCreated": "2019-10-07",
-    "dateModified": "2020-10-29",
-    "datePublished": "2019-10-07",
-    "name": "One Hour Review: Ori and the Blind Forest Demo",
-    "url": "https://bobbyjack.me/2019/10/07/ori-and-the-blind-forest-demo"
+    "dateCreated": "2020-10-30",
+    "dateModified": "2020-11-09",
+    "datePublished": "2020-10-30",
+    "itemReviewed": {
+        "@type": "VideoGame",
+        "name": "A review of Serious Scramblers on bobbyjack.me",
+        "gamePlatform": "Nintendo Switch",
+        "reviewBody": ""
+    },
+    "name": "A review of Serious Scramblers on bobbyjack.me",
+    "url": "https://bobbyjack.me/2020/10/30/serious-scramblers"
 },
-"/2019/10/07/strikey-sisters-demo": {
+"/2020/10/27/ministry-of-broadcast": {
     "@context": "http://schema.org",
-    "@type": "WebPage",
-    "abstract": "A simple twist on a classic concept, with plenty of content in the demo",
-    "dateCreated": "2019-10-07",
-    "dateModified": "2019-10-07",
-    "datePublished": "2019-10-07",
-    "name": "One Hour Review: Strikey Sisters Demo",
-    "url": "https://bobbyjack.me/2019/10/07/strikey-sisters-demo"
-},
-"/2019/10/11/reap": {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "abstract": "This small game distills the essence of the survival genre with some highly inventive mechanics.",
+    "@type": "Review",
     "author": {
         "@type": "Person",
         "name": "Bobby Jack"
     },
-    "dateCreated": "2019-10-11",
-    "dateModified": "2020-10-29",
-    "datePublished": "2019-10-11",
-    "name": "One Hour Review: Reap",
-    "url": "https://bobbyjack.me/2019/10/11/reap"
-},
-"/2019/10/18/about-1derlust": {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "abstract": "1derlust is a game. A rather silly one, certainly; and incredibly simple one, undoubtedly \u2014 I\u2019ve described it as making \u201cPong look like Breath of the Wild\u201d, which is only a small exaggeration. But, nevertheless, it is a game.",
-    "author": {
-        "@type": "Person",
-        "name": "Bobby Jack"
+    "dateCreated": "2020-10-27",
+    "dateModified": "2020-11-20",
+    "datePublished": "2020-10-27",
+    "itemReviewed": {
+        "@type": "VideoGame",
+        "name": "A review of Ministry of Broadcast on bobbyjack.me",
+        "gamePlatform": "Nintendo Switch",
+        "reviewBody": "Big Brother meets \u2026 Big Brother. In this pixellated tale of dystopian reality game show, you\u2019re tasked with completing a series of platforming puzzles \u2014 by fair means or foul."
     },
-    "dateCreated": "2019-10-18",
-    "dateModified": "2020-10-14",
-    "datePublished": "2019-10-18",
-    "name": "About 1derlust",
-    "url": "https://bobbyjack.me/2019/10/18/about-1derlust"
+    "name": "A review of Ministry of Broadcast on bobbyjack.me",
+    "url": "https://bobbyjack.me/2020/10/27/ministry-of-broadcast"
 },
-"/2019/10/18/lingth": {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "abstract": "Introducing lingth, a simple line-length checker",
-    "author": {
-        "@type": "Person",
-        "name": "Bobby Jack"
-    },
-    "dateCreated": "2019-10-18",
-    "dateModified": "2020-10-14",
-    "datePublished": "2019-10-18",
-    "name": "lingth",
-    "url": "https://bobbyjack.me/2019/10/18/lingth"
-},
-"/2019/10/18/software": {
+"/2020/10/27/settings": {
     "@context": "http://schema.org",
     "@type": "WebPage",
     "author": {
         "@type": "Person",
         "name": "Bobby Jack"
     },
-    "dateCreated": "2019-10-18",
-    "dateModified": "2020-10-24",
-    "datePublished": "2019-10-18",
-    "name": "Software",
-    "url": "https://bobbyjack.me/2019/10/18/software"
+    "dateCreated": "2020-10-27",
+    "dateModified": "2020-10-27",
+    "datePublished": "2020-10-27",
+    "name": "Settings on bobbyjack.me",
+    "url": "https://bobbyjack.me/2020/10/27/settings"
 },
-"/2019/10/22/lunar-station": {
+"/2020/02/25/cv": {
     "@context": "http://schema.org",
     "@type": "WebPage",
-    "abstract": "An unnerving experience makes this atmospheric \u2018short\u2019 fresh & fun",
-    "dateCreated": "2019-10-22",
-    "dateModified": "2020-03-02",
-    "datePublished": "2019-10-22",
-    "name": "One Hour Review: Lunar Station",
-    "url": "https://bobbyjack.me/2019/10/22/lunar-station"
-},
-"/2019/10/23/baby-dino-adventures": {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "abstract": "A highly-promising bundle of classic platforming fun",
-    "dateCreated": "2019-10-23",
-    "dateModified": "2019-11-04",
-    "datePublished": "2019-10-23",
-    "name": "One Hour Review: Baby Dino Adventures",
-    "url": "https://bobbyjack.me/2019/10/23/baby-dino-adventures"
-},
-"/2019/10/24/twitter": {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "abstract": "A welcoming page for visitors from Twitter",
-    "author": {
-        "@type": "Person",
-        "name": "Bobby Jack"
-    },
-    "dateCreated": "2019-10-24",
-    "dateModified": "2020-10-24",
-    "datePublished": "2019-10-24",
-    "name": "Twitter",
-    "url": "https://bobbyjack.me/2019/10/24/twitter"
-},
-"/2019/10/26/super-box-land-demake": {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "abstract": "This great-looking Sokoban-like has some excellent levels, but too few of them",
-    "dateCreated": "2019-10-26",
+    "abstract": "...",
+    "dateCreated": "2020-02-25",
     "dateModified": "2020-09-29",
-    "datePublished": "2019-10-26",
-    "name": "Review: Super Box Land Demake",
-    "url": "https://bobbyjack.me/2019/10/26/super-box-land-demake"
-},
-"/2019/10/31/gum-girl": {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "abstract": "Gum Girl is a very solid platformer with a fun and powerful central mechanic",
-    "author": {
-        "@type": "Person",
-        "name": "Bobby Jack"
-    },
-    "dateCreated": "2019-10-31",
-    "dateModified": "2020-10-29",
-    "datePublished": "2019-10-31",
-    "name": "One Hour Review: Gum Girl",
-    "url": "https://bobbyjack.me/2019/10/31/gum-girl"
-},
-"/2019/11/08/card-hog": {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "abstract": "Perfect for mobile, but with added depth than that implies, Card Hog plays great and is evolving fast!",
-    "dateCreated": "2019-11-08",
-    "dateModified": "2020-09-29",
-    "datePublished": "2019-11-08",
-    "name": "One Hour Review: Card Hog",
-    "url": "https://bobbyjack.me/2019/11/08/card-hog"
-},
-"/2019/11/12/mystical-samurai": {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "abstract": "This is a real joy, a retro title done so well that it\u2019s slightly cruel it\u2019s not a full game!",
-    "author": {
-        "@type": "Person",
-        "name": "Bobby Jack"
-    },
-    "dateCreated": "2019-11-12",
-    "dateModified": "2020-10-29",
-    "datePublished": "2019-11-12",
-    "name": "One Hour Review: Mystical Samurai",
-    "url": "https://bobbyjack.me/2019/11/12/mystical-samurai"
-},
-"/2019/11/16/baba-is-you": {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "abstract": "Baba Is You: the ten most important things you need to know",
-    "dateCreated": "2019-11-16",
-    "dateModified": "2020-09-29",
-    "datePublished": "2019-11-16",
-    "name": "Switch Notes: Baba Is You",
-    "url": "https://bobbyjack.me/2019/11/16/baba-is-you"
-},
-"/2019/11/16/garden-story": {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "abstract": "For a game that contains so many different elements, this demo teases just enough to have me begging for more",
-    "dateCreated": "2019-11-16",
-    "dateModified": "2019-11-16",
-    "datePublished": "2019-11-16",
-    "name": "One Hour Review: Garden Story Demo",
-    "url": "https://bobbyjack.me/2019/11/16/garden-story"
-},
-"/2019/12/31/best-of-2019": {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "abstract": "My personal round-up of the gaming year",
-    "dateCreated": "2019-12-31",
-    "dateModified": "2020-09-29",
-    "datePublished": "2019-12-31",
-    "name": "Best of 2019",
-    "url": "https://bobbyjack.me/2019/12/31/best-of-2019"
+    "datePublished": "2020-02-25",
+    "name": "Bobby Jack\u2019s Curriculum Vitae",
+    "url": "https://bobbyjack.me/2020/02/25/cv"
 },
 "/2020/02/17/yokus-island-express": {
     "@context": "http://schema.org",
@@ -472,16 +346,6 @@
     "name": "Review: Yoku\u2019s Island Express",
     "url": "https://bobbyjack.me/2020/02/17/yokus-island-express"
 },
-"/2020/02/18/switch-notes": {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "abstract": "A series of notes which summarise a game in ten points I consider most important.",
-    "dateCreated": "2020-02-18",
-    "dateModified": "2020-02-18",
-    "datePublished": "2020-02-18",
-    "name": "Switch Notes",
-    "url": "https://bobbyjack.me/2020/02/18/switch-notes"
-},
 "/2020/02/18/yokus-island-express": {
     "@context": "http://schema.org",
     "@type": "WebPage",
@@ -492,48 +356,48 @@
     "name": "Switch Notes: Yoku\u2019s Island Express",
     "url": "https://bobbyjack.me/2020/02/18/yokus-island-express"
 },
-"/2020/02/25/cv": {
+"/2020/02/18/switch-notes": {
     "@context": "http://schema.org",
     "@type": "WebPage",
-    "abstract": "...",
-    "dateCreated": "2020-02-25",
-    "dateModified": "2020-09-29",
-    "datePublished": "2020-02-25",
-    "name": "Bobby Jack\u2019s Curriculum Vitae",
-    "url": "https://bobbyjack.me/2020/02/25/cv"
+    "abstract": "A series of notes which summarise a game in ten points I consider most important.",
+    "dateCreated": "2020-02-18",
+    "dateModified": "2020-02-18",
+    "datePublished": "2020-02-18",
+    "name": "Switch Notes",
+    "url": "https://bobbyjack.me/2020/02/18/switch-notes"
 },
-"/2020/03/02/fez": {
+"/2020/05/13/animal-crossing-new-horizons": {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "abstract": "Animal Crossing is compelling and frustrating, a modern day doll\u2019s house with too little to do, that will probably still have you coming back time and time again.",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "dateCreated": "2020-05-13",
+    "dateModified": "2020-09-29",
+    "datePublished": "2020-05-13",
+    "name": "Review: Animal Crossing: New Horizons",
+    "url": "https://bobbyjack.me/2020/05/13/animal-crossing-new-horizons"
+},
+"/2020/04/20/tiny-fragments": {
     "@context": "http://schema.org",
     "@type": "Review",
     "author": {
         "@type": "Person",
         "name": "Bobby Jack"
     },
-    "dateCreated": "2020-03-02",
-    "dateModified": "2020-10-26",
-    "datePublished": "2020-03-02",
+    "dateCreated": "2020-04-20",
+    "dateModified": "2020-10-14",
+    "datePublished": "2020-04-20",
     "itemReviewed": {
         "@type": "VideoGame",
-        "name": "Fez",
+        "name": "One Hour Review: Tiny Fragments",
         "gamePlatform": "Nintendo Switch",
-        "reviewBody": "Fez is the kind of game with enough background to fill a review before gameplay has even been touched on."
+        "reviewBody": "A simple-concept puzzler with plenty of possibilities"
     },
-    "name": "Review: Fez",
-    "url": "https://bobbyjack.me/2020/03/02/fez"
-},
-"/2020/03/02/twitter": {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "abstract": "A welcoming page for visitors from Twitter",
-    "author": {
-        "@type": "Person",
-        "name": "Bobby Jack"
-    },
-    "dateCreated": "2020-03-02",
-    "dateModified": "2020-10-24",
-    "datePublished": "2020-03-02",
-    "name": "Twitter",
-    "url": "https://bobbyjack.me/2020/03/02/twitter"
+    "name": "One Hour Review: Tiny Fragments",
+    "url": "https://bobbyjack.me/2020/04/20/tiny-fragments"
 },
 "/2020/03/07/lola-the-escape": {
     "@context": "http://schema.org",
@@ -587,344 +451,38 @@
     "name": "One Hour Review: Welcome to Elk Demo",
     "url": "https://bobbyjack.me/2020/03/20/welcome-to-elk"
 },
-"/2020/04/20/tiny-fragments": {
-    "@context": "http://schema.org",
-    "@type": "Review",
-    "author": {
-        "@type": "Person",
-        "name": "Bobby Jack"
-    },
-    "dateCreated": "2020-04-20",
-    "dateModified": "2020-10-14",
-    "datePublished": "2020-04-20",
-    "itemReviewed": {
-        "@type": "VideoGame",
-        "name": "One Hour Review: Tiny Fragments",
-        "gamePlatform": "Nintendo Switch",
-        "reviewBody": "A simple-concept puzzler with plenty of possibilities"
-    },
-    "name": "One Hour Review: Tiny Fragments",
-    "url": "https://bobbyjack.me/2020/04/20/tiny-fragments"
-},
-"/2020/05/13/animal-crossing-new-horizons": {
+"/2020/03/02/twitter": {
     "@context": "http://schema.org",
     "@type": "WebPage",
-    "abstract": "Animal Crossing is compelling and frustrating, a modern day doll\u2019s house with too little to do, that will probably still have you coming back time and time again.",
+    "abstract": "A welcoming page for visitors from Twitter",
     "author": {
         "@type": "Person",
         "name": "Bobby Jack"
     },
-    "dateCreated": "2020-05-13",
-    "dateModified": "2020-09-29",
-    "datePublished": "2020-05-13",
-    "name": "Review: Animal Crossing: New Horizons",
-    "url": "https://bobbyjack.me/2020/05/13/animal-crossing-new-horizons"
+    "dateCreated": "2020-03-02",
+    "dateModified": "2020-10-24",
+    "datePublished": "2020-03-02",
+    "name": "Twitter",
+    "url": "https://bobbyjack.me/2020/03/02/twitter"
 },
-"/2020/06/05/elena-temple": {
+"/2020/03/02/fez": {
     "@context": "http://schema.org",
     "@type": "Review",
     "author": {
         "@type": "Person",
         "name": "Bobby Jack"
     },
-    "dateCreated": "2020-06-05",
-    "dateModified": "2020-10-13",
-    "datePublished": "2020-06-05",
+    "dateCreated": "2020-03-02",
+    "dateModified": "2020-10-26",
+    "datePublished": "2020-03-02",
     "itemReviewed": {
         "@type": "VideoGame",
-        "name": "The Adventures of Elena Temple",
+        "name": "Fez",
         "gamePlatform": "Nintendo Switch",
-        "reviewBody": "A game steeped in nostalgia that will delight old-timers but frustrate modern gamers"
+        "reviewBody": "Fez is the kind of game with enough background to fill a review before gameplay has even been touched on."
     },
-    "name": "Review: The Adventures of Elena Temple",
-    "url": "https://bobbyjack.me/2020/06/05/elena-temple"
-},
-"/2020/06/12/all-nintendo-switch-games": {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "abstract": "This is a list of all Nintendo Switch games that I\u2019ve played, in approximate order of preference.",
-    "author": {
-        "@type": "Person",
-        "name": "Bobby Jack"
-    },
-    "dateCreated": "2020-06-12",
-    "dateModified": "2020-10-28",
-    "datePublished": "2020-06-12",
-    "name": "All Nintendo Switch games",
-    "url": "https://bobbyjack.me/2020/06/12/all-nintendo-switch-games"
-},
-"/2020/06/17/pixboy": {
-    "@context": "http://schema.org",
-    "@type": "Review",
-    "author": {
-        "@type": "Person",
-        "name": "Bobby Jack"
-    },
-    "dateCreated": "2020-06-17",
-    "dateModified": "2020-10-13",
-    "datePublished": "2020-06-17",
-    "itemReviewed": {
-        "@type": "VideoGame",
-        "name": "Pixboy",
-        "gamePlatform": "Nintendo Switch",
-        "reviewBody": "A retro platformer with enough modern touches to make it wonderfully playable"
-    },
-    "name": "Review: Pixboy",
-    "url": "https://bobbyjack.me/2020/06/17/pixboy"
-},
-"/2020/06/21/patricks-parabox": {
-    "@context": "http://schema.org",
-    "@type": "Review",
-    "dateCreated": "2020-06-21",
-    "dateModified": "2020-08-26",
-    "datePublished": "2020-06-21",
-    "itemReviewed": {
-        "@type": "VideoGame",
-        "name": "One Hour Review: Patrick\u2019s Parabox",
-        "gamePlatform": "Nintendo Switch",
-        "reviewBody": "A genuinely innovative take on the 2d puzzler produces a very solid concept which will live or die on level design."
-    },
-    "name": "One Hour Review: Patrick\u2019s Parabox",
-    "url": "https://bobbyjack.me/2020/06/21/patricks-parabox"
-},
-"/2020/08/24/coloring-book": {
-    "@context": "http://schema.org",
-    "@type": "Review",
-    "dateCreated": "2020-08-24",
-    "dateModified": "2020-10-13",
-    "datePublished": "2020-08-24",
-    "itemReviewed": {
-        "@type": "VideoGame",
-        "name": "One Hour Review: Coloring Book",
-        "gamePlatform": "Nintendo Switch",
-        "reviewBody": "A bare-bones coloring book app that\u2019s worth its asking price"
-    },
-    "name": "One Hour Review: Coloring Book",
-    "url": "https://bobbyjack.me/2020/08/24/coloring-book"
-},
-"/2020/08/25/not-not": {
-    "@context": "http://schema.org",
-    "@type": "Review",
-    "dateCreated": "2020-08-25",
-    "dateModified": "2020-10-13",
-    "datePublished": "2020-08-25",
-    "itemReviewed": {
-        "@type": "VideoGame",
-        "name": "One Hour Review: Not Not",
-        "gamePlatform": "Nintendo Switch",
-        "reviewBody": "Not Not is a fast-paced, fun, addictive brain teaser with enough content to kill a couple of hours."
-    },
-    "name": "One Hour Review: Not Not",
-    "url": "https://bobbyjack.me/2020/08/25/not-not"
-},
-"/2020/08/26/robonauts": {
-    "@context": "http://schema.org",
-    "@type": "Review",
-    "dateCreated": "2020-08-26",
-    "dateModified": "2020-10-13",
-    "datePublished": "2020-08-26",
-    "itemReviewed": {
-        "@type": "VideoGame",
-        "name": "One Hour Review: Robonauts",
-        "gamePlatform": "Nintendo Switch",
-        "reviewBody": "Robonauts is a basic, but fun, shooter/platformer. It\u2019s a welcome genre combination, and the interplanetary travel adds a lot of depth."
-    },
-    "name": "One Hour Review: Robonauts",
-    "url": "https://bobbyjack.me/2020/08/26/robonauts"
-},
-"/2020/08/27/puzzle-book": {
-    "@context": "http://schema.org",
-    "@type": "Review",
-    "author": {
-        "@type": "Person",
-        "name": "Bobby Jack"
-    },
-    "dateCreated": "2020-08-27",
-    "dateModified": "2020-10-29",
-    "datePublished": "2020-08-27",
-    "itemReviewed": {
-        "@type": "VideoGame",
-        "name": "One Hour Review: Puzzle Book",
-        "gamePlatform": "Nintendo Switch",
-        "reviewBody": "Puzzle Book is a decent jigsaw puzzle simulator, although it doesn't have a big list of features \u2014 or puzzles."
-    },
-    "name": "One Hour Review: Puzzle Book",
-    "url": "https://bobbyjack.me/2020/08/27/puzzle-book"
-},
-"/2020/08/28/mini-trains": {
-    "@context": "http://schema.org",
-    "@type": "Review",
-    "dateCreated": "2020-08-28",
-    "dateModified": "2020-10-13",
-    "datePublished": "2020-08-28",
-    "itemReviewed": {
-        "@type": "VideoGame",
-        "name": "One Hour Review: Mini Trains",
-        "gamePlatform": "Nintendo Switch",
-        "reviewBody": "Although it\u2019s fairly playable, Mini Trains bolts on too many unnecessary features at the expense of its core gameplay."
-    },
-    "name": "One Hour Review: Mini Trains",
-    "url": "https://bobbyjack.me/2020/08/28/mini-trains"
-},
-"/2020/08/29/jumping-joe-and-friends": {
-    "@context": "http://schema.org",
-    "@type": "Review",
-    "author": {
-        "@type": "Person",
-        "name": "Bobby Jack"
-    },
-    "dateCreated": "2020-08-29",
-    "dateModified": "2020-10-29",
-    "datePublished": "2020-08-29",
-    "itemReviewed": {
-        "@type": "VideoGame",
-        "name": "One Hour Review: Jumping Joe & Friends",
-        "gamePlatform": "Nintendo Switch",
-        "reviewBody": "A cheery, mindless game that reduces platforming to its absolute minimum."
-    },
-    "name": "One Hour Review: Jumping Joe & Friends",
-    "url": "https://bobbyjack.me/2020/08/29/jumping-joe-and-friends"
-},
-"/2020/08/30/pocket-mini-golf": {
-    "@context": "http://schema.org",
-    "@type": "Review",
-    "author": {
-        "@type": "Person",
-        "name": "Bobby Jack"
-    },
-    "dateCreated": "2020-08-30",
-    "dateModified": "2021-02-06",
-    "datePublished": "2020-08-30",
-    "itemReviewed": {
-        "@type": "VideoGame",
-        "name": "One Hour Review: Pocket Mini Golf",
-        "gamePlatform": "Nintendo Switch",
-        "reviewBody": "A reasonable game of mini golf somewhat spoiled by unorthodox progression."
-    },
-    "name": "One Hour Review: Pocket Mini Golf",
-    "url": "https://bobbyjack.me/2020/08/30/pocket-mini-golf"
-},
-"/2020/09/24/writing": {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "abstract": "This is a collection of links to various writing I have produced",
-    "author": {
-        "@type": "Person",
-        "name": "Bobby Jack"
-    },
-    "dateCreated": "2020-09-24",
-    "dateModified": "2020-11-30",
-    "datePublished": "2020-09-24",
-    "name": "Writing by Bobby Jack",
-    "url": "https://bobbyjack.me/2020/09/24/writing"
-},
-"/2020/09/28/stats": {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "abstract": "The site of Bobby Jack",
-    "author": {
-        "@type": "Person",
-        "name": "Bobby Jack"
-    },
-    "dateCreated": "2020-09-28",
-    "dateModified": "2020-11-07",
-    "datePublished": "2020-09-28",
-    "name": "bobbyjack.me: stats",
-    "url": "https://bobbyjack.me/2020/09/28/stats"
-},
-"/2020/10/15/spiritfarer": {
-    "@context": "http://schema.org",
-    "@type": "Review",
-    "author": {
-        "@type": "Person",
-        "name": "Bobby Jack"
-    },
-    "dateCreated": "2020-10-15",
-    "dateModified": "2020-10-28",
-    "datePublished": "2020-10-15",
-    "itemReviewed": {
-        "@type": "VideoGame",
-        "name": "A review of Spiritfarer on [bobbyjack.me]",
-        "gamePlatform": "Nintendo Switch",
-        "reviewBody": "Spiritfarer is a captivating game with exploration, crafting, and platforming elements, woven around the moving stories of its characters."
-    },
-    "name": "A review of Spiritfarer on [bobbyjack.me]",
-    "url": "https://bobbyjack.me/2020/10/15/spiritfarer"
-},
-"/2020/10/27/ministry-of-broadcast": {
-    "@context": "http://schema.org",
-    "@type": "Review",
-    "author": {
-        "@type": "Person",
-        "name": "Bobby Jack"
-    },
-    "dateCreated": "2020-10-27",
-    "dateModified": "2020-11-20",
-    "datePublished": "2020-10-27",
-    "itemReviewed": {
-        "@type": "VideoGame",
-        "name": "A review of Ministry of Broadcast on bobbyjack.me",
-        "gamePlatform": "Nintendo Switch",
-        "reviewBody": "Big Brother meets \u2026 Big Brother. In this pixellated tale of dystopian reality game show, you\u2019re tasked with completing a series of platforming puzzles \u2014 by fair means or foul."
-    },
-    "name": "A review of Ministry of Broadcast on bobbyjack.me",
-    "url": "https://bobbyjack.me/2020/10/27/ministry-of-broadcast"
-},
-"/2020/10/27/settings": {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "author": {
-        "@type": "Person",
-        "name": "Bobby Jack"
-    },
-    "dateCreated": "2020-10-27",
-    "dateModified": "2020-10-27",
-    "datePublished": "2020-10-27",
-    "name": "Settings on bobbyjack.me",
-    "url": "https://bobbyjack.me/2020/10/27/settings"
-},
-"/2020/10/30/serious-scramblers": {
-    "@context": "http://schema.org",
-    "@type": "Review",
-    "author": {
-        "@type": "Person",
-        "name": "Bobby Jack"
-    },
-    "dateCreated": "2020-10-30",
-    "dateModified": "2020-11-09",
-    "datePublished": "2020-10-30",
-    "itemReviewed": {
-        "@type": "VideoGame",
-        "name": "A review of Serious Scramblers on bobbyjack.me",
-        "gamePlatform": "Nintendo Switch",
-        "reviewBody": ""
-    },
-    "name": "A review of Serious Scramblers on bobbyjack.me",
-    "url": "https://bobbyjack.me/2020/10/30/serious-scramblers"
-},
-"/2020/10/get-feeds": {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "author": {
-        "@type": "Person",
-        "name": "Bobby Jack"
-    },
-    "dateModified": "2020-10-25",
-    "name": "feed javascript test",
-    "url": "https://bobbyjack.me/2020/10/get-feeds"
-},
-"/": {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "author": {
-        "@type": "Person",
-        "name": "Bobby Jack"
-    },
-    "dateCreated": "2020-12-13",
-    "dateModified": "2020-12-13",
-    "datePublished": "2020-12-13",
-    "name": "Bobby Jack | Links",
-    "url": "https://bobbyjack.me/"
+    "name": "Review: Fez",
+    "url": "https://bobbyjack.me/2020/03/02/fez"
 },
 "/2021/02/06/xeodrifter": {
     "@context": "http://schema.org",
@@ -959,96 +517,457 @@
     "name": "Search bobbyjack.me",
     "url": "https://bobbyjack.me/search"
 },
-"/2019/10/11/boxboy-boxgirl-demo": {
+"/2019/12/31/best-of-2019": {
     "@context": "http://schema.org",
     "@type": "WebPage",
-    "author": {
-        "@type": "Person",
-        "name": "Bobby Jack"
-    },
+    "abstract": "My personal round-up of the gaming year",
+    "dateCreated": "2019-12-31",
     "dateModified": "2020-09-29",
-    "name": "One Hour Review: BOXBOY! + BOXGIRL! Demo",
-    "url": "https://bobbyjack.me/2019/10/11/boxboy-boxgirl-demo"
+    "datePublished": "2019-12-31",
+    "name": "Best of 2019",
+    "url": "https://bobbyjack.me/2019/12/31/best-of-2019"
 },
-"/2019/10/": {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "author": {
-        "@type": "Person",
-        "name": "Bobby Jack"
-    },
-    "dateModified": "2020-05-18",
-    "name": "One Hour Review: Yoku\u2019s Island Express",
-    "url": "https://bobbyjack.me/2019/10/"
-},
-"/2020/03/30/animal-crossing": {
+"/2019/06/07/gato-roboto": {
     "@context": "http://schema.org",
     "@type": "Review",
     "author": {
         "@type": "Person",
         "name": "Bobby Jack"
     },
+    "dateCreated": "2019-06-07",
     "dateModified": "2020-10-14",
+    "datePublished": "2019-06-07",
     "itemReviewed": {
         "@type": "VideoGame",
-        "name": "Animal Crossing: First Impressions",
+        "name": "Gato Roboto",
         "gamePlatform": "Nintendo Switch",
-        "reviewBody": ""
+        "reviewBody": "Gato Roboto is adorable, and ideally suited to nostalgic handheld play, but \u2014 cute graphics aside \u2014 fails to be really memorable"
     },
-    "name": "Animal Crossing: First Impressions",
-    "url": "https://bobbyjack.me/2020/03/30/animal-crossing"
+    "name": "Review: Gato Roboto",
+    "url": "https://bobbyjack.me/2019/06/07/gato-roboto"
 },
-"/2020/03/30/animal-crossing": {
+"/2019/06/21/kid-tripp": {
+    "@context": "http://schema.org",
+    "@type": "Review",
+    "dateCreated": "2019-06-21",
+    "dateModified": "2020-10-14",
+    "datePublished": "2019-06-21",
+    "itemReviewed": {
+        "@type": "VideoGame",
+        "name": "Kid Tripp",
+        "gamePlatform": "Nintendo Switch",
+        "reviewBody": "Despite an aversion for auto-runners, I found Kid Tripp enjoyable, if on the short side."
+    },
+    "name": "Review: Kid Tripp",
+    "url": "https://bobbyjack.me/2019/06/21/kid-tripp"
+},
+"/2019/08/01/nintendo-switch-reviews": {
     "@context": "http://schema.org",
     "@type": "WebPage",
     "author": {
         "@type": "Person",
         "name": "Bobby Jack"
     },
+    "dateCreated": "2019-08-01",
     "dateModified": "2021-02-06",
-    "name": "All reviews",
-    "url": "https://bobbyjack.me/2020/03/30/animal-crossing"
+    "datePublished": "2019-08-01",
+    "name": "Nintendo Switch reviews \u2014 bobbyjack.me",
+    "url": "https://bobbyjack.me/2019/08/01/nintendo-switch-reviews"
 },
-"/2020/07/elliot-quest": {
+"/2019/08/09/in-development": {
     "@context": "http://schema.org",
     "@type": "WebPage",
-    "abstract": "started off good, at least",
+    "abstract": "A semi-regular series looking at video games in early development",
+    "dateCreated": "2019-08-09",
+    "dateModified": "2020-10-14",
+    "datePublished": "2019-08-09",
+    "name": "Games in development",
+    "url": "https://bobbyjack.me/2019/08/09/in-development"
+},
+"/2019/09/12/bobby": {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
     "author": {
         "@type": "Person",
         "name": "Bobby Jack"
     },
-    "dateModified": "2020-08-26",
-    "name": "Review: Elliot Quest",
-    "url": "https://bobbyjack.me/2020/07/elliot-quest"
+    "dateCreated": "2019-09-12",
+    "dateModified": "2020-12-13",
+    "datePublished": "2019-09-12",
+    "name": "Bobby Jack",
+    "url": "https://bobbyjack.me/2019/09/12/bobby"
 },
-"/2020/10/05/static-site": {
+"/2019/09/12/funding": {
     "@context": "http://schema.org",
     "@type": "WebPage",
     "author": {
         "@type": "Person",
         "name": "Bobby Jack"
     },
-    "dateModified": "2020-11-03",
-    "name": "How to succeed with a static site",
-    "url": "https://bobbyjack.me/2020/10/05/static-site"
+    "dateCreated": "2019-09-12",
+    "dateModified": "2020-10-28",
+    "datePublished": "2019-09-12",
+    "name": "bobbyjack.me",
+    "url": "https://bobbyjack.me/2019/09/12/funding"
 },
-"/2020/03/02/fez": {
+"/2019/09/01/box-align": {
     "@context": "http://schema.org",
     "@type": "WebPage",
-    "abstract": "Fez is the kind of game with enough background to fill a review before gameplay has even been touched on.",
-    "dateModified": "2020-03-14",
-    "name": "Review: Hollow Knight",
-    "url": "https://bobbyjack.me/2020/03/02/fez"
-},
-"/": {
-    "@context": "http://schema.org",
-    "@type": "WebPage",
-    "abstract": "Nintendo Switch game reviews and other writing from the keyboard of Bobby Jack",
+    "abstract": "Box align is a 3d game stuck in a 2d world. Its core mechanic suffers as a result, and it doesn\u2019t have enough redeeming features to make up for it.",
     "author": {
         "@type": "Person",
         "name": "Bobby Jack"
     },
-    "dateModified": "2021-02-06",
-    "name": "bobbyjack.me: Bobby Jack\u2019s game reviews and other writing",
-    "url": "https://bobbyjack.me/"
+    "dateCreated": "2019-09-01",
+    "dateModified": "2020-10-14",
+    "datePublished": "2019-09-01",
+    "name": "Review: Box Align",
+    "url": "https://bobbyjack.me/2019/09/01/box-align"
+},
+"/2019/09/18/about-stealthtacks": {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "abstract": "Stealthtacks is a minimalist Pinboard client. It\u2019s an alternative to using pinboard.in or a browser-extension. You can use the public instance directly or download the code and host it yourself.",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "dateCreated": "2019-09-18",
+    "dateModified": "2020-05-18",
+    "datePublished": "2019-09-18",
+    "name": "About Stealthtacks",
+    "url": "https://bobbyjack.me/2019/09/18/about-stealthtacks"
+},
+"/2019/09/05/baba-is-you": {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "abstract": "Baba is game. Mechanics are modifiable. Game is fun and challenging.",
+    "dateCreated": "2019-09-05",
+    "dateModified": "2020-01-17",
+    "datePublished": "2019-09-05",
+    "name": "Review: Baba Is You",
+    "url": "https://bobbyjack.me/2019/09/05/baba-is-you"
+},
+"/2019/07/28/celeste": {
+    "@context": "http://schema.org",
+    "@type": "Review",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "dateCreated": "2019-07-28",
+    "dateModified": "2020-10-28",
+    "datePublished": "2019-07-28",
+    "itemReviewed": {
+        "@type": "VideoGame",
+        "name": "Celeste",
+        "gamePlatform": "Nintendo Switch",
+        "reviewBody": "Celeste answers the question \u2018how can you make a plot really work in a video game?\u2019. It\u2019s a question we should all be asking more often, particularly when this is the answer."
+    },
+    "name": "Review: Celeste",
+    "url": "https://bobbyjack.me/2019/07/28/celeste"
+},
+"/2019/10/22/lunar-station": {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "abstract": "An unnerving experience makes this atmospheric \u2018short\u2019 fresh & fun",
+    "dateCreated": "2019-10-22",
+    "dateModified": "2020-03-02",
+    "datePublished": "2019-10-22",
+    "name": "One Hour Review: Lunar Station",
+    "url": "https://bobbyjack.me/2019/10/22/lunar-station"
+},
+"/2019/10/23/baby-dino-adventures": {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "abstract": "A highly-promising bundle of classic platforming fun",
+    "dateCreated": "2019-10-23",
+    "dateModified": "2019-11-04",
+    "datePublished": "2019-10-23",
+    "name": "One Hour Review: Baby Dino Adventures",
+    "url": "https://bobbyjack.me/2019/10/23/baby-dino-adventures"
+},
+"/2019/10/24/twitter": {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "abstract": "A welcoming page for visitors from Twitter",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "dateCreated": "2019-10-24",
+    "dateModified": "2020-10-24",
+    "datePublished": "2019-10-24",
+    "name": "Twitter",
+    "url": "https://bobbyjack.me/2019/10/24/twitter"
+},
+"/2019/10/06/yellow-fins-demo": {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "abstract": "Yellow Fins looks OK, but it\u2019s just a mobile game with very little appeal, and the demo does it no favours at all.",
+    "dateCreated": "2019-10-06",
+    "dateModified": "2019-10-07",
+    "datePublished": "2019-10-06",
+    "name": "Review: Yellow Fins Demo",
+    "url": "https://bobbyjack.me/2019/10/06/yellow-fins-demo"
+},
+"/2019/10/31/gum-girl": {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "abstract": "Gum Girl is a very solid platformer with a fun and powerful central mechanic",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "dateCreated": "2019-10-31",
+    "dateModified": "2020-10-29",
+    "datePublished": "2019-10-31",
+    "name": "One Hour Review: Gum Girl",
+    "url": "https://bobbyjack.me/2019/10/31/gum-girl"
+},
+"/2019/10/07/github": {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "dateCreated": "2019-10-07",
+    "dateModified": "2020-12-03",
+    "datePublished": "2019-10-07",
+    "name": "Welcome, visitor from GitHub",
+    "url": "https://bobbyjack.me/2019/10/07/github"
+},
+"/2019/10/07/one-hour-reviews": {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "dateCreated": "2019-10-07",
+    "dateModified": "2020-10-28",
+    "datePublished": "2019-10-07",
+    "name": "One Hour reviews \u2014 bobbyjack.me",
+    "url": "https://bobbyjack.me/2019/10/07/one-hour-reviews"
+},
+"/2019/10/07/ori-and-the-blind-forest-demo": {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "abstract": "Gorgeous audio/visuals and a promising adventure, but I end up on the fence",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "dateCreated": "2019-10-07",
+    "dateModified": "2020-10-29",
+    "datePublished": "2019-10-07",
+    "name": "One Hour Review: Ori and the Blind Forest Demo",
+    "url": "https://bobbyjack.me/2019/10/07/ori-and-the-blind-forest-demo"
+},
+"/2019/10/07/strikey-sisters-demo": {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "abstract": "A simple twist on a classic concept, with plenty of content in the demo",
+    "dateCreated": "2019-10-07",
+    "dateModified": "2019-10-07",
+    "datePublished": "2019-10-07",
+    "name": "One Hour Review: Strikey Sisters Demo",
+    "url": "https://bobbyjack.me/2019/10/07/strikey-sisters-demo"
+},
+"/2019/10/26/super-box-land-demake": {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "abstract": "This great-looking Sokoban-like has some excellent levels, but too few of them",
+    "dateCreated": "2019-10-26",
+    "dateModified": "2020-09-29",
+    "datePublished": "2019-10-26",
+    "name": "Review: Super Box Land Demake",
+    "url": "https://bobbyjack.me/2019/10/26/super-box-land-demake"
+},
+"/2019/10/11/reap": {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "abstract": "This small game distills the essence of the survival genre with some highly inventive mechanics.",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "dateCreated": "2019-10-11",
+    "dateModified": "2020-10-29",
+    "datePublished": "2019-10-11",
+    "name": "One Hour Review: Reap",
+    "url": "https://bobbyjack.me/2019/10/11/reap"
+},
+"/2019/10/18/lingth": {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "abstract": "Introducing lingth, a simple line-length checker",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "dateCreated": "2019-10-18",
+    "dateModified": "2020-10-14",
+    "datePublished": "2019-10-18",
+    "name": "lingth",
+    "url": "https://bobbyjack.me/2019/10/18/lingth"
+},
+"/2019/10/18/software": {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "dateCreated": "2019-10-18",
+    "dateModified": "2020-10-24",
+    "datePublished": "2019-10-18",
+    "name": "Software",
+    "url": "https://bobbyjack.me/2019/10/18/software"
+},
+"/2019/10/18/about-1derlust": {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "abstract": "1derlust is a game. A rather silly one, certainly; and incredibly simple one, undoubtedly \u2014 I\u2019ve described it as making \u201cPong look like Breath of the Wild\u201d, which is only a small exaggeration. But, nevertheless, it is a game.",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "dateCreated": "2019-10-18",
+    "dateModified": "2020-10-14",
+    "datePublished": "2019-10-18",
+    "name": "About 1derlust",
+    "url": "https://bobbyjack.me/2019/10/18/about-1derlust"
+},
+"/2019/11/12/mystical-samurai": {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "abstract": "This is a real joy, a retro title done so well that it\u2019s slightly cruel it\u2019s not a full game!",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "dateCreated": "2019-11-12",
+    "dateModified": "2020-10-29",
+    "datePublished": "2019-11-12",
+    "name": "One Hour Review: Mystical Samurai",
+    "url": "https://bobbyjack.me/2019/11/12/mystical-samurai"
+},
+"/2019/11/08/card-hog": {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "abstract": "Perfect for mobile, but with added depth than that implies, Card Hog plays great and is evolving fast!",
+    "dateCreated": "2019-11-08",
+    "dateModified": "2020-09-29",
+    "datePublished": "2019-11-08",
+    "name": "One Hour Review: Card Hog",
+    "url": "https://bobbyjack.me/2019/11/08/card-hog"
+},
+"/2019/11/16/garden-story": {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "abstract": "For a game that contains so many different elements, this demo teases just enough to have me begging for more",
+    "dateCreated": "2019-11-16",
+    "dateModified": "2019-11-16",
+    "datePublished": "2019-11-16",
+    "name": "One Hour Review: Garden Story Demo",
+    "url": "https://bobbyjack.me/2019/11/16/garden-story"
+},
+"/2019/11/16/baba-is-you": {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "abstract": "Baba Is You: the ten most important things you need to know",
+    "dateCreated": "2019-11-16",
+    "dateModified": "2020-09-29",
+    "datePublished": "2019-11-16",
+    "name": "Switch Notes: Baba Is You",
+    "url": "https://bobbyjack.me/2019/11/16/baba-is-you"
+},
+"/2019/05/14/ding-dong-xl": {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "abstract": "Ding Dong XL couldn\u2019t be simpler, so it\u2019s hard to love, but easy to enjoy",
+    "dateCreated": "2019-05-14",
+    "dateModified": "2020-10-14",
+    "datePublished": "2019-05-14",
+    "name": "Review: Ding Dong XL",
+    "url": "https://bobbyjack.me/2019/05/14/ding-dong-xl"
+},
+"/2019/05/13/golf-story": {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "abstract": "A quirky combination of sports game and RPG produces a highly original and entertaining result",
+    "dateCreated": "2019-05-13",
+    "dateModified": "2020-08-31",
+    "datePublished": "2019-05-13",
+    "name": "Review: Golf Story",
+    "url": "https://bobbyjack.me/2019/05/13/golf-story"
+},
+"/2019/05/17/the-way-remastered": {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "abstract": "The Way Remastered has some problems, but it pays homage to a certain style of challenging action platformer very well indeed",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "dateCreated": "2019-05-17",
+    "dateModified": "2020-10-14",
+    "datePublished": "2019-05-17",
+    "name": "Review: The Way Remastered",
+    "url": "https://bobbyjack.me/2019/05/17/the-way-remastered"
+},
+"/2019/05/03/dig-dog": {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "abstract": "Dig Dog is a fast-paced, perfectly-pitched rogue-lite, offering an addictive slice of nostalgia",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "dateCreated": "2019-05-03",
+    "dateModified": "2020-10-24",
+    "datePublished": "2019-05-03",
+    "name": "Review: Dig Dog",
+    "url": "https://bobbyjack.me/2019/05/03/dig-dog"
+},
+"/2019/04/30/nintendo": {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "dateCreated": "2019-04-30",
+    "dateModified": "2020-10-24",
+    "datePublished": "2019-04-30",
+    "name": "Nintendo",
+    "url": "https://bobbyjack.me/2019/04/30/nintendo"
+},
+"/2019/04/29/steamworld-dig-2": {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "dateCreated": "2019-04-29",
+    "dateModified": "2020-10-24",
+    "datePublished": "2019-04-29",
+    "name": "Steamworld Dig 2",
+    "url": "https://bobbyjack.me/2019/04/29/steamworld-dig-2"
+},
+"/2019/04/11/the-flame-in-the-flood": {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "dateCreated": "2019-04-11",
+    "dateModified": "2020-10-24",
+    "datePublished": "2019-04-11",
+    "name": "Review: The Flame in the Flood",
+    "url": "https://bobbyjack.me/2019/04/11/the-flame-in-the-flood"
 }}
