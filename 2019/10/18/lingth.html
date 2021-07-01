@@ -15,7 +15,7 @@
 
 <h1>lingth</h1>
 
-<p>lingth is a “simple line-length checker” — it checks for long lines in a file.
+<p>Lingth is a “simple line-length checker” — it checks for long lines in a file.
     This can be useful for enforcing line lengths as part of coding guidelines, but the command has general applications (see <a href="#examples">Examples</a>).</p>
 
 <p>It should be straightforward to add to a git hook and enforce line length throughout a project.</p>
@@ -39,6 +39,10 @@
 <pre>echo '😊' | lingth -n -m0</pre>
 
     <p>Confirm the length of a single emoji character is just 1 (line length is in the output).</p>
+
+<h2 id="explanation">Explanation</h2>
+
+<p>You can read more about lingth in <a href="https://bobbyjack.medium.com/building-a-command-line-app-in-php-35441506e97c?sk=767251a14fdf06255adc603ef0465240">Building a command line app in PHP</a>, an article I wrote explaning best practices for Unix commands and how you can implement them.</p>
 
 <h2 id="github">GitHub</h2>
 
