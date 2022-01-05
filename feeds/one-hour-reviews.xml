@@ -177,5 +177,13 @@
       <pubDate>Sun, 30 August 2020 14:30:00 +0100</pubDate>
       <enclosure url="https://bobbyjack.me/images/games/pocket-mini-golf/loop-the-loop.jpg" length="134018" type="image/jpeg" />
     </item>
+    <item>
+      <link>https://bobbyjack.me/2022/01/05/mimic</link>
+      <guid>https://bobbyjack.me/2022/01/05/mimic</guid>
+      <title>Mimic</title>
+      <description>An inventive twist on the tile-pushing genre.</description>
+      <pubDate>Wed, 05 January 2022 22:55:00 +0100</pubDate>
+      <enclosure url="https://bobbyjack.me/images/games/mimic/level1.png" length="16672" type="image/png" />
+    </item>
   </channel>
 </rss>
