@@ -1,0 +1,19 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Review",
+    "url": "https://bobbyjack.me/2022/01/05/mimic",
+    "datePublished": "2022-01-05",
+    "dateCreated": "2022-01-05",
+    "dateModified": "2022-01-05",
+    "name": "One Hour Review: Mimic",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "itemReviewed": {
+        "@type": "VideoGame",
+        "name": "One Hour Review: Mimic",
+        "gamePlatform": "Nintendo Switch",
+        "reviewBody": "An inventive twist on the tile-pushing genre."
+    }
+}
