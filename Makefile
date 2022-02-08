@@ -1,6 +1,9 @@
-
-jssource = js/global.js js/json-ld.js js/settings.js js/stats.js \
-	js/sort-table.js js/table-groups.js
+jssource = js/global.js \
+		   js/json-ld.js \
+		   js/settings.js \
+		   js/sort-table.js \
+		   js/stats.js \
+		   js/table-groups.js
 
 all: js/scripts.js css/styles.css
 

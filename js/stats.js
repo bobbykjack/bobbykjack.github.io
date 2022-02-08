@@ -1,3 +1,7 @@
+//------------------------------------------------------------------------------
+// stats.js 
+//------------------------------------------------------------------------------
+
 var default_stats = '{ "version": 1.0, "data": {} }',
     stats = JSON.parse(localStorage.getItem("stats") || default_stats),
     node = document.querySelector("#clear-storage"),

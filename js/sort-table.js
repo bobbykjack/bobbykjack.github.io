@@ -1,4 +1,3 @@
-
 //------------------------------------------------------------------------------
 // sort-table.js
 //------------------------------------------------------------------------------
@@ -16,8 +15,16 @@ if (table) {
         index;
 
     for (index = 0; index < headers.length; index++) {
+        var sel = "th:nth-of-type(" + (index + 1) + ")";
+
+        if (table.querySelector(sel).classList.contains('nosort')) {
+            continue;
+        }
+
         headers[index].innerHTML =
-            "<a href=''>" + headers[index].innerText + "</a>";
+            "<a href='" + window.location.origin + window.location.pathname
+                + "?sort=" + (index + 1) + "'>" + headers[index].innerText
+                + "</a>";
     }
 
     table.addEventListener("click", function(ev) {
@@ -25,11 +32,11 @@ if (table) {
             url = new URL(window.location);
 
         if (ev.target.parentNode.parentNode.parentNode.tagName == 'THEAD') {
+            ev.preventDefault();
             index = siblingIndex(ev.target.parentNode);
             sortRows(table, index);
             url.searchParams.set("sort", index);
             history.replaceState(null, "", url);
-            ev.preventDefault();
         }
     });
 
@@ -82,7 +89,14 @@ function sortRows(table, columnIndex) {
         node = rows[index].querySelector(sel2);
         val = node.innerText;
 
-        if (isNaN(val)) {
+        if (node.childElementCount
+            && node.firstElementChild.tagName == "PROGRESS"
+        ) {
+            var progressNode = node.firstElementChild;
+
+            val = progressNode.getAttribute("value")
+                / progressNode.getAttribute("max");
+        } else if (isNaN(val)) {
             allNum = false;
         } else {
             val = parseFloat(val);
@@ -97,11 +111,14 @@ function sortRows(table, columnIndex) {
 
     if (cls == "number") {
         values.sort(sortNumberVal);
-        values = values.reverse();
     } else if (cls == "date") {
         values.sort(sortDateVal);
     } else {
         values.sort(sortTextVal);
+    }
+
+    if (cls == "number" || (classList && classList.contains("sort-reverse"))) {
+        values = values.reverse();
     }
 
     for (var idx = 0; idx < values.length; idx++) {

@@ -1,3 +1,7 @@
+//------------------------------------------------------------------------------
+// json-ld.js 
+//------------------------------------------------------------------------------
+
 // load json-ld data file
 var request = new XMLHttpRequest(),
     canon = document.querySelector("link[rel=canonical]"),
@@ -21,8 +25,10 @@ if (canon) {
  * look up current page's canonical url in the map
  */
 function process_json_ld() {
-    var data = JSON.parse(this.responseText);
-    inject_json_ld(data);
+    if (this.status == 200) {
+        var data = JSON.parse(this.responseText);
+        inject_json_ld(data);
+    }
 }
 
 /**

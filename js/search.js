@@ -3,6 +3,8 @@
 // search.js
 //------------------------------------------------------------------------------
 
+;(function() {
+
 var search_form = document.getElementById("search");
 var search_button = document.querySelector("#search button");
 var sitemap = {};
@@ -178,3 +180,6 @@ function insertResults(results, original_query) {
         results_el.appendChild(article);
     }
 }
+
+})();
+
