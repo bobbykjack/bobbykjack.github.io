@@ -8,6 +8,7 @@
     <link rel="canonical" href="https://bobbyjack.me/2019/10/18/lingth" />
     <title>lingth</title>
     <meta name="description" content="Introducing lingth, a simple line-length checker" />
+    <style>pre { margin-top: 2em; }</style>
 </head>
 <body>
 
@@ -38,7 +39,7 @@
 
     <p>Print ‘foo’, and nothing else, so long as ‘foo’ is longer than 2 characters (which it is!).</p>
 
-<pre>echo '😊' | lingth -n -m0</pre>
+<pre>echo '😊' | lingth -n -m 0</pre>
 
     <p>Confirm the length of a single emoji character is just 1 (line length is in the output).</p>
 
