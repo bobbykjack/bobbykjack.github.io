@@ -1,0 +1,11 @@
+{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "url": "https://bobbyjack.me/2022/11/29/all-reviews",
+    "dateModified": "2022-11-29",
+    "name": "All reviews",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    }
+}

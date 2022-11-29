@@ -1,0 +1,14 @@
+{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "url": "https://bobbyjack.me/2021/06/25/game-progress",
+    "datePublished": "2021-06-25",
+    "dateCreated": "2021-06-25",
+    "dateModified": "2022-02-12",
+    "name": "Bobby Jack\u2019s Game Progress",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "abstract": "This is a list of video games and how much progress I\u2019ve made with them"
+}

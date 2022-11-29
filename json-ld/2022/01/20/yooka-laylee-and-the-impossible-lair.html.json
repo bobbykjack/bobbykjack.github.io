@@ -1,0 +1,19 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Review",
+    "url": "https://bobbyjack.me/2022/01/20/yooka-laylee-and-the-impossible-lair",
+    "datePublished": "2022-01-20",
+    "dateCreated": "2022-01-20",
+    "dateModified": "2022-02-25",
+    "name": "A review of Yooka-Laylee and the Impossible Lair by Bobby Jack",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "itemReviewed": {
+        "@type": "VideoGame",
+        "name": "A review of Yooka-Laylee and the Impossible Lair by Bobby Jack",
+        "gamePlatform": "Nintendo Switch",
+        "reviewBody": "This 2D platformer has bags of flexibility and variety, with great level design, although its gimmicks don\u2019t hit home 100% of the time."
+    }
+}
