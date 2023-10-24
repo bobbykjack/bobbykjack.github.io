@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+	<style>
+	body { margin: 0; padding: 0; }
+	
+	.container {
+		display: grid;
+		place-items: center;
+		min-height: 100vh;
+		padding: 2em; box-sizing: border-box;
+	}
+
+	textarea {
+		width: 100%; height: 100%; font-size: 16pt; padding: 1em;
+		box-sizing: border-box;
+	}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<textarea autofocus="1"></textarea>
+	</div>
+
+	<script>
+	document.querySelector("textarea").addEventListener("input", function(ev) {
+		localStorage.setItem("text", ev.target.value);
+	});
+
+	window.addEventListener("load", function(ev) {
+		document.querySelector("textarea").value = localStorage.getItem("text");
+	});
+	</script>
+</body>
+</html>
