@@ -10,6 +10,13 @@ var search_button = document.querySelector("#search button");
 var sitemap = {};
 var excludes = [];
 
+var search_form = document.getElementById("search");
+
+if (search_form) {
+    search_form.addEventListener('submit', function(ev) {
+        ev.preventDefault();
+    });
+}
 
 if (search_button) {
     search_button.parentNode.removeChild(search_button);
