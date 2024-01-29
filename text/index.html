@@ -15,17 +15,33 @@
 		width: 100%; height: 100%; font-size: 16pt; padding: 1em;
 		box-sizing: border-box;
 	}
+
+        #counter {
+		font-family: sans-serif; background-color: #f7f7f7;
+		padding: 4px; text-align: center;
+		position: fixed; top: 0; left: 0; right: 0;
+	}
 	</style>
 </head>
 
 <body>
+        <div id="counter">
+		words: <span id="words">0</span>
+		/
+		characters: <span id="chars">0</span>
+	</div>
 	<div class="container">
 		<textarea autofocus="1"></textarea>
 	</div>
 
 	<script>
+        const words = document.getElementById("words");
+        const chars = document.getElementById("chars");
+
 	document.querySelector("textarea").addEventListener("input", function(ev) {
 		localStorage.setItem("text", ev.target.value);
+                chars.innerHTML = ev.target.value.length;
+		words.innerHTML = ev.target.value.split(' ').length;
 	});
 
 	window.addEventListener("load", function(ev) {
