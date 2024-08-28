@@ -1,340 +1,991 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-    <meta charset="utf-8" />
+    <head>
+        <meta charset="utf-8" />
 
-    <link rel="stylesheet" href="/css/styles.css" />
-    <link rel="canonical" href="https://bobbyjack.me/2021/06/25/game-progress" />
+        <link rel="stylesheet" href="/css/styles.css" />
+        <link
+            rel="canonical"
+            href="https://bobbyjack.me/2021/06/25/game-progress"
+        />
 
-    <title>Bobby Jack’s Game Progress</title>
+        <title>Bobby Jack’s Game Progress</title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="author" content="Bobby Jack" />
-    <meta name="description" content="This is a list of video games and how much progress I’ve made with them" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="author" content="Bobby Jack" />
+        <meta
+            name="description"
+            content="This is a list of video games and how much progress I’ve made with them"
+        />
 
-    <style>
-    td img { width: 200px; display: block; }
-    td progress { display: block; width: 100% }
+        <style>
+            td img {
+                width: 200px;
+                display: block;
+            }
+            td progress {
+                display: block;
+                _width: 100%;
+            }
 
-    form#search { display: flex; margin-bottom: 1em; }
+            form#search {
+                display: flex;
+                margin-bottom: 1em;
+            }
 
-    form#search input, form#search button {
-        font-size: inherit; padding: 0.25em 0.5em;
-    }
+            form#search input,
+            form#search button {
+                font-size: inherit;
+                padding: 0.25em 0.5em;
+            }
 
-    form#search input {
-        display: block;
-        width: 100%;
-    }
-    </style>
-</head>
-<body>
+            form#search input {
+                display: block;
+                width: 100%;
+            }
 
-<article>
+            table {
+                margin-top: 2em;
+                margin-bottom: 2em;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <article>
+            <h1>Video Game Progress</h1>
 
-<h1>Video Game Progress</h1>
+            <p>
+                This is simply an attempt to catalogue my game completion across
+                various titles, mainly on Switch. Games are marked as
+                <b>F</b>inished (which more or less means ‘seen credits’) or
+                <b>C</b>ompleted (typically meaning all available % achieved).
+                I’ve also included a small explanation, where it can clarify
+                progress, and screenshots offering ‘proof’.
+            </p>
 
-<p>
-    This is simply an attempt to catalogue my game completion across various titles, mainly on Switch.
-    Games are marked as <b>F</b>inished (which more or less means ‘seen credits’) or <b>C</b>ompleted (typically meaning all available % achieved).
-    I’ve also included a small explanation, where it can clarify progress, and screenshots offering ‘proof’.
-</p>
+            <table border="1" id="switch-progress" class="sortable">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th title="Finished" class="sort-reverse">F</th>
+                        <th title="Completed" class="sort-reverse">C</th>
+                        <th>Progress</th>
+                        <th class="nosort">Image</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Animal Well</td>
+                        <td>✅</td>
+                        <td></td>
+                        <td>
+                            <progress max="64" value="58" title="91%">
+                                91%
+                            </progress>
+                            58/64 eggs
+                        </td>
+                        <td>
+                            <a href="/images/progress/animal-well.jpg"
+                                ><img
+                                    src="/images/progress/animal-well.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Axiom Verge</td>
+                        <td>✅</td>
+                        <td></td>
+                        <td>
+                            <progress max="200" value="170" title="85%">
+                                85%
+                            </progress>
+                            75% items, 95% map
+                        </td>
+                        <td>
+                            <a href="/images/progress/axiom-verge.jpg"
+                                ><img
+                                    src="/images/progress/200/axiom-verge-200.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="/2019/09/05/baba-is-you">Baba Is You</a>
+                        </td>
+                        <td>✅</td>
+                        <td></td>
+                        <td>
+                            <progress max="226" value="114" title="50%">
+                                50%
+                            </progress>
+                            114/226 spores collected
+                        </td>
+                        <td>
+                            <a href="/images/progress/baba-is-you.jpg"
+                                ><img
+                                    src="/images/progress/200/baba-is-you-200.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Balatro</td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <progress max="100" value="45" title="45%">
+                                45%
+                            </progress>
+                            Wins: 46, Collection: 337/340, Challenges: 5/20,
+                            Joker Stickers: 298/1200, Deck Stake Wins: 42/120
+                        </td>
+                        <td>
+                            <a href="/images/progress/balatro.jpg"
+                                ><img
+                                    src="/images/progress/balatro.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="/2019/07/28/celeste">Celeste</a></td>
+                        <td>✅</td>
+                        <td></td>
+                        <td>
+                            <progress max="175" value="65" title="37%">
+                                37%
+                            </progress>
+                            65/175 strawberries
+                        </td>
+                        <td>
+                            <a href="/images/progress/celeste.jpg"
+                                ><img
+                                    src="/images/progress/200/celeste-200.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Colorful Colore</td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <progress max="50" value="13" title="26%">
+                                26%
+                            </progress>
+                            13/50 levels unlocked
+                        </td>
+                        <td>
+                            <a href="/images/progress/colorful-colore.jpg"
+                                ><img
+                                    src="/images/progress/200/colorful-colore-200.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Dadish</td>
+                        <td>✅</td>
+                        <td>✅</td>
+                        <td>
+                            <progress max="43" value="43" title="100%">
+                                100%
+                            </progress>
+                            43/43 stars
+                        </td>
+                        <td>
+                            <a href="/images/progress/dadish.jpg"
+                                ><img
+                                    src="/images/progress/dadish.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Dadish 2</td>
+                        <td>✅</td>
+                        <td></td>
+                        <td>
+                            <progress max="43" value="27" title="63%">
+                                63%
+                            </progress>
+                            27/43 stars
+                        </td>
+                        <td>
+                            <a href="/images/progress/dadish-2.jpg"
+                                ><img
+                                    src="/images/progress/dadish-2.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Dadish 3</td>
+                        <td>✅</td>
+                        <td>✅</td>
+                        <td>
+                            <progress max="43" value="43" title="100%">
+                                100%
+                            </progress>
+                            43/43 stars
+                        </td>
+                        <td>
+                            <a href="/images/progress/dadish-3.jpg"
+                                ><img
+                                    src="/images/progress/dadish-3.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Dadish 3D</td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <progress max="7" value="43" title="16%">
+                                16%
+                            </progress>
+                            7/43 stars
+                        </td>
+                        <td>
+                            <a href="/images/progress/dadish-3d.jpg"
+                                ><img
+                                    src="/images/progress/dadish-3d.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a
+                                href="https://switchplayer.net/2021/12/26/deaths-door-review/"
+                                >Death’s Door</a
+                            >
+                        </td>
+                        <td>✅</td>
+                        <td></td>
+                        <td>
+                            <progress max="100" value="79.4" title="79.4%">
+                                79.4%
+                            </progress>
+                            79.4%
+                        </td>
+                        <td>
+                            <a href="/images/progress/deaths-door.jpg"
+                                ><img
+                                    src="/images/progress/200/deaths-door-200.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Disney Illusion Island</td>
+                        <td>✅</td>
+                        <td>✅</td>
+                        <td>
+                            <progress max="100" value="100" title="100%">
+                                100%
+                            </progress>
+                            100%
+                        </td>
+                        <td>
+                            <a
+                                href="/images/progress/disney-illusion-island.jpg"
+                                ><img
+                                    src="/images/progress/disney-illusion-island.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a
+                                href="https://switchplayer.net/2020/04/18/duck-souls-review/"
+                                >Duck Souls</a
+                            >
+                        </td>
+                        <td>✅</td>
+                        <td>✅</td>
+                        <td>
+                            <progress max="100" value="100" title="100%">
+                                100%
+                            </progress>
+                            100/100 levels unlocked
+                        </td>
+                        <td>
+                            <a href="/images/progress/duck-souls.jpg"
+                                ><img
+                                    src="/images/progress/200/duck-souls-200.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a
+                                href="https://switchplayer.net/2021/06/28/dungeon-escape-review/"
+                                >Dungeon Escape</a
+                            >
+                        </td>
+                        <td>✅</td>
+                        <td>✅</td>
+                        <td>
+                            <progress max="50" value="50" title="100%">
+                                100%
+                            </progress>
+                            50/50 levels completed
+                        </td>
+                        <td>
+                            <a href="/images/progress/dungeon-escape.jpg"
+                                ><img
+                                    src="/images/progress/200/dungeon-escape-200.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a
+                                href="https://switchplayer.net/2020/10/07/evergate-review/"
+                                >Evergate</a
+                            >
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <progress max="213" value="66" title="31%">
+                                31%
+                            </progress>
+                            66 essence out of 213 (I <em>think</em>)
+                        </td>
+                        <td>
+                            <a href="/images/progress/evergate.jpg"
+                                ><img
+                                    src="/images/progress/200/evergate-200.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="/2020/03/02/fez">Fez</a></td>
+                        <td>✅</td>
+                        <td></td>
+                        <td>
+                            <progress max="209.4" value="100.8" title="48%">
+                                48%
+                            </progress>
+                            100.8% out of 209.4%
+                        </td>
+                        <td>
+                            <a href="/images/progress/fez.png"
+                                ><img
+                                    src="/images/progress/200/fez-200.png"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="/2019/06/07/gato-roboto">Gato Roboto</a>
+                        </td>
+                        <td>✅</td>
+                        <td>✅</td>
+                        <td>
+                            <progress max="100" value="100" title="100%">
+                                100%
+                            </progress>
+                            100%
+                        </td>
+                        <td>
+                            <a href="/images/progress/gato-roboto-100.jpg"
+                                ><img
+                                    src="/images/progress/200/gato-roboto-200.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Grapple Dog</td>
+                        <td>✅</td>
+                        <td>✅</td>
+                        <td>
+                            <progress max="300" value="300" title="100%">
+                                100%
+                            </progress>
+                            100%
+                        </td>
+                        <td>
+                            <a href="/images/progress/grapple-dog.jpg"
+                                ><img
+                                    src="/images/progress/grapple-dog.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Hollow Knight</td>
+                        <td>✅</td>
+                        <td></td>
+                        <td>
+                            <progress max="112" value="109" title="109%">
+                                109%
+                            </progress>
+                            109% (out of 112%) I need to finish the Trial of the
+                            Fool and the Sage &amp; Knight Pantheons
+                        </td>
+                        <td>
+                            <a href="/images/progress/hollow-knight.jpg"
+                                ><img
+                                    src="/images/progress/200/hollow-knight-200.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Horace</td>
+                        <td>✅</td>
+                        <td></td>
+                        <td>
+                            <progress max="1000000" value="863797" title="86%">
+                                86%</progress
+                            >Junk: 863,797 / 1,000,000
+                        </td>
+                        <td>
+                            <a href="/images/progress/horace.jpg"
+                                ><img
+                                    src="/images/progress/200/horace-200.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>The Legend of Zelda: Breath of the Wild</td>
+                        <td>✅</td>
+                        <td></td>
+                        <td>
+                            <progress max="100" value="30.19" title="30.19%">
+                                30.19%
+                            </progress>
+                            30.19%
+                        </td>
+                        <td>
+                            <a href="/images/progress/breath-of-the-wild.jpg"
+                                ><img
+                                    src="/images/progress/200/breath-of-the-wild-200.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Mario vs. Donkey Kong</td>
+                        <td>✅</td>
+                        <td></td>
+                        <td>
+                            <progress max="136" value="136" title="100%">
+                                100%
+                            </progress>
+                            136 / 136 stars
+                        </td>
+                        <td>
+                            <a href="/images/progress/mario-vs-donkey-kong.jpg"
+                                ><img
+                                    src="/images/progress/mario-vs-donkey-kong.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Metroid Dread</td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <progress max="100" value="100" title="100%">
+                                100%
+                            </progress>
+                            100% items, not beaten final boss
+                        </td>
+                        <td>
+                            <a href="/images/progress/metroid-dread.jpg"
+                                ><img
+                                    src="/images/progress/metroid-dread.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a
+                                href="https://switchplayer.net/2021/08/25/a-monsters-expedition-review/"
+                                >A Monster’s Expedition</a
+                            >
+                        </td>
+                        <td>✅</td>
+                        <td></td>
+                        <td>
+                            <progress max="726" value="541" title="75%">
+                                75%
+                            </progress>
+                            541/726 islands visited, 145/160 exhibits, 2/60
+                            snowmen
+                        </td>
+                        <td>
+                            <a href="/images/progress/a-monsters-expedition.jpg"
+                                ><img
+                                    src="/images/progress/200/a-monsters-expedition-200.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>New Super Mario Bros. U Deluxe</td>
+                        <td>✅</td>
+                        <td>✅</td>
+                        <td>
+                            <progress max="5" value="5" title="100%">
+                                100%
+                            </progress>
+                            94 levels, 5 stars
+                        </td>
+                        <td>
+                            <a
+                                href="/images/progress/new-super-mario-bros-u-deluxe.jpg"
+                                ><img
+                                    src="/images/progress/200/new-super-mario-bros-u-deluxe-200.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="/2020/08/25/not-not">Not Not</a></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <progress max="100" value="78" title="78%">
+                                78%
+                            </progress>
+                            78%, 14 gold
+                        </td>
+                        <td>
+                            <a href="/images/progress/not-not.jpg"
+                                ><img
+                                    src="/images/progress/200/not-not-200.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Patrick’s Parabox</td>
+                        <td>✅</td>
+                        <td></td>
+                        <td>
+                            <progress max="364" value="274" title="75%">
+                                75%
+                            </progress>
+                            274/364 levels
+                        </td>
+                        <td>
+                            <a href="/images/progress/patricks-parabox.jpg"
+                                ><img
+                                    src="/images/progress/patricks-parabox.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="/2020/06/17/pixboy">Pixboy</a></td>
+                        <td>✅</td>
+                        <td>✅</td>
+                        <td>
+                            <progress max="100" value="100" title="100%">
+                                100%
+                            </progress>
+                            100%
+                        </td>
+                        <td>
+                            <a href="/images/progress/pixboy.jpg"
+                                ><img
+                                    src="/images/progress/200/pixboy-200.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a
+                                href="https://switchplayer.net/2021/06/28/save-me-mr-tako-definitive-edition-review/"
+                                >Save me Mr Tako: Definitive Edition</a
+                            >
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <progress max="100" value="24" title="24%">
+                                24%
+                            </progress>
+                            24%, 8/50 hats
+                        </td>
+                        <td>
+                            <a href="/images/progress/mr-tako.jpg"
+                                ><img
+                                    src="/images/progress/200/mr-tako-200.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a
+                                href="https://switchplayer.net/2020/08/25/skully-review/"
+                                >Skully</a
+                            >
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <progress max="400" value="109" title="27%">
+                                27%
+                            </progress>
+                            27%
+                        </td>
+                        <td>
+                            <a href="/images/progress/skully.jpg"
+                                ><img
+                                    src="/images/progress/200/skully-200.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Slime-san</td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <progress max="100" value="24" title="24%">
+                                24%
+                            </progress>
+                            24 levels / 100 completed
+                        </td>
+                        <td>
+                            <a href="/images/progress/slime-san.jpg"
+                                ><img
+                                    src="/images/progress/200/slime-san-200.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="/2019/04/29/steamworld-dig-2"
+                                >Steamworld Dig 2</a
+                            >
+                        </td>
+                        <td>✅</td>
+                        <td></td>
+                        <td><progress max="" value="" title=""></progress></td>
+                        <td>
+                            <a href="/images/progress/steamworld-dig-2.jpg"
+                                ><img
+                                    src="/images/progress/200/steamworld-dig-2-200.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a
+                                href="https://switchplayer.net/2021/08/02/super-cable-boy-review/"
+                                >Super Cable Boy</a
+                            >
+                        </td>
+                        <td>✅</td>
+                        <td></td>
+                        <td>
+                            <progress max="100" value="88" title="88%">
+                                88%
+                            </progress>
+                            88%, 39 onigiri
+                        </td>
+                        <td>
+                            <a href="/images/progress/super-cable-boy.jpg"
+                                ><img
+                                    src="/images/progress/200/super-cable-boy-200.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Super Mario 3D World</td>
+                        <td>✅</td>
+                        <td></td>
+                        <td>
+                            <progress max="380" value="369" title="97%">
+                                97%
+                            </progress>
+                            369/380 stars
+                        </td>
+                        <td>
+                            <a href="/images/progress/super-mario-3d-world.jpg"
+                                ><!-- needs updating --><img
+                                    src="/images/progress/super-mario-3d-world.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Super Mario 3D World: Bowser’s Fury</td>
+                        <td>✅</td>
+                        <td></td>
+                        <td>
+                            <progress max="100" value="55" title="55%">
+                                55%
+                            </progress>
+                            55/100 cat shines
+                        </td>
+                        <td>
+                            <!--<a href="/images/progress/super-mario-3d-world.jpg">
+                            <img src="/images/progress/200/super-mario-3d-world-200.jpg" width="200" height="113" />
+                            </a>-->
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Super Mario Galaxy</td>
+                        <td>✅</td>
+                        <td>✅</td>
+                        <td>
+                            <progress max="242" value="242" title="100%">
+                                100%
+                            </progress>
+                            All 242 stars (121 for each bro)
+                        </td>
+                        <td>
+                            <a href="/images/progress/super-mario-galaxy.jpg"
+                                ><img
+                                    src="/images/progress/200/super-mario-galaxy-200.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Super Mario Odyssey</td>
+                        <td>✅</td>
+                        <td></td>
+                        <td>
+                            <progress max="999" value="574" title="57%">
+                                57%
+                            </progress>
+                            574 / 999 moons
+                        </td>
+                        <td>
+                            <a href="/images/progress/super-mario-odyssey.jpg"
+                                ><img
+                                    src="/images/progress/200/super-mario-odyssey-200.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Super Mario Bros. Wonder</td>
+                        <td>✅</td>
+                        <td>✅</td>
+                        <td>
+                            <progress max="6" value="6" title="100%">
+                                100%
+                            </progress>
+                            6/6
+                            <a
+                                href="https://www.ign.com/wikis/super-mario-bros-wonder/List_of_Medals_and_100%25_Completion_Guide"
+                                >medals</a
+                            >
+                        </td>
+                        <td>
+                            <a href="/images/progress/super-mario-wonder.jpg"
+                                ><!-- needs updating --><img
+                                    src="/images/progress/super-mario-wonder.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Super Meat Boy</td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <progress max="7" value="5" title="71%">
+                                71%
+                            </progress>
+                            Chapter 5, 15/17 levels
+                        </td>
+                        <td>
+                            <a href="/images/progress/super-meat-boy.jpg"
+                                ><img
+                                    src="/images/progress/200/super-meat-boy-200.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Super One More Jump</td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <progress max="96" value="62" title="65%">
+                                65%
+                            </progress>
+                            62/96 levels completed
+                        </td>
+                        <td>
+                            <a href="/images/progress/super-one-more-jump.jpg"
+                                ><img
+                                    src="/images/progress/200/super-one-more-jump-200.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a
+                                href="https://switchplayer.net/2020/11/03/worm-jazz-review/"
+                                >Worm Jazz</a
+                            >
+                        </td>
+                        <td>✅</td>
+                        <td></td>
+                        <td>
+                            <progress max="174" value="144" title="83%">
+                                83%
+                            </progress>
+                            144/174 stars
+                        </td>
+                        <td>
+                            <a href="/images/progress/worm-jazz.jpg"
+                                ><img
+                                    src="/images/progress/200/worm-jazz-200.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="/2021/02/06/xeodrifter">Xeodrifter</a></td>
+                        <td>✅</td>
+                        <td>✅</td>
+                        <td>
+                            <progress max="100" value="100" title="100%">
+                                100%
+                            </progress>
+                            100%
+                        </td>
+                        <td>
+                            <a href="/images/progress/xeodrifter.jpg"
+                                ><img
+                                    src="/images/progress/200/xeodrifter-200.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="/2020/02/17/yokus-island-express"
+                                >Yoku’s Island Express</a
+                            >
+                        </td>
+                        <td>✅</td>
+                        <td></td>
+                        <td>
+                            <progress max="100" value="80" title="80%">
+                                80%
+                            </progress>
+                            80%
+                        </td>
+                        <td>
+                            <a href="/images/progress/yokus-island-express.jpg"
+                                ><img
+                                    src="/images/progress/200/yokus-island-express-200.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a
+                                href="/2022/01/20/yooka-laylee-and-the-impossible-lair"
+                                >Yooka-Laylee and the Impossible Lair</a
+                            >
+                        </td>
+                        <td>✅</td>
+                        <td></td>
+                        <td>
+                            <progress
+                                max="310"
+                                value="232"
+                                title="75%"
+                            ></progress>
+                            43/48 bees, 144/200 coins, 45/62 tonics
+                        </td>
+                        <td>
+                            <a href="/images/progress/yooka-laylee-il.jpg"
+                                ><img
+                                    src="/images/progress/200/yooka-laylee-il-200.jpg"
+                                    width="200"
+                                    height="113"
+                            /></a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
 
-<table border="1" id="switch-progress" class="sortable" style="margin-top: 2em; margin-bottom: 2em; width: 100%; smargin-left: -2em; smargin-right: -2em;">
-    <thead>
-        <tr>
-            <th>Title</th>
-            <th title="Finished" class="sort-reverse">F</th>
-            <th title="Completed" class="sort-reverse">C</th>
-            <th>Progress</th>
-            <th class="nosort">Image</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Animal Well</td>
-            <td>✅</td>
-            <td></td>
-            <td><progress max="64" value="58" title="91%">91%</progress> </td>
-            <td><a href="/images/progress/animal-well.jpg"><img src="/images/progress/animal-well.jpg" width="200" height="113" /></a></td>
-        </tr>
-        <tr>
-            <td>Axiom Verge</td>
-            <td>✅</td>
-            <td></td>
-            <td><progress max="200" value="170" title="85%">85%</progress> 75% items, 95% map</td>
-            <td><a href="/images/progress/axiom-verge.jpg"><img src="/images/progress/200/axiom-verge-200.jpg" width="200" height="113" /></a></td>
-        </tr>
-        <tr>
-            <td><a href="/2019/09/05/baba-is-you">Baba Is You</a></td>
-            <td>✅</td>
-            <td></td>
-            <td><progress max="226" value="114" title="50%">50%</progress> 114/226 spores collected</td>
-            <td><a href="/images/progress/baba-is-you.jpg"><img src="/images/progress/200/baba-is-you-200.jpg" width="200" height="113" /></a></td>
-        </tr>
-        <tr>
-            <td><a href="/2019/07/28/celeste">Celeste</a></td>
-            <td>✅</td>
-            <td></td>
-            <td><progress max="175" value="65" title="37%">37%</progress> 65/175 strawberries</td>
-            <td><a href="/images/progress/celeste.jpg"><img src="/images/progress/200/celeste-200.jpg" width="200" height="113" /></a></td>
-        </tr>
-        <tr>
-            <td>Colorful Colore</td>
-            <td></td>
-            <td></td>
-            <td><progress max="50" value="13" title="26%">26%</progress> 13/50 levels unlocked</td>
-            <td><a href="/images/progress/colorful-colore.jpg"><img src="/images/progress/200/colorful-colore-200.jpg" width="200" height="113" /></a></td>
-        </tr>
-        <tr>
-            <td>Dadish</td>
-            <td>✅</td>
-            <td></td>
-            <td><progress max="" value="" title="%">%</progress> </td>
-            <td><a href="/images/progress/dadish.jpg"><img src="/images/progress/200/dadish-200.jpg" width="200" height="113" /></a></td>
-        </tr>
-        <tr>
-            <td><a href="https://switchplayer.net/2021/12/26/deaths-door-review/">Death’s Door</a></td>
-            <td>✅</td>
-            <td></td>
-            <td><progress max="100" value="79.4" title="79.4%">79.4%</progress> 79.4%</td>
-            <td><a href="/images/progress/deaths-door.jpg"><img src="/images/progress/200/deaths-door-200.jpg" width="200" height="113" /></a></td>
-        </tr>
-        <tr>
-            <td><a href="https://switchplayer.net/2020/04/18/duck-souls-review/">Duck Souls</a></td>
-            <td>✅</td>
-            <td>✅</td>
-            <td><progress max="100" value="100" title="100%">100%</progress> 100/100 levels unlocked</td>
-            <td><a href="/images/progress/duck-souls.jpg"><img src="/images/progress/200/duck-souls-200.jpg" width="200" height="113" /></a></td>
-        </tr>
-        <tr>
-            <td><a href="https://switchplayer.net/2021/06/28/dungeon-escape-review/">Dungeon Escape</a></td>
-            <td>✅</td>
-            <td>✅</td>
-            <td><progress max="50" value="50" title="100%">100%</progress> 50/50 levels completed</td>
-            <td><a href="/images/progress/dungeon-escape.jpg"><img src="/images/progress/200/dungeon-escape-200.jpg" width="200" height="113" /></a></td>
-        </tr>
-        <tr>
-            <td><a href="https://switchplayer.net/2020/10/07/evergate-review/">Evergate</a></td>
-            <td></td>
-            <td></td>
-            <td><progress max="213" value="66" title="31%">31%</progress> 66 essence out of 213 (I <em>think</em>)</td>
-            <td><a href="/images/progress/evergate.jpg"><img src="/images/progress/200/evergate-200.jpg" width="200" height="113" /></a></td>
-        </tr>
-        <tr>
-            <td><a href="/2020/03/02/fez">Fez</a></td>
-            <td>✅</td>
-            <td></td>
-            <td><progress max="209.4" value="100.8" title="48%">48%</progress> 100.8% out of 209.4%</td>
-            <td><a href="/images/progress/fez.png"><img src="/images/progress/200/fez-200.png" width="200" height="113" /></a></td>
-        </tr>
-        <tr>
-            <td><a href="/2019/06/07/gato-roboto">Gato Roboto</a></td>
-            <td>✅</td>
-            <td>✅</td>
-            <td><progress max="100" value="100" title="100%">100%</progress> 100%</td>
-            <td><a href="/images/progress/gato-roboto-100.jpg"><img src="/images/progress/200/gato-roboto-200.jpg" width="200" height="113" /></a></td>
-        </tr>
-        <tr>
-            <td>Hollow Knight</td>
-            <td>✅</td>
-            <td></td>
-            <td>
-                <progress max="112" value="109" title="109%">109%</progress>
-                109% (out of 112%) I need to finish the Trial of the Fool and the Sage &amp; Knight Pantheons
-            </td>
-            <td><a href="/images/progress/hollow-knight.jpg"><img src="/images/progress/200/hollow-knight-200.jpg" width="200" height="113" /></a></td>
-        </tr>
-        <tr>
-            <td>Horace</td>
-            <td>✅</td>
-            <td></td>
-            <td><progress max="1000000" value="863797" title="86%">86%</progress>Junk: 863,797 / 1,000,000</td>
-            <td><a href="/images/progress/horace.jpg"><img src="/images/progress/200/horace-200.jpg" width="200" height="113" /></a></td>
-        </tr>
-        <tr>
-            <td>The Legend of Zelda: Breath of the Wild</td>
-            <td>✅</td>
-            <td></td>
-            <td><progress max="100" value="30.19" title="30.19%">30.19%</progress> 30.19%</td>
-            <td><a href="/images/progress/breath-of-the-wild.jpg"><img src="/images/progress/200/breath-of-the-wild-200.jpg" width="200" height="113" /></a></td>
-        </tr>
-        <tr>
-            <td>Mario vs. Donkey Kong</td>
-            <td>✅</td>
-            <td></td>
-            <td><progress max="128" value="85" title="66%">66%</progress> 85 / 128 stars</td>
-            <td><a href="/images/progress/mario-vs-donkey-kong.jpg"><img src="/images/progress/mario-vs-donkey-kong.jpg" width="200" height="113" /></a></td>
-        </tr>
-        <tr>
-            <td>Metroid Dread</td>
-            <td></td>
-            <td></td>
-            <td><progress max="100" value="100" title="100%">100%</progress> 100% items, not beaten final boss</td>
-            <td><a href="/images/progress/"><img src="/images/progress/200/metroid-dread-200.jpg" width="200" height="113" /></a></td>
-        </tr>
-        <tr>
-            <td><a href="https://switchplayer.net/2021/08/25/a-monsters-expedition-review/">A Monster’s Expedition</a></td>
-            <td>✅</td>
-            <td></td>
-            <td><progress max="726" value="541" title="75%">75%</progress> 541/726 islands visited, 145/160 exhibits, 2/60 snowmen</td>
-            <td><a href="/images/progress/a-monsters-expedition.jpg"><img src="/images/progress/200/a-monsters-expedition-200.jpg" width="200" height="113" /></a></td>
-        </tr>
-        <tr>
-            <td>New Super Mario Bros. U Deluxe</td>
-            <td>✅</td>
-            <td>✅</td>
-            <td><progress max="5" value="5" title="100%">100%</progress> 94 levels, 5 stars</td>
-            <td><a href="/images/progress/new-super-mario-bros-u-deluxe.jpg"><img src="/images/progress/200/new-super-mario-bros-u-deluxe-200.jpg" width="200" height="113" /></a></td>
-        </tr>
-        <tr>
-            <td><a href="/2020/08/25/not-not">Not Not</a></td>
-            <td></td>
-            <td></td>
-            <td><progress max="100" value="78" title="78%">78%</progress> 78%, 14 gold</td>
-            <td><a href="/images/progress/not-not.jpg"><img src="/images/progress/200/not-not-200.jpg" width="200" height="113" /></a></td>
-        </tr>
-        <tr>
-            <td>Patrick’s Parabox</td>
-            <td></td>
-            <td></td>
-            <td><progress max="364" value="203" title="56%">56%</progress> </td>
-            <td><a href="/images/progress/patricks-parabox.jpg"><img src="/images/progress/patricks-parabox.jpg" width="200" height="113" /></a></td>
-        </tr>
-        <tr>
-            <td><a href="/2020/06/17/pixboy">Pixboy</a></td>
-            <td>✅</td>
-            <td>✅</td>
-            <td><progress max="100" value="100" title="100%">100%</progress> 100%</td>
-            <td><a href="/images/progress/pixboy.jpg"><img src="/images/progress/200/pixboy-200.jpg" width="200" height="113" /></a></td>
-        </tr>
-        <tr>
-            <td><a href="https://switchplayer.net/2021/06/28/save-me-mr-tako-definitive-edition-review/">Save me Mr Tako: Definitive Edition</a></td>
-            <td></td>
-            <td></td>
-            <td><progress max="100" value="24" title="24%">24%</progress> 24%, 8/50 hats</td>
-            <td><a href="/images/progress/mr-tako.jpg"><img src="/images/progress/200/mr-tako-200.jpg" width="200" height="113" /></a></td>
-        </tr>
-        <tr>
-            <td><a href="https://switchplayer.net/2020/08/25/skully-review/">Skully</a></td>
-            <td></td>
-            <td></td>
-            <td><progress max="400" value="109" title="27%">27%</progress> 27%</td>
-            <td><a href="/images/progress/skully.jpg"><img src="/images/progress/200/skully-200.jpg" width="200" height="113" /></a></td>
-        </tr>
-        <tr>
-            <td>Slime-san</td>
-            <td></td>
-            <td></td>
-            <td><progress max="100" value="24" title="24%">24%</progress> 24 levels / 100 completed</td>
-            <td><a href="/images/progress/slime-san.jpg"><img src="/images/progress/200/slime-san-200.jpg" width="200" height="113" /></a></td>
-        </tr>
-        <tr>
-            <td><a href="https://switchplayer.net/2020/08/25/skully-review/">Steamworld Dig 2</a></td>
-            <td>✅</td>
-            <td></td>
-            <td><progress max="" value="" title=""></progress> </td>
-            <td><a href="/images/progress/steamworld-dig-2.jpg"><img src="/images/progress/200/steamworld-dig-2-200.jpg" width="200" height="113" /></a></td>
-        </tr>
-        <tr>
-            <td><a href="https://switchplayer.net/2021/08/02/super-cable-boy-review/">Super Cable Boy</a></td>
-            <td>✅</td>
-            <td></td>
-            <td><progress max="100" value="88" title="88%">88%</progress> 88%, 39 onigiri</td>
-            <td><a href="/images/progress/super-cable-boy.jpg"><img src="/images/progress/200/super-cable-boy-200.jpg" width="200" height="113" /></a></td>
-        </tr>
-        <tr>
-            <td>Super Mario 3D World</td>
-            <td>✅</td>
-            <td></td>
-            <td><progress max="380" value="369" title="97%">97%</progress> 369/380 stars</td>
-            <td><a href="/images/progress/super-mario-3d-world.jpg"><!-- needs updating --><img src="/images/progress/200/super-mario-3d-world-200.jpg" width="200" height="113" /></a></td>
-        </tr>
-        <tr>
-            <td>Super Mario 3D World: Bowser’s Fury</td>
-            <td>✅</td>
-            <td></td>
-            <td><progress max="100" value="55" title="55%">55%</progress> 55/100 cat shines</td>
-            <td><!--<a href="/images/progress/super-mario-3d-world.jpg"><img src="/images/progress/200/super-mario-3d-world-200.jpg" width="200" height="113" /></a>--></td>
-        </tr>
-        <tr>
-            <td>Super Mario Galaxy</td>
-            <td>✅</td>
-            <td>✅</td>
-            <td><progress max="242" value="242" title="100%">100%</progress> All 242 stars (121 for each bro)</td>
-            <td><a href="/images/progress/super-mario-galaxy.jpg"><img src="/images/progress/200/super-mario-galaxy-200.jpg" width="200" height="113" /></a></td>
-        </tr>
-        <tr>
-            <td>Super Mario Odyssey</td>
-            <td>✅</td>
-            <td></td>
-            <td><progress max="999" value="574" title="57%">57%</progress> 574 / 999 moons</td>
-            <td><a href="/images/progress/super-mario-odyssey.jpg"><img src="/images/progress/200/super-mario-odyssey-200.jpg" width="200" height="113" /></a></td>
-        </tr>
-        <tr>
-            <td>Super Mario Wonder</td>
-            <td>✅</td>
-            <td>✅</td>
-            <td><progress max="6" value="6" title="100%">100%</progress> 6/6 <a href="https://www.ign.com/wikis/super-mario-bros-wonder/List_of_Medals_and_100%25_Completion_Guide">medals</a></td>
-            <td><a href="/images/progress/super-mario-wonder.jpg"><!-- needs updating --><img src="/images/progress/super-mario-wonder.jpg" width="200" height="113" /></a></td>
-        </tr>
-        <tr>
-            <td>Super Meat Boy</td>
-            <td></td>
-            <td></td>
-            <td><progress max="7" value="5" title="71%">71%</progress> Chapter 5, 15/17 levels</td>
-            <td><a href="/images/progress/super-meat-boy.jpg"><img src="/images/progress/200/super-meat-boy-200.jpg" width="200" height="113" /></a></td>
-        </tr>
-        <tr>
-            <td>Super One More Jump</td>
-            <td></td>
-            <td></td>
-            <td><progress max="96" value="62" title="65%">65%</progress> 62/96 levels completed</td>
-            <td><a href="/images/progress/super-one-more-jump.jpg"><img src="/images/progress/200/super-one-more-jump-200.jpg" width="200" height="113" /></a></td>
-        </tr>
-        <tr>
-            <td><a href="https://switchplayer.net/2020/11/03/worm-jazz-review/">Worm Jazz</a></td>
-            <td>✅</td>
-            <td></td>
-            <td><progress max="174" value="144" title="83%">83%</progress> 144/174 stars</td>
-            <td><a href="/images/progress/worm-jazz.jpg"><img src="/images/progress/200/worm-jazz-200.jpg" width="200" height="113" /></a></td>
-        </tr>
-        <tr>
-            <td><a href="/2021/02/06/xeodrifter">Xeodrifter</a></td>
-            <td>✅</td>
-            <td>✅</td>
-            <td><progress max="100" value="100" title="100%">100%</progress> 100%</td>
-            <td><a href="/images/progress/xeodrifter.jpg"><img src="/images/progress/200/xeodrifter-200.jpg" width="200" height="113" /></a></td>
-        </tr>
-        <tr>
-            <td><a href="/2020/02/17/yokus-island-express">Yoku’s Island Express</a></td>
-            <td>✅</td>
-            <td></td>
-            <td><progress max="100" value="80" title="80%">80%</progress> 80%</td>
-            <td><a href="/images/progress/yokus-island-express.jpg"><img src="/images/progress/200/yokus-island-express-200.jpg" width="200" height="113" /></a></td>
-        </tr>
-        <tr>
-            <td><a href="/2022/01/20/yooka-laylee-and-the-impossible-lair">Yooka-Laylee and the Impossible Lair</a></td>
-            <td>✅</td>
-            <td></td>
-            <td><progress max="310" value="232" title="75%"></progress> 43/48 bees, 144/200 coins, 45/62 tonics</td>
-            <td><a href="/images/progress/yooka-laylee-il.jpg"><img src="/images/progress/200/yooka-laylee-il-200.jpg" width="200" height="113" /></a></td>
-        </tr>
-    </tbody>
-</table>
+        <footer>
+            <a href="/">
+                <img class="logo" src="/images/logo.jpg" />
+            </a>
+        </footer>
 
-
-</article>
-
-<footer>
-    <a href="/">
-        <img class="logo" src="/images/logo.jpg" />
-    </a>
-</footer>
-
-<script src="/js/scripts.js"></script>
-<script src="/js/table.js"></script>
-
-</body>
-
+        <script src="/js/scripts.js"></script>
+        <script src="/js/table.js"></script>
+    </body>
 </html>
