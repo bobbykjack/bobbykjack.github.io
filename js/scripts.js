@@ -298,7 +298,7 @@ if (settings.data.links) {
     }
 })();
 //------------------------------------------------------------------------------
-// stats.js 
+// stats.js
 //------------------------------------------------------------------------------
 
 var default_stats = '{ "version": 1.0, "data": {} }',
@@ -310,11 +310,11 @@ var default_stats = '{ "version": 1.0, "data": {} }',
 
 // add a version field, upgrade old format to this one
 if (!stats.hasOwnProperty("version")) {
-    stats = { "version": 1.0, "data": stats };
+    stats = { version: 1.0, data: stats };
 }
 
 if (node) {
-    node.addEventListener('click', function(event) {
+    node.addEventListener("click", function (event) {
         event.preventDefault();
         localStorage.clear();
         alert("localStorage cleared");
@@ -339,8 +339,8 @@ if (stats.data[path]) {
     title = document.querySelector("title").textContent;
 
     stats.data[path] = {
-        "hits": 1,
-        "title": title
+        hits: 1,
+        title: title,
     };
 }
 
@@ -348,9 +348,11 @@ stats.data[path]["last"] = Date.now();
 
 localStorage.setItem("stats", JSON.stringify(stats));
 
+/*
 window.addEventListener('unload', function(event) {
 // record the time spent on this page
 });
+*/
 
 /**
  */
@@ -371,7 +373,9 @@ function populateStatsTable(stats) {
         tuples.push([key, stats.data[key]["hits"]]);
     }
 
-    tuples.sort(function(a, b) { return a - b; });
+    tuples.sort(function (a, b) {
+        return a - b;
+    });
 
     table.setAttribute("border", "1");
     table.setAttribute("style", "width: 100%;");
@@ -383,12 +387,12 @@ function populateStatsTable(stats) {
     table.appendChild(tbody);
     thead.appendChild(tr);
 
-    var columns = [ "Page", "Title", "Views", "Last Accessed" ],
+    var columns = ["Page", "Title", "Views", "Last Accessed"],
         name;
 
     for (var i in columns) {
         name = columns[i];
-        tr.appendChild(th = document.createElement("th"));
+        tr.appendChild((th = document.createElement("th")));
 
         if (name == "Last Accessed") {
             th.setAttribute("class", "date");
@@ -444,9 +448,8 @@ function date_format(date) {
         month = "0" + month;
     }
 
-    return year + '-' + month + '-' + day + ' ' + date.toLocaleTimeString();
+    return year + "-" + month + "-" + day + " " + date.toLocaleTimeString();
 }
-
 //------------------------------------------------------------------------------
 // table-groups.js 
 //------------------------------------------------------------------------------
