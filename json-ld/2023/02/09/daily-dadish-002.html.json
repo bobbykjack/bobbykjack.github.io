@@ -1,0 +1,21 @@
+{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "url": "https://bobbyjack.me/2023/02/08/daily-dadish-001",
+    "datePublished": "2023-02-09",
+    "dateCreated": "2023-02-09",
+    "dateModified": "2023-02-09",
+    "name": "Daily Dadish #002: Muddy Mud",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "words": [
+        "daily dadish #002: muddy mud",
+        "time",
+        "26:63",
+        "a much harder level than",
+        "the first",
+        ". it\u2019s not too difficult to beat, but the star timer is very tight\u2014unless there\u2019s a shortcut i\u2019m missing!"
+    ]
+}

@@ -10,5 +10,15 @@
         "@type": "Person",
         "name": "Bobby Jack"
     },
-    "abstract": "The site of Bobby Jack"
+    "abstract": "The site of Bobby Jack",
+    "words": [
+        "your personal statistics for bobbyjack.me",
+        "this data is only stored in your browser (in",
+        "localstorage",
+        "); it is",
+        "never",
+        "sent to the site\u2019s server. you can delete it at any time using your browser or by clicking the following link to",
+        "clear localstorage",
+        "."
+    ]
 }

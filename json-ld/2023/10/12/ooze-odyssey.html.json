@@ -1,0 +1,24 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Review",
+    "url": "https://bobbyjack.me/202",
+    "datePublished": "2023-10-12",
+    "dateCreated": "2023-10-12",
+    "dateModified": "2023-10-12",
+    "name": "A review of Ooze Odyssey by Bobby Jack",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "itemReviewed": {
+        "@type": "VideoGame",
+        "name": "A review of Ooze Odyssey by Bobby Jack",
+        "gamePlatform": "Nintendo Switch",
+        "reviewBody": ""
+    },
+    "words": [
+        "ooze odyssey",
+        "caption go here",
+        "this is another"
+    ]
+}

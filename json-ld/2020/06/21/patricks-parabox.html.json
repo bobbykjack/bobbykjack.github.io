@@ -4,12 +4,37 @@
     "url": "https://bobbyjack.me/2020/06/21/patricks-parabox",
     "datePublished": "2020-06-21",
     "dateCreated": "2020-06-21",
-    "dateModified": "2022-01-05",
+    "dateModified": "2023-07-18",
     "name": "One Hour Review: Patrick\u2019s Parabox",
     "itemReviewed": {
         "@type": "VideoGame",
         "name": "One Hour Review: Patrick\u2019s Parabox",
         "gamePlatform": "Nintendo Switch",
         "reviewBody": "A genuinely innovative take on the 2d puzzler produces a very solid concept which will live or die on level design."
-    }
+    },
+    "words": [
+        "patrick\u2019s parabox",
+        "played on: mac, via",
+        "steam",
+        "a genuinely innovative take on the 2d puzzler produces a very solid concept which will live or die on level design.",
+        "recursion",
+        "is another entry in the box-pushing genre made famous by",
+        "sokoban",
+        "and recently revolutionised by",
+        "baba is you",
+        ". it\u2019s being developed by",
+        "patrick traynor",
+        ". the twist here is recursion: one of the boxes you\u2019re pushing about can represent either a sub-room, or even the enclosing level itself. as the main character, you can enter that box and push boxes inside it, which might affect the world around the box, and so on.",
+        "target",
+        "your core task is to place each of the movable boxes onto a target square, finishing the level by moving your character onto a special target. the challenge is, at its heart, the same as with all box-pushers: work out how to move boxes without getting them stuck in a corner or anywhere else. however, the recursive aspect opens up a number of possibilities including use of a \u2018sub box\u2019 to push boxes around in and using a sub box to take a path that would otherwise be unavailable.",
+        "guiding",
+        "it\u2019s a hard enough concept to understand, much less explain! thankfully,",
+        "parabox",
+        "introduces it slowly and surely, with each level building on the previous one in the simplest way. certain techniques are explained by guiding the player\u2019s route so they are forced to make new discoveries. the demo is an excellent introduction to the general concept and gameplay on offer.",
+        "smoothly",
+        "the graphics are simple, but functional, and do an excellent job of representing the recursive nature of the game. the developer has set themselves up with quite a challenge here, but everything works smoothly and i didn\u2019t really feel like the game was getting in my way at any point: only my own brain could be held responsible for any hold ups!",
+        "packed",
+        "although the demo is fairly short \u2014 clocking in at about 30 minutes \u2014 it is",
+        "full of content. i think there are a total of 30 levels here, and although the majority are fairly straightforward, at least 5 or so require quite a bit of consideration to crack. i didn\u2019t spot any bugs or really any areas for improvement; i\u2019m just looking forward to having enough levels to make up a complete game!"
+    ]
 }

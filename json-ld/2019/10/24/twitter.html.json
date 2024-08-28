@@ -10,5 +10,22 @@
         "@type": "Person",
         "name": "Bobby Jack"
     },
-    "abstract": "A welcoming page for visitors from Twitter"
+    "abstract": "A welcoming page for visitors from Twitter",
+    "words": [
+        "twitter",
+        "hi twitter user (maybe, dare i presume,",
+        "follower",
+        "\u2026?),",
+        "stuff about games",
+        "since i mainly tweet about video games, you\u2019ll probably be most interested in:",
+        "nintendo switch reviews",
+        "11 full-length reviews of the 27 games i\u2019ve purchased for the nintendo switch",
+        "one hour reviews",
+        "6 short reviews of some games, prototypes, and demos i\u2019ve played",
+        "my nintendo switch leaderboard",
+        "24 games ordered by my own preference, updated when i get round to it",
+        "that\u2019s it",
+        "well, now i\u2019m just going to leave this here:",
+        "window.twttr = (function(d, s, id) {\n  var js, fjs = d.getelementsbytagname(s)[0],\n    t = window.twttr || {};\n  if (d.getelementbyid(id)) return t;\n  js = d.createelement(s);\n  js.id = id;\n  js.src = \"https://platform.twitter.com/widgets.js\";\n  js.onload = go;\n  fjs.parentnode.insertbefore(js, fjs);\n\n  t._e = [];\n  t.ready = function(f) {\n    t._e.push(f);\n  };\n\n  return t;\n}(document, \"script\", \"twitter-wjs\"));\n\nfunction go() {\n    twttr.widgets.createtweet(\n        '4924648679',\n        document.getelementbyid('tweet')\n    );\n}"
+    ]
 }

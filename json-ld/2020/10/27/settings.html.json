@@ -9,5 +9,20 @@
     "author": {
         "@type": "Person",
         "name": "Bobby Jack"
-    }
+    },
+    "words": [
+        "settings",
+        "these settings only make sense with javascript enabled.",
+        "it seems as if you also have css disabled. that means you will see a form below this message, but it will not work.",
+        "link behaviour",
+        "open all links in the original tab",
+        "open external links in the same new tab",
+        "open each external link in a separate new tab",
+        "save",
+        "these settings will be saved to",
+        "your browser\u2019s localstorage",
+        ".",
+        "//",
+        "document.queryselectorall(\".jsshow\").foreach(function(node) {\n    node.classlist.remove(\"jsshow\");\n});\n//"
+    ]
 }

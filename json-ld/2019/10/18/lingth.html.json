@@ -10,5 +10,33 @@
         "@type": "Person",
         "name": "Bobby Jack"
     },
-    "abstract": "Introducing lingth, a simple line-length checker"
+    "abstract": "Introducing lingth, a simple line-length checker",
+    "words": [
+        "lingth",
+        "lingth is a \u201csimple line-length checker\u201d \u2014 it checks for long lines in a file.\n    this can be useful for enforcing line lengths as part of coding guidelines, but the command has general applications (see",
+        "examples",
+        ").",
+        "it should be straightforward to add to a git hook and enforce line length throughout a project.",
+        "apart from being very limited,",
+        "this code",
+        "is a pretty decent example of a small command-line app, written in php. it does all the flag-parsing, handling of multiple files, redirected input, etc. itself, but it\u2019s still a very small codebase. this makes it good as a template for other work, or as an introduction to the language.",
+        "lingth *.php",
+        "report any long lines (currently, longer than 80 chars) from all files ending \u2018.php\u2019.",
+        "lingth -m22 /usr/share/dict/words",
+        "get a list of words longer than 22 characters. (on my own system, there are exactly 22 words longer than 22 characters, all 23 or 24 characters long. \u201canthropomorphologically\u201d is 23)",
+        "echo foo | lingth -hln -m 2",
+        "print \u2018foo\u2019, and nothing else, so long as \u2018foo\u2019 is longer than 2 characters (which it is!).",
+        "echo '\ud83d\ude0a' | lingth -n -m 0",
+        "confirm the length of a single emoji character is just 1 (line length is in the output).",
+        "explanation",
+        "you can read more about lingth in",
+        "building a command line app in php",
+        ", an article i wrote explaning best practices for unix commands and how you can implement them.",
+        "github",
+        "the",
+        "project page is on github",
+        "; i welcome all bug reports and patches, but i\u2019m not",
+        "intending",
+        "on adding any features to this software; it\u2019s intended to stay pretty much the same, for now."
+    ]
 }

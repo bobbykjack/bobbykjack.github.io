@@ -1,0 +1,44 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Review",
+    "url": "https://bobbyjack.me/202",
+    "datePublished": "2023-10-23",
+    "dateCreated": "2023-10-23",
+    "dateModified": "2023-10-27",
+    "name": "A review of Ooze Odyssey by Bobby Jack",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "itemReviewed": {
+        "@type": "VideoGame",
+        "name": "A review of Ooze Odyssey by Bobby Jack",
+        "gamePlatform": "Nintendo Switch",
+        "reviewBody": ""
+    },
+    "words": [
+        "a triumphant reinvention, bursting with innovation.",
+        "super mario bros wonder",
+        "i\u2019ll let you in on an open secret: i adore 2d mario games.",
+        "super mario world",
+        "? of course, obviously.",
+        "new super mario bros",
+        "? yup, forget the haters, that series is still top-shelf.",
+        "super mario land",
+        "? sure. even the runt of this epic series is a fine game\u2014i have a soft spot for it, too, given that it was my introduction to proper mario platformers.",
+        "nsmbud",
+        ", in particular, gets a much undeserved rap, in my book. still the eleventh-highest selling switch game, this fourth entry in the",
+        "new",
+        "series is oft derided for unoriginality, repeating a forumla established back in 2006. as a result, many critics have ironically repeated this claim of unoriginality, that there hasn't been a good mario game since",
+        "world",
+        "which is now, brace yourselves, 32 years old.",
+        "but",
+        "is great, with level design every bit as good as anything that came before, and plenty of everything that platformer fans want: challenging stages, diverse settings, secrets galore.",
+        "caption go here",
+        "so following up a set of games that is both fantastic and heavily-criticised is no mean feat. nintendo\u2019s challenge: make it just as good as before, but change it up.",
+        "if you were paying attention to all the pre-release hype\u2014and there was plenty of it in a year that featured mario in his own hollywood movie\u2014you\u2019ll be well aware that two big gimmicks are at the centre of nintendo\u2019s strategy: wonder effects and elephant mario. the final product is, thankfully, far more nuanced and [] than that, but these aspects undoubdetly catch the eye right from the get-go.",
+        "wonder\u2019s 1-1 features plenty of secrets, power-ups, and interesting enemies, but it\u2019s the introduction of elephant mario and the wacky world of wonder seeds that really sets the scene for everything that's to come.",
+        "in truth, the elephant mario power-up is one of the more underwhelming innovations. don\u2019t get me wrong: playing as an elephant/italian plumber-cross is a hilarious novelty at first, but it wears pretty thin pretty quickly. the powers it bestows are fairly run-of-the-mill, and the other two power-ups new to this incarnation offer far more []. what\u2019s more, the cry of \u201dwowie-zowie\u201d will soon stretch even the most patient of players. honestly, if i could turn off that particular sound effect, i probably would...",
+        "but wonder seeds, on the other hand, are a revelation. it\u2019s here where the game really establishes its"
+    ]
+}

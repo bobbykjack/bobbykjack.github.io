@@ -10,5 +10,16 @@
         "@type": "Person",
         "name": "Bobby Jack"
     },
-    "abstract": "This is a list of all Nintendo Switch games that I\u2019ve paid actual, cold, hard money for."
+    "abstract": "This is a list of all Nintendo Switch games that I\u2019ve paid actual, cold, hard money for.",
+    "words": [
+        "home",
+        "colophon",
+        "this is a static site served from",
+        "github pages",
+        ". it does not include any third-party resources although, like all good web sites, it does link to external third-parties.",
+        "google\u2019s page speed insights",
+        "gives the home page a 97 performance score. (last tested manually on 2022-02-15)",
+        "are my third parties green?",
+        "gives this site the all-clear since it doesn't request any third-party resources. (last tested manually on 2022-02-15)"
+    ]
 }

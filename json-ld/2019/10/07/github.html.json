@@ -9,5 +9,19 @@
     "author": {
         "@type": "Person",
         "name": "Bobby Jack"
-    }
+    },
+    "words": [
+        "welcome, visitor from github",
+        "since you came",
+        "here",
+        "from",
+        "there",
+        ", i\u2019m guessing you might be interested in the following:",
+        "stealthtacks, a minimalist\n        pinboard client",
+        "bunner, a turn-based, 2d puzzle\n        game-in-progress",
+        "lingth, a simple line-length checker",
+        "1derlust, a silly 1d, 1 bit, 1 button javascript game",
+        "\u2026",
+        "(more to come soon, i promise!)"
+    ]
 }

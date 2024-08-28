@@ -9,5 +9,23 @@
     "author": {
         "@type": "Person",
         "name": "Bobby Jack"
-    }
+    },
+    "words": [
+        "bobby jack",
+        "hi, i\u2019m bobby, a software developer, video game enthusiast, and struggling writer from southend,\n        uk.",
+        "\u2b05\ufe0f in case you\u2019re interested, i look more-or-less exactly like this.",
+        "on this site, you\u2019ll find",
+        "nintendo switch reviews",
+        ", \u2026 and not a lot else, right now!\n        i\u2019ll add more content in due course, though, including some software i\u2019m working on, bits about\n        web development, and a few articles i\u2019ve written on various subjects.",
+        "if you like anything you find here, please consider",
+        "helping me to continue",
+        ".",
+        "catch me on",
+        "twitter",
+        ",",
+        "stack overflow",
+        "github",
+        ", and",
+        "reddit"
+    ]
 }

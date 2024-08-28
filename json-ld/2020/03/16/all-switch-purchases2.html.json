@@ -1,0 +1,35 @@
+{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "url": "https://bobbyjack.me/2020/03/16/all-switch-purchases",
+    "datePublished": "2020-03-16",
+    "dateCreated": "2020-03-16",
+    "dateModified": "2022-12-20",
+    "name": "Bobby Jack\u2019s Nintendo Switch Purchases",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "abstract": "This is a list of all Nintendo Switch games that I\u2019ve paid actual, cold, hard money for.",
+    "words": [
+        "nintendo switch game purchases",
+        "this is a list of all nintendo switch games that i\u2019ve paid actual, cold, hard money for. so that excludes demos, games i\u2019ve redeemed for things like",
+        "indieselect",
+        ", etc. games bought with gold points are included; prices are after any discount for games on sale. the table can be sorted by clicking a column header.",
+        "there are",
+        "{num_games}",
+        "games here. this is far more than for any other nintendo console i\u2019ve owned (gb, snes, wii), mainly because i\u2019ve never really bought digitally before, and therefore never really indie either. it\u2019s addictive!",
+        "best value for money? has to be",
+        "hollow knight",
+        ". worst? probably",
+        "mario kart 8 deluxe",
+        ".",
+        "title",
+        "price (\u00a3)",
+        "date",
+        "p",
+        "f",
+        "c",
+        "{rows}"
+    ]
+}

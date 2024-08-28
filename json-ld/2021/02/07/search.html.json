@@ -10,5 +10,12 @@
         "@type": "Person",
         "name": "Bobby Jack"
     },
-    "abstract": "A JavaScript-based search for bobbyjack.me"
+    "abstract": "A JavaScript-based search for bobbyjack.me",
+    "words": [
+        "search",
+        "sorry, you need javascript.",
+        "additionally, it looks like you don't have css enabled, so ...",
+        "//",
+        "document.queryselectorall(\".jsshow\").foreach(function(node) {\n    node.classlist.remove(\"jsshow\");\n});\n//"
+    ]
 }

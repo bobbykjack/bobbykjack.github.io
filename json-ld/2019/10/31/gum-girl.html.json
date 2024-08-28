@@ -10,5 +10,34 @@
         "@type": "Person",
         "name": "Bobby Jack"
     },
-    "abstract": "Gum Girl is a very solid platformer with a fun and powerful central mechanic"
+    "abstract": "Gum Girl is a very solid platformer with a fun and powerful central mechanic",
+    "words": [
+        "gum girl",
+        "played on: mac, via",
+        "itch.io",
+        "tight arcade action dressed up in a gameboy costume. ride the bubble!",
+        "it\u2019s easy to get things in the wrong order here and end up ... with gum on your face?",
+        "game boy",
+        "is an old-school platformer, created for a",
+        "gbjam event",
+        ", in which the main mechanic is all about blowing gum bubbles and standing on them. this concept might not be the most realistic, but it makes for an entertaining \u2014 and often frustrating \u2014 platformer.",
+        "gum",
+        "in the early stages you have two pieces of gum, which allows you to blow two bubbles before needing to \u2018recall\u2019 the first. this is a novel tactic because it requires you to think not only about placement, but order \u2014 on several occasions, i thought i\u2019d done everything right and pressed the button to recall a bubble, only to realise the one i was standing on was the oldest!",
+        "controls",
+        "i found the controls slightly awkward at times \u2014 often mixing up \u2018jump\u2019 with \u2018blow\u2019 with inevitable and hilarious results. probably this was mostly due to playing on keyboard. fortunately, time is not much of a factor in the early levels, so you can take time to plan exactly where you should be spitting those bubbles next.",
+        "puzzles",
+        "apart from the main mechanic, we\u2019re in familiar platforming territory \u2014 spikes as hazards, actual enemies that shoot things later on, stars and life-replenishing hearts to collect. some sections have gusts of wind (?) which move the bubbles on a path and these set up small puzzles to overcome. on occasion, though, i felt i was bypassing the intended route all too easily.",
+        "run!",
+        "the final stage is an auto-scroller, thankfully with unlimited gum. this really changes the gameplay quite significantly, from a \u2018platformer with thinking\u2019 to a \u2018run! run! master those controls!!\u2019 kind of deal. i had to replay this level quite a few times before really getting to grips with it, but it certainly demonstrates a great deal of potential for varying the play. again, though, i found myself taking a few shortcuts here which certainly didn\u2019t look designed intentionally.",
+        "solid",
+        "bubble-blowing is a great technique to allow players to create their own highly-volatile temporary platforms. but unlike those bubbles,",
+        "is solid. the graphics are crisp and clear, especially for just a 4-color palette. the music is cute and catchy, and the levels are well-designed enough to be taxing, but not overly frustrating. for a jam game, it\u2019s a great achievement, and it\u2019s unsurprising that this will be the basis for a future full release, currently in progress.",
+        "was created by",
+        "case portman",
+        ", with music by",
+        "joel c",
+        ", for",
+        "gbjam 7",
+        ". it was awarded a 2nd place position overall."
+    ]
 }

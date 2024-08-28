@@ -9,5 +9,33 @@
     "author": {
         "@type": "Person",
         "name": "Bobby Jack"
-    }
+    },
+    "words": [
+        "software",
+        "here\u2019s some software that i\u2019ve written:",
+        "utilities",
+        "lingth",
+        ", a simple line-length checker written in php.",
+        "web apps",
+        "stealthtacks",
+        ", a minimalist\n        pinboard client",
+        "games",
+        "bunner",
+        ", a turn-based, 2d puzzle\n        game-in-progress.",
+        "1derlust",
+        ", a silly 1d, 1 bit, 1 button game, written in javascript.",
+        "upcoming",
+        "more an encouragement for me to actually get these done, than anything! however, this should indicate that i\u2019m not slacking; if you\u2019re interested in finding out more about anything here,",
+        "let me know",
+        ".",
+        "a static site maintenance tool (think google\u2019s search console crossed with a cms)",
+        "a local file browser with easy editing and github integration",
+        "a tool for quickly sorting lists in preference order",
+        "a social network for schools",
+        "most of my public work is either",
+        "available on github",
+        ", or in the process of being moved there. i also partake in the",
+        "stack overflow",
+        "community from time to time."
+    ]
 }

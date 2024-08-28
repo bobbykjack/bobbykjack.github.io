@@ -15,5 +15,24 @@
         "name": "One Hour Review: Tiny Fragments",
         "gamePlatform": "Nintendo Switch",
         "reviewBody": "A simple-concept puzzler with plenty of possibilities"
-    }
+    },
+    "words": [
+        "tiny fragments",
+        "played on: mac, via",
+        "itch.io",
+        "a simple-concept puzzler with plenty of possibilities",
+        "appetiser",
+        "daniel moreno\u2019s",
+        "is a kind of appetiser for",
+        "taninani",
+        ", a puzzle game which launches on switch on april 22nd. both involve characters that automatically walk around a 2d landscape, made up of a small number of tiles which can be rearranged. those characters keep on moving as if nothing remotely unusual is going on, and it\u2019s your task to make sure they get to the target, by shuffling around tiles so they avoid spikes, pits, etc.",
+        "jam",
+        "the game was made for a game jam, so don\u2019t expect a huge amount of content: the ten levels present here can be finished in ten minutes or so. but even though it\u2019s short, it\u2019s still a great demonstration of a mechanic which is seeing more and more attention; in recent times, most prominently by",
+        "the pedestrian",
+        ".",
+        "combinations",
+        "these levels feel well designed, although i think the tile-swapping mechanic plays a big part in that. it creates enough combinations that levels are almost guaranteed to offer a challenging number of possibilities. the game might seem straightforward but there\u2019s enough nuance to keep things interesting.",
+        "fast",
+        "my main complaint is that the real-time nature can sometimes be a factor, yet it feels out-of-place. it can be difficult to select a tile in time, before the protagonist gets too far into danger. although the action pauses whilst you\u2019re moving a tile, it resumes as soon as you make a swap. i think an explicit pause/resume action would ensure the focus remains on the puzzles, not on fast reflexes."
+    ]
 }

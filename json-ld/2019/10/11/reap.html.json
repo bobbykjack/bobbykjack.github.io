@@ -10,5 +10,27 @@
         "@type": "Person",
         "name": "Bobby Jack"
     },
-    "abstract": "This small game distills the essence of the survival genre with some highly inventive mechanics."
+    "abstract": "This small game distills the essence of the survival genre with some highly inventive mechanics.",
+    "words": [
+        "reap",
+        "played on:",
+        "mac, via itch.io",
+        "this small game distills the essence of the survival genre with some highly inventive mechanics.",
+        "sepia",
+        "reap is a little survival game, made for a ludum dare gamejam by the crazily-talented",
+        "daniel linssen",
+        ". it has lovely old sepia tones, blustery sound effects, and some really fun little touches.",
+        "harvest",
+        "you materialise on a landscape largely made up of small islands with forest areas, and lakes. pick up an axe to chop down trees, wood to build bridges and rafts, a spade to prepare ground for food, and a scythe (?) to harvest your crop. there\u2019s a food meter and a health meter, and your aim is basically to start farming, then explore the map.",
+        "mechanics",
+        "reap really comes into its own with some of its mechanics. for example:",
+        "the size of the play area shrinks and grows as the sun sets and rises, which also causes the map to grow darker and lighter. it means you\u2019re acutely aware of the time of day, although i expected that to have more of an impact.",
+        "you have two hands, and that\u2019s your inventory. one key acts as your left hand,\n            another the right. it\u2019s a small touch, but it really adds some charm to the game.",
+        "you don\u2019t consume energy if you don\u2019t move. when you run out of energy, you sleep for a short time, so this means you can, to some extent, choose the best time to sleep \u2014 which is night!",
+        "difficult",
+        "maybe it\u2019s just me, but i\u2019ve found",
+        "punishingly difficult! i can never seem to forage enough turnips to plant, to become self-sufficient \u2014 the balance seems to be just spot on to be",
+        "tough",
+        ". still, i\u2019m going to persevere because the challenge seems just within reach, and the journey is fun enough to keep going."
+    ]
 }

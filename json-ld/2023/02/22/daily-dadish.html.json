@@ -1,0 +1,35 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Review",
+    "url": "https://bobbyjack.me/2022/02/../daily-dadish",
+    "datePublished": "2023-02-22",
+    "dateCreated": "2023-02-22",
+    "dateModified": "2023-02-22",
+    "name": "A review of Daily Dadish by Bobby Jack",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "itemReviewed": {
+        "@type": "VideoGame",
+        "name": "A review of Daily Dadish by Bobby Jack",
+        "gamePlatform": "Nintendo Switch",
+        "reviewBody": "{description}"
+    },
+    "words": [
+        "a dadish a day is not quite the same. daily dadish has many things going for it, but this radish needs a bit more seasoning.",
+        "daily dadish",
+        "etc.",
+        "lorem ipsum dolor sit amet.",
+        "verdict",
+        "\ud83d\ude05",
+        "i played",
+        "yooka-laylee and the impossible lair",
+        "on nintendo switch for just under",
+        "23 hours",
+        ". a decent chunk of this time was spent backtracking and in the lair, but the game has so much to occupy you with, especially if you go all-in on the 100% challenge, that it\u2019s easy to soak up time in its world.",
+        "i paid",
+        "\u00a3?.??",
+        "for the game ..."
+    ]
+}

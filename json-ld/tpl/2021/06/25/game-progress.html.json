@@ -1,0 +1,24 @@
+{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "url": "https://bobbyjack.me/2021/06/25/game-progress",
+    "dateModified": "2022-12-14",
+    "name": "Bobby Jack\u2019s Game Progress",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "abstract": "This is a list of video games and how much progress I\u2019ve made with them",
+    "words": [
+        "video game progress",
+        "this is simply an attempt to catalogue my game completion across various titles, mainly on switch.\n    games are marked as",
+        "f",
+        "inished (which more or less means \u2018seen credits\u2019) or",
+        "c",
+        "ompleted (typically meaning all available % achieved).\n    i\u2019ve also included a small explanation, where it can clarify progress, and screenshots offering \u2018proof\u2019.",
+        "title",
+        "progress",
+        "image",
+        "{rows}"
+    ]
+}

@@ -10,5 +10,36 @@
         "@type": "Person",
         "name": "Bobby Jack"
     },
-    "abstract": "1derlust is a game. A rather silly one, certainly; and incredibly simple one, undoubtedly \u2014 I\u2019ve described it as making \u201cPong look like Breath of the Wild\u201d, which is only a small exaggeration. But, nevertheless, it is a game."
+    "abstract": "1derlust is a game. A rather silly one, certainly; and incredibly simple one, undoubtedly \u2014 I\u2019ve described it as making \u201cPong look like Breath of the Wild\u201d, which is only a small exaggeration. But, nevertheless, it is a game.",
+    "words": [
+        "about 1derlust",
+        "1derlust is a game",
+        ". a rather silly one, certainly; and incredibly simple one, undoubtedly \u2014 i\u2019ve described it as making \u201c",
+        "pong",
+        "look like",
+        "breath of the wild",
+        "\u201d, which is only a small exaggeration. but, nevertheless, it",
+        "is",
+        "a game.",
+        "the game arose out of two thoughts: a) what would a 1-dimensional game be like? b) will i ever manage to get something,",
+        "anything",
+        ", finished and released, no matter how trivial it might be? i\u2019m delighted to be in a position where both of those questions are answered, sort of.",
+        "gameplay",
+        "you play a white square, destined to bounce across the screen from left-to-right and back again, for all eternity. or until you die. score points by pressing a key (or tapping the screen) when your piece is over the checkered target (finish line?), at which point the target will regenerate elsewhere. as you play, speed and acceleration will gradually increase, whilst the targets themselves will shrink over time.",
+        "and that\u2019s it, really. go for your own personal high score: 110 is my record so far.",
+        "future",
+        "i\u2019m not really expecting to develop this much further, but there",
+        "are",
+        "two possible next steps:",
+        "further development",
+        "if there is enough (i.e. any) interest in the game at all, i\u2019ll consider some low-key maintainance, and maybe some extra features. i\u2019ve certainly got some ideas for new mechanics, bonus targets, etc. i also think there\u2019s some potential for other \u20181d\u2019 games; maybe i\u2019ll do a series",
+        "other games",
+        "aside from that, i\u2019m hoping that actually finishing (soft of) a game (sort of) will encourage me to get other, more ambitious projects off the ground. it\u2019s incredibly satisfying releasing something even as basic as 1derlust!",
+        "play the game",
+        "you can",
+        "play 1derlust",
+        "(for free, obvs) on desktop or mobile. you can check out the",
+        "source code on github",
+        "."
+    ]
 }

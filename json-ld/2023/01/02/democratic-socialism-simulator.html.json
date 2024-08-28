@@ -1,0 +1,33 @@
+{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "url": "https://bobbyjack.me/2023/01/02/democratic-socialism-simulator",
+    "datePublished": "2023-01-02",
+    "dateCreated": "2023-01-02",
+    "dateModified": "2023-01-03",
+    "name": "Democratic Socialism Simulator",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "abstract": "This is a list of all Nintendo Switch games that I\u2019ve paid actual, cold, hard money for.",
+    "words": [
+        "democratic socialism simulator",
+        "nothing says \u2018happy new year\u2019 like the thought of political upheaval, and nothing gets you closer to the pretence than",
+        ". maybe.",
+        "in practice, democratic socialism simulator \u2014 i\u2019m gonna call that dss from now \u2014 is neither the strongest",
+        "simulator",
+        ", nor is it particularly",
+        "socialist",
+        ", although it does offer an accessible dose of political fantasy, a diversion if you\u2019re into that kind of thing.",
+        "i\u2019m playing dss because i\u2019m finally dipping into the massive collection of games on itch.io that was/is the",
+        "bundle for racial justice and equality",
+        ". there are 593 \u2018games\u2019 for mac in the package, and i\u2019d love to see how many i can get reviewed in a year.",
+        "so, dss is a pretty slick simulation of a us presedential term, complete with midterms and re-election. the title is going to put a lot of people of, no doubt. i think that\u2019s a shame because the game is more rounded than this implies, although it\u2019s hardly a deep and meaningful exploration into the machinations of statecraft.",
+        "do well, and you\u2019ll gain more control of congress. not congress, though; this game won\u2019t help you there.",
+        "dss is not the kind of game i\u2019d recommend paying good money for. maybe that\u2019s the point, though \u2014 maybe you",
+        "should",
+        "avoid any traditionally capitalist methods of acquiring the game and share it with the collective...",
+        "// todo\n//\n// track mouse movement over image and, taking into account sizing, translate\n// coordinates into original values, identify the image hovered over, then do\n// something.\n//\n// maybe use a \n\n// load sitemap\nvar request = new xmlhttprequest();\n\nrequest.addeventlistener(\"load\", function() {\n    var logo_data = json.parse(this.responsetext);\n    console.log(\"loaded data\", logo_data);\n});\n\nrequest.open(\"get\", \"/json/logo.json\");\nrequest.send();"
+    ]
+}

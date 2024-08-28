@@ -10,5 +10,36 @@
         "@type": "Person",
         "name": "Bobby Jack"
     },
-    "abstract": "Stealthtacks is a minimalist Pinboard client. It\u2019s an alternative to using pinboard.in or a browser-extension. You can use the public instance directly or download the code and host it yourself."
+    "abstract": "Stealthtacks is a minimalist Pinboard client. It\u2019s an alternative to using pinboard.in or a browser-extension. You can use the public instance directly or download the code and host it yourself.",
+    "words": [
+        "stealthtacks",
+        "about",
+        "is a minimalist pinboard client. it\u2019s an alternative to using",
+        "pinboard.in",
+        "or a browser-extension. you can use the",
+        "public instance directly",
+        "or",
+        "download the code",
+        "and host it yourself.",
+        "principles",
+        "stealthtacks arose to combat a straightforward problem: i regularly found myself using pinboard.in to bookmark interesting urls, but the process was laborious. i wanted something that would fetch the url\u2019s metadata and autofill title and description to save me the work of doing that manually.",
+        "i also wanted a largely self-contained application, somewhere to both add new bookmarks, and recall them later. although i wasn\u2019t aiming to replace pinboard.in, i",
+        "did",
+        "want something that would handle 99% of what i did there.",
+        "local storage",
+        "when you first connect to pinboard, stealthtacks will download your bookmarks and store them locally (using localstorage). this caching speeds up future operations and minimises the traffic required to go via the api.",
+        "cors anywhere",
+        "to fetch metadata about new urls, stealthtacks uses the",
+        "cors-anywhere",
+        "service, which acts as a proxy. this enables stealthtacks itself to be pure javascript, runnable without a server.",
+        "future development",
+        "stealthtacks is very much \u2018alpha\u2019 software at this point. it\u2019s mainly for my personal use and experimentation, but if there is interest from others, i will continue to maintain it and develop it further, as appropriate. some of the following would probably be included:",
+        "nicer / proper progress dialog",
+        "special consideration for larger numbers of bookmarks",
+        "nicer date-handling",
+        "open bookmarks in new tab?",
+        "add auto-suggest for tags in bookmark form",
+        "browse bookmarks by multiple tags",
+        "possibly prefill certain data based on domain \u2014 e.g. \u201cyoutube.com\u201d automatically gains a \u201cvideo\u201d tag. this would have to be user-configurable."
+    ]
 }
