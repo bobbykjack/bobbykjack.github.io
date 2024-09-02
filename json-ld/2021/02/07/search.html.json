@@ -4,7 +4,7 @@
     "url": "https://bobbyjack.me/search",
     "datePublished": "2021-02-07",
     "dateCreated": "2021-02-07",
-    "dateModified": "2022-01-05",
+    "dateModified": "2024-09-01",
     "name": "Search bobbyjack.me",
     "author": {
         "@type": "Person",
@@ -14,8 +14,8 @@
     "words": [
         "search",
         "sorry, you need javascript.",
-        "additionally, it looks like you don't have css enabled, so ...",
+        "additionally, it looks like you don't have css enabled, so\n                    ...",
         "//",
-        "document.queryselectorall(\".jsshow\").foreach(function(node) {\n    node.classlist.remove(\"jsshow\");\n});\n//"
+        "document.queryselectorall(\".jsshow\").foreach(function (node) {\n                node.classlist.remove(\"jsshow\");\n            });\n            //"
     ]
 }
