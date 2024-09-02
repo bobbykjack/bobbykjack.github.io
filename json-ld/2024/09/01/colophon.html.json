@@ -1,0 +1,26 @@
+{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "url": "https://bobbyjack.me/2024/09/01/colophon",
+    "datePublished": "2024-09-01",
+    "dateCreated": "2024-09-01",
+    "dateModified": "2024-09-01",
+    "name": "Colophon",
+    "author": {
+        "@type": "Person",
+        "name": "Bobby Jack"
+    },
+    "abstract": "Information about this website.",
+    "words": [
+        "colophon",
+        "this is a static site served from",
+        "github pages",
+        ". it does\n                not include any third-party resources although, like all good\n                web sites, it does link to external third-parties.",
+        "google\u2019s page speed insights",
+        "gives the home page a 95 performance score. (last tested\n                    manually on",
+        "august 28, 2024",
+        ")",
+        "are my third parties green?",
+        "gives this site the all-clear since it doesn\u2019t request any\n                    third-party resources. (last tested manually on"
+    ]
+}
