@@ -47,11 +47,46 @@
                 position: absolute;
                 font-size: 80%;
             }
+
+            h1 {
+                font-family: monospace;
+                margin-bottom: 2em;
+            }
+
+            ul.links li:nth-of-type(1) a:hover {
+                color: white;
+                background-color: rgb(53, 132, 228, 0.75);
+                outline-color: rgb(53, 132, 228);
+            }
+
+            ul.links li:nth-of-type(2) a:hover {
+                color: white;
+                background-color: rgb(51, 209, 122, 0.75);
+                outline-color: rgb(51, 209, 122);
+            }
+
+            ul.links li:nth-of-type(3) a:hover {
+                color: white;
+                background-color: rgb(246, 211, 45, 0.75);
+                outline-color: rgb(246, 211, 45);
+            }
+
+            ul.links li:nth-of-type(4) a:hover {
+                color: white;
+                background-color: rgb(230, 97, 0, 0.75);
+                outline-color: rgb(230, 97, 0);
+            }
+
+            ul.links li:nth-of-type(5) a:hover {
+                color: white;
+                background-color: rgb(224, 27, 36, 0.75);
+                outline-color: rgb(224, 27, 36);
+            }
         </style>
     </head>
     <body class="linktree">
         <main>
-            <h1>@bobbyjackdotme</h1>
+            <h1>bobbyjack</h1>
 
             <p id="foo">&nbsp;</p>
 
@@ -71,13 +106,23 @@
                     >
                 </li>
                 <li>
-                    <a href="https://muckrack.com/bobby-jack-2">Muck Rack</a>
+                    <a
+                        href="https://muckrack.com/bobby-jack-2"
+                        title="When I pretend to be a journalist"
+                        >Muck Rack</a
+                    >
                 </li>
                 <li>
-                    <a href="https://github.com/bobbykjack">GitHub</a>
+                    <a
+                        href="https://github.com/bobbykjack"
+                        title="Geeky projects with code ’n’ stuff"
+                        >GitHub</a
+                    >
                 </li>
                 <li>
-                    <a href="https://stackoverflow.com/users/5058/bobby-jack"
+                    <a
+                        href="https://stackoverflow.com/users/5058/bobby-jack"
+                        title="Geeky questions &amp; answers"
                         >Stack Overflow</a
                     >
                 </li>
@@ -110,6 +155,27 @@
                         p.innerHTML = "&nbsp;";
                     }
                 });
+            });
+
+            var h1 = document.querySelector("h1");
+
+            var ids = [
+                "bobbyjackdotme",
+                "bobbyjack.me",
+                "bobby-jack",
+                "bobbykjack",
+            ];
+
+            h1.innerHTML = ids[Math.floor(Math.random() * ids.length)];
+            var oldh1;
+
+            h1.addEventListener("mouseenter", function (ev) {
+                oldh1 = h1.innerHTML;
+                h1.innerHTML = "/^bobby(k|-)?jack((.|dot)me)?$/";
+            });
+
+            h1.addEventListener("mouseleave", function (ev) {
+                h1.innerHTML = oldh1;
             });
         </script>
     </body>
