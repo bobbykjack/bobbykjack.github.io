@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="author" content="Bobby Jack" />
+        <link rel="stylesheet" href="/css/styles.css" />
+        <title>Links for bobbyjack.me</title>
+        <meta name="description" content="" />
+
+        <link
+            rel="icon"
+            type="image/png"
+            href="/images/black-and-white-dpad.png"
+        />
+
+        <link rel="canonical" href="https://bobbyjack.me/2024/09/10/linktree" />
+
+        <style>
+            .linktree main {
+                text-align: center;
+            }
+
+            .linktree .links {
+                list-style-type: none;
+                padding: 2px;
+                display: inline-block;
+            }
+
+            .linktree .links a {
+                outline: 1px solid #bbb;
+                display: block;
+                padding: 8px 24px;
+                text-decoration: none;
+                color: black;
+                margin-bottom: 1em;
+                border-radius: 8px;
+            }
+
+            .linktree .links a:hover {
+                outline-width: 2px;
+                outline-color: #333;
+                background-color: #eee;
+            }
+
+            p#foo {
+                position: absolute;
+                font-size: 80%;
+            }
+        </style>
+    </head>
+    <body class="linktree">
+        <main>
+            <h1>@bobbyjackdotme</h1>
+
+            <p id="foo">&nbsp;</p>
+
+            <ul class="links">
+                <li>
+                    <a
+                        href="https://x.com/bobbyjackdotme"
+                        title="Elon’s shit show"
+                        >Twitter</a
+                    >
+                </li>
+                <li>
+                    <a
+                        href="https://bsky.app/profile/bobbyjack.me"
+                        title="My (current) preferred microblogging site"
+                        >Bluesky</a
+                    >
+                </li>
+                <li>
+                    <a href="https://muckrack.com/bobby-jack-2">Muck Rack</a>
+                </li>
+                <li>
+                    <a href="https://github.com/bobbykjack">GitHub</a>
+                </li>
+                <li>
+                    <a href="https://stackoverflow.com/users/5058/bobby-jack"
+                        >Stack Overflow</a
+                    >
+                </li>
+            </ul>
+        </main>
+
+        <footer>
+            <a href="/">
+                <img class="logo" src="/images/logo.jpg" />
+            </a>
+        </footer>
+
+        <script src="/js/scripts.js"></script>
+
+        <script>
+            document.querySelectorAll(".links a").forEach(function (link) {
+                link.addEventListener("mouseenter", function (ev) {
+                    if ((title = this.getAttribute("title"))) {
+                        var p = document.getElementById("foo");
+                        p.innerHTML = title;
+                        var rect = this.getBoundingClientRect();
+                        p.style.left = rect.left + rect.width + 20 + "px";
+                        p.style.top = rect.top - 10 + "px";
+                    }
+                });
+
+                link.addEventListener("mouseleave", function (ev) {
+                    if ((title = this.getAttribute("title"))) {
+                        var p = document.getElementById("foo");
+                        p.innerHTML = "&nbsp;";
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>
