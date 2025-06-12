@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+    <body>
+        <script>
+            Notification.requestPermission().then((result) => {
+                console.log(result);
+                if (result === "granted") {
+                    console.log("here");
+                    const notification = new Notification("To do list", {
+                        body: "Call bank",
+                    });
+                    console.log(notification);
+                }
+            });
+        </script>
+    </body>
+</html>
